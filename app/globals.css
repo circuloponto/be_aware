@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "locomotive-scroll/dist/locomotive-scroll.css";
 
 :root {
   --primary-blue: #4681BC;
@@ -26,32 +25,47 @@
   }
 }
 
-* {
- 
-  outline: red;
-}
 html {
-  overflow: hidden;
-  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  cursor: none !important;
-  height: 100vh;
-  overflow: hidden;
-}
-
-[data-scroll-container] {
-  height: 100vh;
-  overflow-y: auto;
   overflow-x: hidden;
+  min-height: 100vh;
+  cursor: none !important;
 }
 
 * {
   cursor: none !important;
+}
+
+/* Custom yellow scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF9E6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #F1C424 0%, #D4A91E 100%);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4A91E;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #F1C424 #FFF9E6;
 }
 
 /* Ensure emojis render properly */
@@ -163,40 +177,4 @@ body {
   }
 }
 
-/* Custom Scrollbar Styling */
-/* For Webkit browsers (Chrome, Safari, Edge) */
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  width: 25px !important;
-  height: 25px !important;
-}
-
-html::-webkit-scrollbar-track,
-body::-webkit-scrollbar-track {
-  background: #FFF9E6 !important;
-  border-radius: 10px !important;
-}
-
-html::-webkit-scrollbar-thumb,
-body::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #FF8C42 0%, #FF6B35 100%) !important;
-  border-radius: 10px !important;
-  border: 2px solid #FFF9E6 !important;
-}
-
-html::-webkit-scrollbar-thumb:hover,
-body::-webkit-scrollbar-thumb:hover {
-  background: #FF5722 !important;
-}
-
-html::-webkit-scrollbar-thumb:active,
-body::-webkit-scrollbar-thumb:active {
-  background: #FF5722 !important;
-}
-
-/* For Firefox */
-html,
-body {
-  scrollbar-width: thin !important;
-  scrollbar-color: #F1C424 #FFF9E6 !important;
-}
+/* Use default browser scrollbar */
