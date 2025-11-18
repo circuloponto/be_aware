@@ -183,7 +183,7 @@ export default function Header() {
                 aria-label="Select language"
                 aria-expanded={isLangDropdownOpen}
               >
-                <span className="w-5 h-4">
+                <span className="w-5 h-4 transition-transform duration-300 hover:scale-110">
                   {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
                 </span>
                 <span className="uppercase">{locale}</span>
@@ -211,13 +211,13 @@ export default function Header() {
                         handleLanguageChange(lang.code);
                         setIsLangDropdownOpen(false);
                       }}
-                      className={`w-full px-4 py-3 text-left flex items-center gap-3 transition-colors ${
+                      className={`group w-full px-4 py-3 text-left flex items-center gap-3 transition-colors ${
                         locale === lang.code
                           ? 'bg-[#E8F2F9] text-[#2C5282] font-bold'
                           : 'text-gray-700 hover:bg-[#E8F2F9] hover:text-[#4681BC]'
                       }`}
                     >
-                      <span className="w-6 h-4">
+                      <span className="w-6 h-4 transition-transform duration-300 group-hover:scale-110">
                         {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
                       </span>
                       <div className="flex flex-col">
@@ -293,7 +293,7 @@ export default function Header() {
                 aria-expanded={isMobileLangOpen}
               >
                 <div className="flex items-center gap-3">
-                  <span className="w-6 h-4">
+                  <span className="w-6 h-4 transition-transform duration-300">
                     {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
                   </span>
                   <span>
@@ -324,13 +324,13 @@ export default function Header() {
                         handleLanguageChange(lang.code);
                         setIsMobileLangOpen(false);
                       }}
-                      className={`w-full px-4 py-4 text-left flex items-center gap-3 transition-colors border-b border-gray-100 last:border-b-0 ${
+                      className={`group w-full px-4 py-4 text-left flex items-center gap-3 transition-colors border-b border-gray-100 last:border-b-0 ${
                         locale === lang.code
                           ? 'bg-[#E8F2F9] text-[#2C5282] font-bold'
                           : 'text-gray-700 hover:bg-[#E8F2F9] hover:text-[#4681BC]'
                       }`}
                     >
-                      <span className="w-8 h-6">
+                      <span className="w-8 h-6 transition-transform duration-300 group-hover:scale-110">
                         {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
                       </span>
                       <div className="flex flex-col flex-1">
