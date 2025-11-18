@@ -5,6 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {useTranslations, useLocale} from 'next-intl';
 import {usePathname, useRouter} from 'next/navigation';
+import GB from 'country-flag-icons/react/3x2/GB';
+import PT from 'country-flag-icons/react/3x2/PT';
+import NL from 'country-flag-icons/react/3x2/NL';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -180,11 +183,9 @@ export default function Header() {
                 aria-label="Select language"
                 aria-expanded={isLangDropdownOpen}
               >
-                <img 
-                  src={`https://flagcdn.com/w20/${locale === 'en' ? 'gb' : locale === 'pt' ? 'pt' : 'nl'}.png`}
-                  alt={locale === 'en' ? 'GB' : locale === 'pt' ? 'PT' : 'NL'}
-                  className="w-5 h-4 object-cover rounded-sm"
-                />
+                <span className="w-5 h-4">
+                  {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                </span>
                 <span className="uppercase">{locale}</span>
                 <svg 
                   className={`w-4 h-4 transition-transform duration-200 ${isLangDropdownOpen ? 'rotate-180' : ''}`} 
@@ -216,11 +217,9 @@ export default function Header() {
                           : 'text-gray-700 hover:bg-[#E8F2F9] hover:text-[#4681BC]'
                       }`}
                     >
-                      <img 
-                        src={`https://flagcdn.com/w40/${lang.country}.png`}
-                        alt={lang.country.toUpperCase()}
-                        className="w-6 h-4 object-cover rounded-sm"
-                      />
+                      <span className="w-6 h-4">
+                        {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                      </span>
                       <div className="flex flex-col">
                         <span className="text-sm font-semibold">{lang.label}</span>
                         <span className="text-xs text-gray-500 uppercase">{lang.code}</span>
@@ -294,11 +293,9 @@ export default function Header() {
                 aria-expanded={isMobileLangOpen}
               >
                 <div className="flex items-center gap-3">
-                  <img 
-                    src={`https://flagcdn.com/w40/${locale === 'en' ? 'gb' : locale === 'pt' ? 'pt' : 'nl'}.png`}
-                    alt={locale === 'en' ? 'GB' : locale === 'pt' ? 'PT' : 'NL'}
-                    className="w-6 h-4 object-cover rounded-sm"
-                  />
+                  <span className="w-6 h-4">
+                    {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                  </span>
                   <span>
                     {locale === 'en' ? 'English' : locale === 'pt' ? 'Português' : 'Nederlands'}
                   </span>
@@ -333,11 +330,9 @@ export default function Header() {
                           : 'text-gray-700 hover:bg-[#E8F2F9] hover:text-[#4681BC]'
                       }`}
                     >
-                      <img 
-                        src={`https://flagcdn.com/w40/${lang.country}.png`}
-                        alt={lang.country.toUpperCase()}
-                        className="w-8 h-6 object-cover rounded-sm"
-                      />
+                      <span className="w-8 h-6">
+                        {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                      </span>
                       <div className="flex flex-col flex-1">
                         <span className="text-base font-semibold">{lang.label}</span>
                         <span className="text-xs text-gray-500 uppercase">{lang.code}</span>
