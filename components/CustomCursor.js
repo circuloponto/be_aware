@@ -6,11 +6,31 @@ export default function CustomCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const hoverSoundRef = useRef(null);
   const clickSoundRef = useRef(null);
   const lastHoveredElement = useRef(null);
 
   useEffect(() => {
+    // Check if device is mobile/touch device or small screen
+    const checkMobile = () => {
+      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+                     ('ontouchstart' in window) || 
+                     (navigator.maxTouchPoints > 0) ||
+                     window.innerWidth < 768; // Also check screen width
+      setIsMobile(mobile);
+    };
+    
+    checkMobile();
+    
+    // Re-check on resize
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  useEffect(() => {
+    // Don't initialize cursor on mobile
+    if (isMobile) return;
     // Create click sounds using Web Audio API for better quality
     let audioContext;
     
@@ -103,9 +123,10 @@ export default function CustomCursor() {
       window.removeEventListener('click', handleClick);
       document.removeEventListener('mouseleave', handleMouseLeave);
     };
-  }, [isHovering]);
+  }, [isHovering, isMobile]);
 
-  if (!isVisible) return null;
+  // Don't render cursor on mobile
+  if (isMobile || !isVisible) return null;
 
   return (
     <div
