@@ -25,7 +25,7 @@ export default async function LocaleLayout({children, params}) {
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet" />
       </head>
-      <body className="flex flex-col min-h-screen">
+      <body className="flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <CustomCursor />
           <SmoothScroll>
