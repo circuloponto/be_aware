@@ -1,6 +1,6 @@
 export default function PrivacyPage() {
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8">
+    <div className="py-16 px-4 sm:px-6 lg:px-8 animate-slide-up">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 mb-6 border-l-8 border-amber-400 pl-6">
           Privacy Policy

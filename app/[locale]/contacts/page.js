@@ -29,7 +29,7 @@ export default function ContactsPage() {
   }
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8" style={{ paddingTop: '140px' }}>
+    <div className="py-16 px-4 sm:px-6 lg:px-8 animate-slide-up" style={{ paddingTop: '140px' }}>
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] to-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
           {t('title')}

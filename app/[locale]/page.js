@@ -10,7 +10,7 @@ export default async function Home({params}) {
   const t = await getTranslations('home');
   
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden animate-slide-up">
       {/* Hero Section with animated background */}
       <section className="relative min-h-[85vh] flex items-center" style={{ paddingTop: '140px' }}>
         {/* Animated background elements */}

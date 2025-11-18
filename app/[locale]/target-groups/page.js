@@ -14,7 +14,7 @@ export default async function TargetGroupsPage({params}) {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6] py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50" style={{ paddingTop: '140px' }}>
+    <div className="min-h-screen bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6] py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50 animate-slide-up" style={{ paddingTop: '140px' }}>
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
           {t('title')}

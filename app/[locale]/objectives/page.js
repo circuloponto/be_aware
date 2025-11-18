@@ -5,7 +5,7 @@ export default async function ObjectivesPage({params}) {
   const t = await getTranslations('objectives');
 
   return (
-    <div className="relative">
+    <div className="relative animate-slide-up">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6] py-20" style={{ paddingTop: '140px' }}>
         <div className="absolute inset-0 opacity-30">
