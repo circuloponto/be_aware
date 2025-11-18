@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "home": "Home",
+    "objectives": "Objectives",
+    "targetGroups": "Target Groups",
+    "activities": "Activities",
+    "results": "Results",
+    "partners": "Partners",
+    "news": "News",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "title": "BE AWARE",
+    "subtitle": "Supported Employment Project",
+    "description": "Welcome to the BE AWARE project - an EU-funded initiative dedicated to promoting supported employment and creating inclusive work environments.",
+    "euFunded": "EU Funded Project",
+    "discoverMission": "Discover Our Mission",
+    "getInTouch": "Get In Touch",
+    "exploreWork": "Explore Our Work",
+    "learnMore": "Learn more",
+    "objectives": "Objectives",
+    "targetGroups": "Target Groups",
+    "activities": "Activities",
+    "results": "Results"
+  },
+  "objectives": {
+    "title": "Our Objectives",
+    "intro": "The BE AWARE project aims to create sustainable employment opportunities and foster inclusive workplaces across Europe.",
+    "cards": {
+      "inclusiveEmployment": {
+        "title": "Promote Inclusive Employment",
+        "body": "Create sustainable pathways to employment for individuals facing barriers in the labor market."
+      },
+      "buildCapacity": {
+        "title": "Build Capacity",
+        "body": "Strengthen the skills of employment support professionals and employers."
+      },
+      "collaboration": {
+        "title": "Foster Collaboration",
+        "body": "Develop strong partnerships between organizations, employers, and communities."
+      }
+    }
+  },
+  "targetGroups": {
+    "title": "Target Groups",
+    "intro": "Our project focuses on supporting diverse groups in accessing meaningful employment opportunities.",
+    "groups": {
+      "employmentSupportProfessionals": "Employment Support Professionals",
+      "peopleWithDisabilities": "People with Disabilities",
+      "employers": "Employers",
+      "trainingOrganizations": "Training Organizations",
+      "policyMakers": "Policy Makers",
+      "socialServiceAgencies": "Social Service Agencies"
+    }
+  },
+  "activities": {
+    "title": "Activities",
+    "intro": "Discover the range of activities and initiatives we implement to achieve our goals.",
+    "training": {
+      "title": "Training & Capacity Building",
+      "workshops": "Professional development workshops",
+      "employerAwareness": "Employer awareness sessions",
+      "skillsPrograms": "Skills development programs"
+    },
+    "research": {
+      "title": "Research & Innovation",
+      "effectiveModels": "Research on effective employment models",
+      "toolsResources": "Developing innovative tools and resources",
+      "labourTrends": "Analyzing labor market trends"
+    },
+    "networking": {
+      "title": "Networking & Collaboration",
+      "conferences": "International conferences and seminars",
+      "knowledgeExchange": "Knowledge exchange between partners",
+      "communities": "Online communities of practice"
+    }
+  },
+  "results": {
+    "title": "Results",
+    "intro": "Explore the outcomes and impact of the BE AWARE project.",
+    "stats": {
+      "professionals": "500+",
+      "professionalsLabel": "Professionals Trained",
+      "partners": "50+",
+      "partnersLabel": "Partner Organizations",
+      "countries": "15",
+      "countriesLabel": "European Countries"
+    },
+    "deliverables": {
+      "title": "Project Deliverables",
+      "item1": "Comprehensive training curriculum",
+      "item2": "Best practice guidelines",
+      "item3": "Digital toolkit with resources"
+    }
+  },
+  "news": {
+    "title": "News",
+    "intro": "Stay updated with the latest news and developments from the BE AWARE project.",
+    "items": {
+      "projectLaunch": {
+        "date": "2024-11-15",
+        "title": "BE AWARE Project Launches Across 15 European Countries",
+        "category": "Project Launch"
+      },
+      "firstWorkshop": {
+        "date": "2024-10-20",
+        "title": "First International Training Workshop Successfully Completed",
+        "category": "Training"
+      },
+      "researchReport": {
+        "date": "2024-09-10",
+        "title": "New Research Report: Barriers to Employment in Europe",
+        "category": "Research"
+      }
+    },
+    "readMore": "Read more →"
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "intro": "Get in touch with the BE AWARE team.",
+    "form": {
+      "heading": "Send us a Message",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "nameError": "Please enter your full name (2-100 characters)",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "emailError": "Please enter a valid email address",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter your message (10-1000 characters)",
+      "messageError": "Please enter your message (10-1000 characters)",
+      "sending": "Sending...",
+      "send": "Send Message"
+    },
+    "office": {
+      "title": "Project Coordination Office",
+      "addressLabel": "Address",
+      "organization": "European Employment Network",
+      "street": "Rue de la Loi 123",
+      "city": "1040 Brussels, Belgium",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone"
+    }
+  },
+  "partners": {
+    "title": "Partners",
+    "intro": "Meet our network of dedicated partners working together to make a difference.",
+    "backToPartners": "Back to Partners",
+    "list": {
+      "een": {
+        "name": "European Employment Network",
+        "country": "Belgium",
+        "role": "Project Coordinator"
+      },
+      "iwf": {
+        "name": "Inclusive Work Foundation",
+        "country": "Portugal",
+        "role": "Training Partner"
+      },
+      "csi": {
+        "name": "Centre for Social Innovation",
+        "country": "France",
+        "role": "Research Partner"
+      },
+      "asl": {
+        "name": "Accessibility Solutions Ltd",
+        "country": "Germany",
+        "role": "Technology Partner"
+      }
+    },
+    "details": {
+      "een": {
+        "aboutTitle": "About",
+        "about": "The European Employment Network (EEN) is a leading organization dedicated to promoting inclusive employment practices across Europe. With over 20 years of experience, EEN has been at the forefront of developing innovative approaches to supported employment and workplace inclusion.",
+        "missionTitle": "Mission",
+        "mission": "Our mission is to create a more inclusive European labor market by facilitating knowledge exchange, developing best practices, and coordinating transnational projects that promote employment opportunities for people with disabilities and other disadvantaged groups.",
+        "contributionTitle": "Contribution to BE AWARE",
+        "contribution": "As the Project Coordinator, EEN leads the overall management and coordination of the BE AWARE project, ensuring effective collaboration among all partners and successful delivery of project objectives.",
+        "activitiesTitle": "Key Activities",
+        "activity1": "Overall project management and coordination",
+        "activity2": "Stakeholder engagement and partnership development",
+        "activity3": "Quality assurance and monitoring of project deliverables",
+        "contactTitle": "Contact Information",
+        "email": "info@een-network.eu",
+        "website": "https://www.een-network.eu",
+        "address": "Rue de la Loi 123, 1040 Brussels, Belgium"
+      },
+      "iwf": {
+        "aboutTitle": "About",
+        "about": "The Inclusive Work Foundation (IWF) is a Portuguese non-profit organization specializing in vocational training and employment support for people with disabilities. Founded in 2010, IWF has successfully supported over 2,000 individuals in finding and maintaining meaningful employment.",
+        "missionTitle": "Mission",
+        "mission": "IWF's mission is to empower individuals with disabilities through comprehensive training programs, job coaching, and employer engagement initiatives that foster inclusive workplaces and sustainable employment outcomes.",
+        "contributionTitle": "Contribution to BE AWARE",
+        "contribution": "As the Training Partner, IWF develops and delivers innovative training programs for employment support professionals, focusing on evidence-based practices and person-centered approaches to supported employment.",
+        "activitiesTitle": "Key Activities",
+        "activity1": "Development of training curricula and materials",
+        "activity2": "Delivery of workshops and capacity-building sessions",
+        "activity3": "Creation of online learning resources and toolkits",
+        "contactTitle": "Contact Information",
+        "email": "contact@iwf-portugal.org",
+        "website": "https://www.iwf-portugal.org",
+        "address": "Avenida da Liberdade 245, 1250-143 Lisbon, Portugal"
+      },
+      "csi": {
+        "aboutTitle": "About",
+        "about": "The Centre for Social Innovation (CSI) is a French research institute dedicated to studying and promoting social innovation in employment, education, and community development. CSI combines academic rigor with practical application to drive meaningful social change.",
+        "missionTitle": "Mission",
+        "mission": "CSI's mission is to advance knowledge and practice in social innovation through rigorous research, evidence-based policy recommendations, and collaborative partnerships that address complex social challenges in the labor market.",
+        "contributionTitle": "Contribution to BE AWARE",
+        "contribution": "As the Research Partner, CSI conducts comprehensive research on supported employment practices, labor market trends, and policy frameworks, providing the evidence base that informs project activities and outputs.",
+        "activitiesTitle": "Key Activities",
+        "activity1": "Conducting research studies and data analysis",
+        "activity2": "Developing policy briefs and recommendations",
+        "activity3": "Evaluating project impact and outcomes",
+        "contactTitle": "Contact Information",
+        "email": "research@csi-france.fr",
+        "website": "https://www.csi-france.fr",
+        "address": "15 Rue des Archives, 75004 Paris, France"
+      },
+      "asl": {
+        "aboutTitle": "About",
+        "about": "Accessibility Solutions Ltd (ASL) is a German technology company specializing in assistive technologies and digital accessibility solutions for the workplace. ASL has been a pioneer in developing innovative tools that enable people with disabilities to participate fully in the digital economy.",
+        "missionTitle": "Mission",
+        "mission": "ASL's mission is to eliminate digital barriers in the workplace through cutting-edge assistive technologies, accessibility consulting, and user-centered design approaches that create truly inclusive digital environments.",
+        "contributionTitle": "Contribution to BE AWARE",
+        "contribution": "As the Technology Partner, ASL provides technical expertise in digital accessibility, develops online platforms and tools for the project, and ensures all digital resources meet the highest accessibility standards.",
+        "activitiesTitle": "Key Activities",
+        "activity1": "Development of accessible digital platforms and tools",
+        "activity2": "Accessibility audits and compliance testing",
+        "activity3": "Technical training and support for partners",
+        "contactTitle": "Contact Information",
+        "email": "info@asl-solutions.de",
+        "website": "https://www.asl-solutions.de",
+        "address": "Friedrichstraße 95, 10117 Berlin, Germany"
+      }
+    }
+  }
+}

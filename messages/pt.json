@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "home": "Início",
+    "objectives": "Objetivos",
+    "targetGroups": "Grupos-alvo",
+    "activities": "Atividades",
+    "results": "Resultados",
+    "partners": "Parceiros",
+    "news": "Notícias",
+    "contacts": "Contactos"
+  },
+  "home": {
+    "title": "BE AWARE",
+    "subtitle": "Projeto de Emprego Apoiado",
+    "description": "Bem-vindo ao projeto BE AWARE - uma iniciativa financiada pela UE dedicada à promoção do emprego apoiado e à criação de ambientes de trabalho inclusivos.",
+    "euFunded": "Projeto Financiado pela UE",
+    "discoverMission": "Descubra a Nossa Missão",
+    "getInTouch": "Entre em Contacto",
+    "exploreWork": "Explore o Nosso Trabalho",
+    "learnMore": "Saiba mais",
+    "objectives": "Objetivos",
+    "targetGroups": "Grupos-alvo",
+    "activities": "Atividades",
+    "results": "Resultados"
+  },
+  "objectives": {
+    "title": "Os Nossos Objetivos",
+    "intro": "O projeto BE AWARE pretende criar oportunidades de emprego sustentáveis e promover locais de trabalho inclusivos em toda a Europa.",
+    "cards": {
+      "inclusiveEmployment": {
+        "title": "Promover o Emprego Inclusivo",
+        "body": "Criar percursos sustentáveis de emprego para pessoas que enfrentam barreiras no mercado de trabalho."
+      },
+      "buildCapacity": {
+        "title": "Reforçar Capacidades",
+        "body": "Reforçar as competências dos profissionais de apoio ao emprego e dos empregadores."
+      },
+      "collaboration": {
+        "title": "Fomentar a Colaboração",
+        "body": "Desenvolver parcerias sólidas entre organizações, empregadores e comunidades."
+      }
+    }
+  },
+  "targetGroups": {
+    "title": "Grupos-alvo",
+    "intro": "O nosso projeto centra-se em apoiar diversos grupos no acesso a oportunidades de emprego significativas.",
+    "groups": {
+      "employmentSupportProfessionals": "Profissionais de apoio ao emprego",
+      "peopleWithDisabilities": "Pessoas com deficiência",
+      "employers": "Empregadores",
+      "trainingOrganizations": "Organizações de formação",
+      "policyMakers": "Decisores políticos",
+      "socialServiceAgencies": "Serviços de ação social"
+    }
+  },
+  "activities": {
+    "title": "Atividades",
+    "intro": "Conheça o conjunto de atividades e iniciativas que implementamos para alcançar os nossos objetivos.",
+    "training": {
+      "title": "Formação e Reforço de Capacidades",
+      "workshops": "Oficinas de desenvolvimento profissional",
+      "employerAwareness": "Sessões de sensibilização para empregadores",
+      "skillsPrograms": "Programas de desenvolvimento de competências"
+    },
+    "research": {
+      "title": "Investigação e Inovação",
+      "effectiveModels": "Investigação sobre modelos eficazes de emprego",
+      "toolsResources": "Desenvolvimento de ferramentas e recursos inovadores",
+      "labourTrends": "Análise das tendências do mercado de trabalho"
+    },
+    "networking": {
+      "title": "Networking e Colaboração",
+      "conferences": "Conferências e seminários internacionais",
+      "knowledgeExchange": "Troca de conhecimentos entre parceiros",
+      "communities": "Comunidades de prática online"
+    }
+  },
+  "results": {
+    "title": "Resultados",
+    "intro": "Explore os resultados e o impacto do projeto BE AWARE.",
+    "stats": {
+      "professionals": "500+",
+      "professionalsLabel": "Profissionais formados",
+      "partners": "50+",
+      "partnersLabel": "Organizações parceiras",
+      "countries": "15",
+      "countriesLabel": "Países europeus"
+    },
+    "deliverables": {
+      "title": "Produtos do Projeto",
+      "item1": "Plano curricular de formação abrangente",
+      "item2": "Guias de boas práticas",
+      "item3": "Kit de ferramentas digitais com recursos"
+    }
+  },
+  "news": {
+    "title": "Notícias",
+    "intro": "Mantenha-se a par das últimas notícias e desenvolvimentos do projeto BE AWARE.",
+    "items": {
+      "projectLaunch": {
+        "date": "2024-11-15",
+        "title": "Projeto BE AWARE arrancou em 15 países europeus",
+        "category": "Lançamento do projeto"
+      },
+      "firstWorkshop": {
+        "date": "2024-10-20",
+        "title": "Primeiro workshop internacional de formação concluído com sucesso",
+        "category": "Formação"
+      },
+      "researchReport": {
+        "date": "2024-09-10",
+        "title": "Novo relatório de investigação: Barreiras ao emprego na Europa",
+        "category": "Investigação"
+      }
+    },
+    "readMore": "Ler mais →"
+  },
+  "contacts": {
+    "title": "Contactos",
+    "intro": "Entre em contacto com a equipa do BE AWARE.",
+    "form": {
+      "heading": "Envie-nos uma mensagem",
+      "nameLabel": "Nome completo",
+      "namePlaceholder": "Insira o seu nome completo",
+      "nameError": "Introduza o seu nome completo (2-100 caracteres)",
+      "emailLabel": "Endereço de email",
+      "emailPlaceholder": "o.seu.email@exemplo.com",
+      "emailError": "Introduza um endereço de email válido",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Escreva a sua mensagem (10-1000 caracteres)",
+      "messageError": "Introduza a sua mensagem (10-1000 caracteres)",
+      "sending": "A enviar...",
+      "send": "Enviar mensagem"
+    },
+    "office": {
+      "title": "Gabinete de Coordenação do Projeto",
+      "addressLabel": "Morada",
+      "organization": "European Employment Network",
+      "street": "Rue de la Loi 123",
+      "city": "1040 Bruxelas, Bélgica",
+      "emailLabel": "Email",
+      "phoneLabel": "Telefone"
+    }
+  },
+  "partners": {
+    "title": "Parceiros",
+    "intro": "Conheça a nossa rede de parceiros dedicados que trabalham em conjunto para fazer a diferença.",
+    "backToPartners": "Voltar aos Parceiros",
+    "list": {
+      "een": {
+        "name": "European Employment Network",
+        "country": "Bélgica",
+        "role": "Coordenador do projeto"
+      },
+      "iwf": {
+        "name": "Inclusive Work Foundation",
+        "country": "Portugal",
+        "role": "Parceiro de formação"
+      },
+      "csi": {
+        "name": "Centre for Social Innovation",
+        "country": "França",
+        "role": "Parceiro de investigação"
+      },
+      "asl": {
+        "name": "Accessibility Solutions Ltd",
+        "country": "Alemanha",
+        "role": "Parceiro tecnológico"
+      }
+    },
+    "details": {
+      "een": {
+        "aboutTitle": "Sobre",
+        "about": "A European Employment Network (EEN) é uma organização líder dedicada à promoção de práticas de emprego inclusivas em toda a Europa. Com mais de 20 anos de experiência, a EEN tem estado na vanguarda do desenvolvimento de abordagens inovadoras para o emprego apoiado e a inclusão no local de trabalho.",
+        "missionTitle": "Missão",
+        "mission": "A nossa missão é criar um mercado de trabalho europeu mais inclusivo, facilitando a troca de conhecimentos, desenvolvendo as melhores práticas e coordenando projetos transnacionais que promovam oportunidades de emprego para pessoas com deficiência e outros grupos desfavorecidos.",
+        "contributionTitle": "Contribuição para o BE AWARE",
+        "contribution": "Como Coordenador do Projeto, a EEN lidera a gestão e coordenação global do projeto BE AWARE, garantindo uma colaboração eficaz entre todos os parceiros e a entrega bem-sucedida dos objetivos do projeto.",
+        "activitiesTitle": "Atividades Principais",
+        "activity1": "Gestão e coordenação geral do projeto",
+        "activity2": "Envolvimento das partes interessadas e desenvolvimento de parcerias",
+        "activity3": "Garantia de qualidade e monitorização dos resultados do projeto",
+        "contactTitle": "Informações de Contacto",
+        "email": "info@een-network.eu",
+        "website": "https://www.een-network.eu",
+        "address": "Rue de la Loi 123, 1040 Bruxelas, Bélgica"
+      },
+      "iwf": {
+        "aboutTitle": "Sobre",
+        "about": "A Inclusive Work Foundation (IWF) é uma organização portuguesa sem fins lucrativos especializada em formação profissional e apoio ao emprego para pessoas com deficiência. Fundada em 2010, a IWF apoiou com sucesso mais de 2.000 indivíduos na procura e manutenção de emprego significativo.",
+        "missionTitle": "Missão",
+        "mission": "A missão da IWF é capacitar indivíduos com deficiência através de programas de formação abrangentes, coaching profissional e iniciativas de envolvimento de empregadores que promovam locais de trabalho inclusivos e resultados de emprego sustentáveis.",
+        "contributionTitle": "Contribuição para o BE AWARE",
+        "contribution": "Como Parceiro de Formação, a IWF desenvolve e oferece programas de formação inovadores para profissionais de apoio ao emprego, focando-se em práticas baseadas em evidências e abordagens centradas na pessoa para o emprego apoiado.",
+        "activitiesTitle": "Atividades Principais",
+        "activity1": "Desenvolvimento de currículos e materiais de formação",
+        "activity2": "Realização de workshops e sessões de capacitação",
+        "activity3": "Criação de recursos de aprendizagem online e kits de ferramentas",
+        "contactTitle": "Informações de Contacto",
+        "email": "contact@iwf-portugal.org",
+        "website": "https://www.iwf-portugal.org",
+        "address": "Avenida da Liberdade 245, 1250-143 Lisboa, Portugal"
+      },
+      "csi": {
+        "aboutTitle": "Sobre",
+        "about": "O Centre for Social Innovation (CSI) é um instituto de investigação francês dedicado ao estudo e promoção da inovação social no emprego, educação e desenvolvimento comunitário. O CSI combina rigor académico com aplicação prática para impulsionar mudanças sociais significativas.",
+        "missionTitle": "Missão",
+        "mission": "A missão do CSI é avançar o conhecimento e a prática em inovação social através de investigação rigorosa, recomendações de políticas baseadas em evidências e parcerias colaborativas que abordam desafios sociais complexos no mercado de trabalho.",
+        "contributionTitle": "Contribuição para o BE AWARE",
+        "contribution": "Como Parceiro de Investigação, o CSI realiza investigação abrangente sobre práticas de emprego apoiado, tendências do mercado de trabalho e quadros políticos, fornecendo a base de evidências que informa as atividades e resultados do projeto.",
+        "activitiesTitle": "Atividades Principais",
+        "activity1": "Realização de estudos de investigação e análise de dados",
+        "activity2": "Desenvolvimento de resumos de políticas e recomendações",
+        "activity3": "Avaliação do impacto e resultados do projeto",
+        "contactTitle": "Informações de Contacto",
+        "email": "research@csi-france.fr",
+        "website": "https://www.csi-france.fr",
+        "address": "15 Rue des Archives, 75004 Paris, França"
+      },
+      "asl": {
+        "aboutTitle": "Sobre",
+        "about": "A Accessibility Solutions Ltd (ASL) é uma empresa de tecnologia alemã especializada em tecnologias assistivas e soluções de acessibilidade digital para o local de trabalho. A ASL tem sido pioneira no desenvolvimento de ferramentas inovadoras que permitem às pessoas com deficiência participar plenamente na economia digital.",
+        "missionTitle": "Missão",
+        "mission": "A missão da ASL é eliminar barreiras digitais no local de trabalho através de tecnologias assistivas de ponta, consultoria em acessibilidade e abordagens de design centradas no utilizador que criam ambientes digitais verdadeiramente inclusivos.",
+        "contributionTitle": "Contribuição para o BE AWARE",
+        "contribution": "Como Parceiro Tecnológico, a ASL fornece conhecimentos técnicos em acessibilidade digital, desenvolve plataformas e ferramentas online para o projeto e garante que todos os recursos digitais cumprem os mais altos padrões de acessibilidade.",
+        "activitiesTitle": "Atividades Principais",
+        "activity1": "Desenvolvimento de plataformas e ferramentas digitais acessíveis",
+        "activity2": "Auditorias de acessibilidade e testes de conformidade",
+        "activity3": "Formação técnica e apoio aos parceiros",
+        "contactTitle": "Informações de Contacto",
+        "email": "info@asl-solutions.de",
+        "website": "https://www.asl-solutions.de",
+        "address": "Friedrichstraße 95, 10117 Berlim, Alemanha"
+      }
+    }
+  }
+}

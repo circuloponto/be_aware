@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Startpagina",
+    "objectives": "Doelstellingen",
+    "targetGroups": "Doelgroepen",
+    "activities": "Activiteiten",
+    "results": "Resultaten",
+    "partners": "Partners",
+    "news": "Nieuws",
+    "contacts": "Contact"
+  },
+  "home": {
+    "title": "BE AWARE",
+    "subtitle": "Project voor ondersteunde tewerkstelling",
+    "description": "Welkom bij het BE AWARE-project – een door de EU gefinancierd initiatief dat zich inzet voor ondersteunde tewerkstelling en inclusieve werkplekken.",
+    "euFunded": "Door de EU gefinancierd project",
+    "discoverMission": "Ontdek onze missie",
+    "getInTouch": "Neem contact op",
+    "exploreWork": "Ontdek ons werk",
+    "learnMore": "Meer info",
+    "objectives": "Doelstellingen",
+    "targetGroups": "Doelgroepen",
+    "activities": "Activiteiten",
+    "results": "Resultaten"
+  },
+  "objectives": {
+    "title": "Onze doelstellingen",
+    "intro": "Het BE AWARE-project wil duurzame tewerkstellingskansen creëren en inclusieve werkplekken bevorderen in heel Europa.",
+    "cards": {
+      "inclusiveEmployment": {
+        "title": "Inclusieve tewerkstelling bevorderen",
+        "body": "Duurzame trajecten naar werk creëren voor mensen die barrières ondervinden op de arbeidsmarkt."
+      },
+      "buildCapacity": {
+        "title": "Capaciteiten versterken",
+        "body": "De vaardigheden van werkbegeleiders en werkgevers versterken."
+      },
+      "collaboration": {
+        "title": "Samenwerking stimuleren",
+        "body": "Sterke partnerschappen uitbouwen tussen organisaties, werkgevers en lokale gemeenschappen."
+      }
+    }
+  },
+  "targetGroups": {
+    "title": "Doelgroepen",
+    "intro": "Ons project focust op ondersteuning van diverse groepen bij het vinden van duurzaam en betekenisvol werk.",
+    "groups": {
+      "employmentSupportProfessionals": "Begeleiders in tewerkstelling",
+      "peopleWithDisabilities": "Mensen met een beperking",
+      "employers": "Werkgevers",
+      "trainingOrganizations": "Opleidingsorganisaties",
+      "policyMakers": "Beleidsmakers",
+      "socialServiceAgencies": "Sociale diensten"
+    }
+  },
+  "activities": {
+    "title": "Activiteiten",
+    "intro": "Ontdek de verschillende activiteiten en initiatieven die we uitvoeren om onze doelstellingen te behalen.",
+    "training": {
+      "title": "Opleiding en competentieversterking",
+      "workshops": "Professionele vormingssessies",
+      "employerAwareness": "Sensibiliseringssessies voor werkgevers",
+      "skillsPrograms": "Programma's voor competentieontwikkeling"
+    },
+    "research": {
+      "title": "Onderzoek en innovatie",
+      "effectiveModels": "Onderzoek naar effectieve tewerkstellingsmodellen",
+      "toolsResources": "Ontwikkeling van innovatieve tools en hulpmiddelen",
+      "labourTrends": "Analyse van arbeidsmarkttendensen"
+    },
+    "networking": {
+      "title": "Netwerking en samenwerking",
+      "conferences": "Internationale conferenties en studiedagen",
+      "knowledgeExchange": "Kennisuitwisseling tussen partners",
+      "communities": "Online communities of practice"
+    }
+  },
+  "results": {
+    "title": "Resultaten",
+    "intro": "Ontdek de resultaten en impact van het BE AWARE-project.",
+    "stats": {
+      "professionals": "500+",
+      "professionalsLabel": "Opgeleide professionals",
+      "partners": "50+",
+      "partnersLabel": "Partnerorganisaties",
+      "countries": "15",
+      "countriesLabel": "Europese landen"
+    },
+    "deliverables": {
+      "title": "Projectresultaten",
+      "item1": "Uitgebreid opleidingscurriculum",
+      "item2": "Richtlijnen voor goede praktijken",
+      "item3": "Digitale toolkit met hulpmiddelen"
+    }
+  },
+  "news": {
+    "title": "Nieuws",
+    "intro": "Blijf op de hoogte van het laatste nieuws en de recente ontwikkelingen rond het BE AWARE-project.",
+    "items": {
+      "projectLaunch": {
+        "date": "2024-11-15",
+        "title": "BE AWARE-project gaat van start in 15 Europese landen",
+        "category": "Projectstart"
+      },
+      "firstWorkshop": {
+        "date": "2024-10-20",
+        "title": "Eerste internationale opleidingsworkshop succesvol afgerond",
+        "category": "Opleiding"
+      },
+      "researchReport": {
+        "date": "2024-09-10",
+        "title": "Nieuw onderzoeksrapport: drempels tot tewerkstelling in Europa",
+        "category": "Onderzoek"
+      }
+    },
+    "readMore": "Lees meer →"
+  },
+  "contacts": {
+    "title": "Contact",
+    "intro": "Neem contact op met het BE AWARE-team.",
+    "form": {
+      "heading": "Stuur ons een bericht",
+      "nameLabel": "Volledige naam",
+      "namePlaceholder": "Vul uw volledige naam in",
+      "nameError": "Gelieve uw volledige naam in te vullen (2-100 tekens)",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "uw.email@voorbeeld.be",
+      "emailError": "Gelieve een geldig e-mailadres in te vullen",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Schrijf uw bericht (10-1000 tekens)",
+      "messageError": "Gelieve uw bericht in te vullen (10-1000 tekens)",
+      "sending": "Bezig met verzenden...",
+      "send": "Bericht verzenden"
+    },
+    "office": {
+      "title": "Projectcoördinatie",
+      "addressLabel": "Adres",
+      "organization": "European Employment Network",
+      "street": "Wetstraat 123",
+      "city": "1040 Brussel, België",
+      "emailLabel": "E-mail",
+      "phoneLabel": "Telefoon"
+    }
+  },
+  "partners": {
+    "title": "Partners",
+    "intro": "Maak kennis met ons netwerk van toegewijde partners die samen het verschil willen maken.",
+    "list": {
+      "een": {
+        "name": "European Employment Network",
+        "country": "België",
+        "role": "Projectcoördinator"
+      },
+      "iwf": {
+        "name": "Inclusive Work Foundation",
+        "country": "Portugal",
+        "role": "Opleidingspartner"
+      },
+      "csi": {
+        "name": "Centre for Social Innovation",
+        "country": "Frankrijk",
+        "role": "Onderzoekspartner"
+      },
+      "asl": {
+        "name": "Accessibility Solutions Ltd",
+        "country": "Duitsland",
+        "role": "Technologiapartner"
+      }
+    }
+  }
+}

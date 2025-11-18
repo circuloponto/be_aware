@@ -1,0 +1,170 @@
+@import "tailwindcss";
+@import "locomotive-scroll/dist/locomotive-scroll.css";
+
+:root {
+  --primary-blue: #4681BC;
+  --primary-gold: #F1C424;
+  --dark-blue: #2C5282;
+  --light-blue: #E8F2F9;
+  --dark-gold: #D4A91E;
+  --light-gold: #FFF9E6;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: none !important;
+}
+
+* {
+  cursor: none !important;
+}
+
+/* Ensure emojis render properly */
+.emoji, span:has(🇬🇧), span:has(🇵🇹), span:has(🇧🇪) {
+  font-family: 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+/* Logo animations */
+.logo-pill {
+  position: relative;
+  background: white;
+  border-radius: 9999px;
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-dot {
+  position: absolute;
+  background: #F1C424;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cursor-dot-large {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 15px rgba(241, 196, 36, 0.6);
+}
+
+.cursor-dot-small {
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 10px rgba(241, 196, 36, 0.5);
+}
+
+.cursor-ring {
+  position: absolute;
+  border: 3px solid #4681BC;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate-ring 3s linear infinite;
+}
+
+.cursor-ring-1 {
+  width: 28px;
+  height: 28px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.cursor-ring-2 {
+  width: 46px;
+  height: 46px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  animation-direction: reverse;
+  animation-duration: 4s;
+}
+
+
+@keyframes rotate-ring {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Custom Scrollbar Styling */
+/* For Webkit browsers (Chrome, Safari, Edge) */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #FFF9E6 !important;
+  border-radius: 10px !important;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FF8C42 0%, #FF6B35 100%) !important;
+  border-radius: 10px !important;
+  border: 2px solid #FFF9E6 !important;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background: #FF5722 !important;
+}
+
+html::-webkit-scrollbar-thumb:active,
+body::-webkit-scrollbar-thumb:active {
+  background: #FF5722 !important;
+}
+
+/* For Firefox */
+html,
+body {
+  scrollbar-width: thin !important;
+  scrollbar-color: #F1C424 #FFF9E6 !important;
+}

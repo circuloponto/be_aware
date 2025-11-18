@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "home": "Startpagina",
+    "objectives": "Doelstellingen",
+    "targetGroups": "Doelgroepen",
+    "activities": "Activiteiten",
+    "results": "Resultaten",
+    "partners": "Partners",
+    "news": "Nieuws",
+    "contacts": "Contact"
+  },
+  "home": {
+    "title": "BE AWARE",
+    "subtitle": "Project voor ondersteunde tewerkstelling",
+    "description": "Welkom bij het BE AWARE-project – een door de EU gefinancierd initiatief dat zich inzet voor ondersteunde tewerkstelling en inclusieve werkplekken.",
+    "euFunded": "Door de EU gefinancierd project",
+    "discoverMission": "Ontdek onze missie",
+    "getInTouch": "Neem contact op",
+    "exploreWork": "Ontdek ons werk",
+    "learnMore": "Meer info",
+    "objectives": "Doelstellingen",
+    "targetGroups": "Doelgroepen",
+    "activities": "Activiteiten",
+    "results": "Resultaten"
+  },
+  "objectives": {
+    "title": "Onze doelstellingen",
+    "intro": "Het BE AWARE-project wil duurzame tewerkstellingskansen creëren en inclusieve werkplekken bevorderen in heel Europa.",
+    "cards": {
+      "inclusiveEmployment": {
+        "title": "Inclusieve tewerkstelling bevorderen",
+        "body": "Duurzame trajecten naar werk creëren voor mensen die barrières ondervinden op de arbeidsmarkt."
+      },
+      "buildCapacity": {
+        "title": "Capaciteiten versterken",
+        "body": "De vaardigheden van werkbegeleiders en werkgevers versterken."
+      },
+      "collaboration": {
+        "title": "Samenwerking stimuleren",
+        "body": "Sterke partnerschappen uitbouwen tussen organisaties, werkgevers en lokale gemeenschappen."
+      }
+    }
+  },
+  "targetGroups": {
+    "title": "Doelgroepen",
+    "intro": "Ons project focust op ondersteuning van diverse groepen bij het vinden van duurzaam en betekenisvol werk.",
+    "groups": {
+      "employmentSupportProfessionals": "Begeleiders in tewerkstelling",
+      "peopleWithDisabilities": "Mensen met een beperking",
+      "employers": "Werkgevers",
+      "trainingOrganizations": "Opleidingsorganisaties",
+      "policyMakers": "Beleidsmakers",
+      "socialServiceAgencies": "Sociale diensten"
+    }
+  },
+  "activities": {
+    "title": "Activiteiten",
+    "intro": "Ontdek de verschillende activiteiten en initiatieven die we uitvoeren om onze doelstellingen te behalen.",
+    "training": {
+      "title": "Opleiding en competentieversterking",
+      "workshops": "Professionele vormingssessies",
+      "employerAwareness": "Sensibiliseringssessies voor werkgevers",
+      "skillsPrograms": "Programma's voor competentieontwikkeling"
+    },
+    "research": {
+      "title": "Onderzoek en innovatie",
+      "effectiveModels": "Onderzoek naar effectieve tewerkstellingsmodellen",
+      "toolsResources": "Ontwikkeling van innovatieve tools en hulpmiddelen",
+      "labourTrends": "Analyse van arbeidsmarkttendensen"
+    },
+    "networking": {
+      "title": "Netwerking en samenwerking",
+      "conferences": "Internationale conferenties en studiedagen",
+      "knowledgeExchange": "Kennisuitwisseling tussen partners",
+      "communities": "Online communities of practice"
+    }
+  },
+  "results": {
+    "title": "Resultaten",
+    "intro": "Ontdek de resultaten en impact van het BE AWARE-project.",
+    "stats": {
+      "professionals": "500+",
+      "professionalsLabel": "Opgeleide professionals",
+      "partners": "50+",
+      "partnersLabel": "Partnerorganisaties",
+      "countries": "15",
+      "countriesLabel": "Europese landen"
+    },
+    "deliverables": {
+      "title": "Projectresultaten",
+      "item1": "Uitgebreid opleidingscurriculum",
+      "item2": "Richtlijnen voor goede praktijken",
+      "item3": "Digitale toolkit met hulpmiddelen"
+    }
+  },
+  "news": {
+    "title": "Nieuws",
+    "intro": "Blijf op de hoogte van het laatste nieuws en de recente ontwikkelingen rond het BE AWARE-project.",
+    "items": {
+      "projectLaunch": {
+        "date": "2024-11-15",
+        "title": "BE AWARE-project gaat van start in 15 Europese landen",
+        "category": "Projectstart"
+      },
+      "firstWorkshop": {
+        "date": "2024-10-20",
+        "title": "Eerste internationale opleidingsworkshop succesvol afgerond",
+        "category": "Opleiding"
+      },
+      "researchReport": {
+        "date": "2024-09-10",
+        "title": "Nieuw onderzoeksrapport: drempels tot tewerkstelling in Europa",
+        "category": "Onderzoek"
+      }
+    },
+    "readMore": "Lees meer →"
+  },
+  "contacts": {
+    "title": "Contact",
+    "intro": "Neem contact op met het BE AWARE-team.",
+    "form": {
+      "heading": "Stuur ons een bericht",
+      "nameLabel": "Volledige naam",
+      "namePlaceholder": "Vul uw volledige naam in",
+      "nameError": "Gelieve uw volledige naam in te vullen (2-100 tekens)",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "uw.email@voorbeeld.be",
+      "emailError": "Gelieve een geldig e-mailadres in te vullen",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Schrijf uw bericht (10-1000 tekens)",
+      "messageError": "Gelieve uw bericht in te vullen (10-1000 tekens)",
+      "sending": "Bezig met verzenden...",
+      "send": "Bericht verzenden"
+    },
+    "office": {
+      "title": "Projectcoördinatie",
+      "addressLabel": "Adres",
+      "organization": "European Employment Network",
+      "street": "Wetstraat 123",
+      "city": "1040 Brussel, België",
+      "emailLabel": "E-mail",
+      "phoneLabel": "Telefoon"
+    }
+  },
+  "partners": {
+    "title": "Partners",
+    "intro": "Maak kennis met ons netwerk van toegewijde partners die samen het verschil willen maken.",
+    "backToPartners": "Terug naar Partners",
+    "list": {
+      "een": {
+        "name": "European Employment Network",
+        "country": "België",
+        "role": "Projectcoördinator"
+      },
+      "iwf": {
+        "name": "Inclusive Work Foundation",
+        "country": "Portugal",
+        "role": "Opleidingspartner"
+      },
+      "csi": {
+        "name": "Centre for Social Innovation",
+        "country": "Frankrijk",
+        "role": "Onderzoekspartner"
+      },
+      "asl": {
+        "name": "Accessibility Solutions Ltd",
+        "country": "Duitsland",
+        "role": "Technologiapartner"
+      }
+    },
+    "details": {
+      "een": {
+        "aboutTitle": "Over",
+        "about": "Het European Employment Network (EEN) is een toonaangevende organisatie die zich inzet voor de bevordering van inclusieve werkgelegenheidspraktijken in heel Europa. Met meer dan 20 jaar ervaring staat EEN aan de voorhoede van het ontwikkelen van innovatieve benaderingen voor ondersteunde tewerkstelling en inclusie op de werkplek.",
+        "missionTitle": "Missie",
+        "mission": "Onze missie is het creëren van een meer inclusieve Europese arbeidsmarkt door kennisuitwisseling te faciliteren, best practices te ontwikkelen en transnationale projecten te coördineren die werkgelegenheidskansen bevorderen voor mensen met een handicap en andere kansarme groepen.",
+        "contributionTitle": "Bijdrage aan BE AWARE",
+        "contribution": "Als Projectcoördinator leidt EEN het algemene beheer en de coördinatie van het BE AWARE-project, waarbij effectieve samenwerking tussen alle partners en succesvolle levering van projectdoelstellingen wordt gewaarborgd.",
+        "activitiesTitle": "Belangrijkste Activiteiten",
+        "activity1": "Algemeen projectbeheer en coördinatie",
+        "activity2": "Betrokkenheid van belanghebbenden en partnerschapsontwikkeling",
+        "activity3": "Kwaliteitsborging en monitoring van projectresultaten",
+        "contactTitle": "Contactinformatie",
+        "email": "info@een-network.eu",
+        "website": "https://www.een-network.eu",
+        "address": "Rue de la Loi 123, 1040 Brussel, België"
+      },
+      "iwf": {
+        "aboutTitle": "Over",
+        "about": "De Inclusive Work Foundation (IWF) is een Portugese non-profitorganisatie gespecialiseerd in beroepsopleiding en werkgelegenheidsondersteuning voor mensen met een handicap. Opgericht in 2010, heeft IWF met succes meer dan 2.000 individuen ondersteund bij het vinden en behouden van zinvol werk.",
+        "missionTitle": "Missie",
+        "mission": "De missie van IWF is het empoweren van individuen met een handicap door middel van uitgebreide opleidingsprogramma's, jobcoaching en werkgeversinitiatieven die inclusieve werkplekken en duurzame werkgelegenheidsresultaten bevorderen.",
+        "contributionTitle": "Bijdrage aan BE AWARE",
+        "contribution": "Als Opleidingspartner ontwikkelt en levert IWF innovatieve opleidingsprogramma's voor professionals in werkgelegenheidsondersteuning, met focus op evidence-based praktijken en persoonsgerichte benaderingen van ondersteunde tewerkstelling.",
+        "activitiesTitle": "Belangrijkste Activiteiten",
+        "activity1": "Ontwikkeling van curricula en opleidingsmaterialen",
+        "activity2": "Levering van workshops en capaciteitsopbouwsessies",
+        "activity3": "Creatie van online leermiddelen en toolkits",
+        "contactTitle": "Contactinformatie",
+        "email": "contact@iwf-portugal.org",
+        "website": "https://www.iwf-portugal.org",
+        "address": "Avenida da Liberdade 245, 1250-143 Lissabon, Portugal"
+      },
+      "csi": {
+        "aboutTitle": "Over",
+        "about": "Het Centre for Social Innovation (CSI) is een Frans onderzoeksinstituut gewijd aan het bestuderen en bevorderen van sociale innovatie in werkgelegenheid, onderwijs en gemeenschapsontwikkeling. CSI combineert academische strengheid met praktische toepassing om betekenisvolle sociale verandering te bewerkstelligen.",
+        "missionTitle": "Missie",
+        "mission": "De missie van CSI is het bevorderen van kennis en praktijk in sociale innovatie door middel van rigoureus onderzoek, evidence-based beleidsaanbevelingen en samenwerkingsverbanden die complexe sociale uitdagingen op de arbeidsmarkt aanpakken.",
+        "contributionTitle": "Bijdrage aan BE AWARE",
+        "contribution": "Als Onderzoekspartner voert CSI uitgebreid onderzoek uit naar ondersteunde tewerkstellingspraktijken, arbeidsmarkttrends en beleidskaders, en levert het de bewijsbasis die projectactiviteiten en -resultaten informeert.",
+        "activitiesTitle": "Belangrijkste Activiteiten",
+        "activity1": "Uitvoeren van onderzoeksstudies en data-analyse",
+        "activity2": "Ontwikkelen van beleidsbrieven en aanbevelingen",
+        "activity3": "Evalueren van projectimpact en -resultaten",
+        "contactTitle": "Contactinformatie",
+        "email": "research@csi-france.fr",
+        "website": "https://www.csi-france.fr",
+        "address": "15 Rue des Archives, 75004 Parijs, Frankrijk"
+      },
+      "asl": {
+        "aboutTitle": "Over",
+        "about": "Accessibility Solutions Ltd (ASL) is een Duits technologiebedrijf gespecialiseerd in ondersteunende technologieën en digitale toegankelijkheidsoplossingen voor de werkplek. ASL is pionier geweest in het ontwikkelen van innovatieve tools die mensen met een handicap in staat stellen volledig deel te nemen aan de digitale economie.",
+        "missionTitle": "Missie",
+        "mission": "De missie van ASL is het elimineren van digitale barrières op de werkplek door middel van geavanceerde ondersteunende technologieën, toegankelijkheidsadvies en gebruikersgerichte ontwerpbenaderingen die echt inclusieve digitale omgevingen creëren.",
+        "contributionTitle": "Bijdrage aan BE AWARE",
+        "contribution": "Als Technologiapartner levert ASL technische expertise op het gebied van digitale toegankelijkheid, ontwikkelt online platforms en tools voor het project, en zorgt ervoor dat alle digitale middelen voldoen aan de hoogste toegankelijkheidsnormen.",
+        "activitiesTitle": "Belangrijkste Activiteiten",
+        "activity1": "Ontwikkeling van toegankelijke digitale platforms en tools",
+        "activity2": "Toegankelijkheidsaudits en nalevingstesten",
+        "activity3": "Technische training en ondersteuning voor partners",
+        "contactTitle": "Contactinformatie",
+        "email": "info@asl-solutions.de",
+        "website": "https://www.asl-solutions.de",
+        "address": "Friedrichstraße 95, 10117 Berlijn, Duitsland"
+      }
+    }
+  }
+}
