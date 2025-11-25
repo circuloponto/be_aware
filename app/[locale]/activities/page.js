@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import { HiUserGroup, HiClipboardCheck, HiBookOpen, HiSpeakerphone } from 'react-icons/hi';
 
 export default async function ActivitiesPage({ params }) {
   const { locale } = await params;
@@ -24,8 +25,8 @@ export default async function ActivitiesPage({ params }) {
           {/* Training for Employer Engagement */}
           <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
             <div className="flex items-start gap-6">
-              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#E8F2F9] rounded-2xl items-center justify-center text-3xl">
-                🤝
+              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#E8F2F9] rounded-2xl items-center justify-center">
+                <HiUserGroup className="w-8 h-8 text-[#2C5282]" />
               </div>
               <div className="space-y-6 flex-1">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#2C5282]">
@@ -49,8 +50,8 @@ export default async function ActivitiesPage({ params }) {
           {/* Pilot Training */}
           <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
             <div className="flex items-start gap-6">
-              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#FFF9E6] rounded-2xl items-center justify-center text-3xl">
-                ✈️
+              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#FFF9E6] rounded-2xl items-center justify-center">
+                <HiClipboardCheck className="w-8 h-8 text-[#2C5282]" />
               </div>
               <div className="space-y-6 flex-1">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#2C5282]">
@@ -67,8 +68,8 @@ export default async function ActivitiesPage({ params }) {
           {/* Good Practices Manual */}
           <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
             <div className="flex items-start gap-6">
-              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#E8F2F9] rounded-2xl items-center justify-center text-3xl">
-                📚
+              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#E8F2F9] rounded-2xl items-center justify-center">
+                <HiBookOpen className="w-8 h-8 text-[#2C5282]" />
               </div>
               <div className="space-y-6 flex-1">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#2C5282]">
@@ -84,8 +85,8 @@ export default async function ActivitiesPage({ params }) {
           {/* Dissemination */}
           <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
             <div className="flex items-start gap-6">
-              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#FFF9E6] rounded-2xl items-center justify-center text-3xl">
-                📢
+              <div className="hidden md:flex flex-shrink-0 w-16 h-16 bg-[#FFF9E6] rounded-2xl items-center justify-center">
+                <HiSpeakerphone className="w-8 h-8 text-[#2C5282]" />
               </div>
               <div className="space-y-6 flex-1">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#2C5282]">

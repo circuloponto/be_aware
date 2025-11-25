@@ -1,13 +1,15 @@
 import { getTranslations } from 'next-intl/server';
+import { HiUsers, HiOfficeBuilding } from 'react-icons/hi';
+import { MdAccessible } from 'react-icons/md';
 
 export default async function TargetGroupsPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations('targetGroups');
 
   const groups = [
-    { key: 'employmentSupportProfessionals', icon: '👥' },
-    { key: 'employers', icon: '🏢' },
-    { key: 'disabledPersons', icon: '♿' }
+    { key: 'employmentSupportProfessionals', icon: HiUsers },
+    { key: 'employers', icon: HiOfficeBuilding },
+    { key: 'disabledPersons', icon: MdAccessible }
   ];
 
   return (
@@ -33,8 +35,8 @@ export default async function TargetGroupsPage({ params }) {
               <div className="absolute inset-0 bg-gradient-to-br from-[#4681BC]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
               <div className="relative flex flex-col md:flex-row gap-8 items-start">
-                <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-[#4681BC] to-[#2C5282] rounded-2xl flex items-center justify-center text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  {group.icon}
+                <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-[#4681BC] to-[#2C5282] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  <group.icon className="w-10 h-10 text-white" />
                 </div>
 
                 <div className="flex-1 space-y-4">

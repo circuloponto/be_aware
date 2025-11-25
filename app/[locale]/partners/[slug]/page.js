@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 export default async function PartnerDetailPage({ params }) {
@@ -21,6 +22,14 @@ export default async function PartnerDetailPage({ params }) {
   const country = t(`list.${slug}.country`);
   const role = t(`list.${slug}.role`);
 
+  // Map partner keys to their logo filenames
+  const logoMap = {
+    'Consultis': '/logo_Consultis_transparent.png',
+    'Rumo': '/logo_rumo_transparent.png',
+    'nfedp': '/logo_nfedp_transparent.png',
+    'bist': '/logo_bist_transparent.png'
+  };
+
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8" style={{ paddingTop: '140px' }}>
       <div className="max-w-4xl mx-auto">
@@ -35,12 +44,24 @@ export default async function PartnerDetailPage({ params }) {
 
         {/* Partner header */}
         <div className="bg-gradient-to-br from-[#E8F2F9] to-[#FFF9E6] rounded-2xl p-8 md:p-12 mb-8 border-l-8 border-[#F1C424]">
-          <div className="flex items-start justify-between flex-wrap gap-4">
-            <div>
+          <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+            {/* Logo */}
+            <div className="flex-shrink-0">
+              <Image
+                src={logoMap[slug]}
+                alt={`${name} logo`}
+                width={200}
+                height={120}
+                className="max-h-32 w-auto object-contain"
+              />
+            </div>
+
+            {/* Text content */}
+            <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-4">
                 {name}
               </h1>
-              <div className="flex items-center space-x-4 text-lg">
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 text-lg">
                 <span className="text-gray-700">📍 {country}</span>
                 <span className="px-4 py-2 bg-[#F1C424] text-[#2C5282] rounded-full font-bold">
                   {role}
@@ -58,7 +79,35 @@ export default async function PartnerDetailPage({ params }) {
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>{t(`${base}.paragraph1`)}</p>
             <p>{t(`${base}.paragraph2`)}</p>
-            <p className="font-medium text-[#4681BC]">{t(`${base}.paragraph3`)}</p>
+            <p className="font-medium text-[#4681BC]">
+              {(() => {
+                const text = t(`${base}.paragraph3`);
+                const urlPattern = /(https?:\/\/[^\s]+)/;
+                const match = text.match(urlPattern);
+
+                if (match) {
+                  const url = match[0];
+                  const parts = text.split(urlPattern);
+                  const displayUrl = url.replace(/^https?:\/\//, '').replace(/\/$/, '');
+
+                  return (
+                    <>
+                      {parts[0]}
+                      <a
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-[#2C5282] transition-colors underline font-semibold"
+                      >
+                        {displayUrl}
+                      </a>
+                      {parts[2] || ''}
+                    </>
+                  );
+                }
+                return text;
+              })()}
+            </p>
           </div>
         </div>
 

@@ -1,11 +1,20 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default async function PartnersPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations('partners');
 
   const partnerKeys = ['Consultis', 'Rumo', 'nfedp', 'bist'];
+
+  // Map partner keys to their logo filenames
+  const logoMap = {
+    'Consultis': '/logo_Consultis_transparent.png',
+    'Rumo': '/logo_rumo_transparent.png',
+    'nfedp': '/logo_nfedp_transparent.png',
+    'bist': '/logo_bist_transparent.png'
+  };
 
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 animate-slide-up" style={{ paddingTop: '140px' }}>
@@ -30,6 +39,17 @@ export default async function PartnersPage({ params }) {
                 href={`/${locale}/partners/${key}`}
                 className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#2C5282] p-8 group cursor-pointer hover:-translate-y-1"
               >
+                {/* Logo */}
+                <div className="mb-6 flex justify-center items-center h-24">
+                  <Image
+                    src={logoMap[key]}
+                    alt={`${name} logo`}
+                    width={200}
+                    height={96}
+                    className="max-h-24 w-auto object-contain"
+                  />
+                </div>
+
                 <h2 className="text-2xl font-bold text-[#2C5282] mb-2 group-hover:text-[#4681BC] transition-colors">{name}</h2>
                 <div className="flex items-center space-x-4 text-sm text-gray-600 mb-4">
                   <span>📍 {country}</span>

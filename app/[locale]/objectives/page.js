@@ -1,15 +1,16 @@
 import { getTranslations } from 'next-intl/server';
+import { HiUsers, HiOfficeBuilding, HiAcademicCap, HiUserGroup, HiSpeakerphone } from 'react-icons/hi';
 
 export default async function ObjectivesPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations('objectives');
 
   const cards = [
-    { key: 'supportedEmploymentProfessionals', icon: '👥' },
-    { key: 'employers', icon: '🏢' },
-    { key: 'capacitation', icon: '🎓' },
-    { key: 'event', icon: '☕' },
-    { key: 'dissemination', icon: '📢' }
+    { key: 'supportedEmploymentProfessionals', icon: HiUsers },
+    { key: 'employers', icon: HiOfficeBuilding },
+    { key: 'capacitation', icon: HiAcademicCap },
+    { key: 'event', icon: HiUserGroup },
+    { key: 'dissemination', icon: HiSpeakerphone }
   ];
 
   return (
@@ -51,8 +52,8 @@ export default async function ObjectivesPage({ params }) {
               <div key={card.key} className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 overflow-hidden flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#4681BC]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative flex-1">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#4681BC] to-[#2C5282] rounded-2xl flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform duration-300 mb-6">
-                    {card.icon}
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#4681BC] to-[#2C5282] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 mb-6">
+                    <card.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-[#2C5282] mb-3 group-hover:text-[#4681BC] transition-colors">
                     {t(`cards.${card.key}.title`)}

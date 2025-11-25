@@ -28,6 +28,7 @@
   "objectives": {
     "title1": "General Objective",
     "intro": "The BE AWARE project aims to increase employment opportunities for individuals with disabilities by strengthening the employer engagement skills of Supported Employment (SE) professionals in Bulgaria and Portugal. In doing so, the project directly addresses a critical skills gap within vocational training and contributes to building a more inclusive labour market across Europe.",
+    "title2": "Specific Objectives",
     "cards": {
       "supportedEmploymentProfessionals": {
         "title": "30 Supported Employment Professionals",
@@ -273,7 +274,7 @@
         "aboutTitle": "About",
         "paragraph1": "CONSULTIS is a Portuguese company established in 2005 and headquartered in Vila Nova de Gaia, specialising in business consultancy, innovation, and Supported Employment. As an active member of the Portuguese Association of Supported Employment, it operates a Resource Centre in Porto, where it supports employers, professionals, and jobseekers — with a particular focus on groups facing disadvantage in the labour market, including disabled individuals, young people at risk of exclusion, migrants, and the long-term unemployed.",
         "paragraph2": "Working in partnership with businesses, training entities, educational institutions, social organisations, and public bodies, CONSULTIS develops tailored solutions that respond to labour market demands, promoting effective strategies for professional and social inclusion. Through its consultancy services, training programmes, and Supported Employment initiatives, the organisation supports the implementation of inclusive and sustainable employment practices, ensuring continuous support for both employers and professionals throughout the integration process.",
-        "paragraph3": "Learn more at www.consultis.pt",
+        "paragraph3": "Learn more at https://www.consultis.pt",
         "contactTitle": "Contact Information",
         "email": "info@een-network.eu",
         "website": "https://www.consultis.pt",
