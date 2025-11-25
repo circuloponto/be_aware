@@ -11,13 +11,13 @@
   },
   "about": {
     "title": "BE AWARE",
-    "subtitle": "Supported Employment Project",
+    "subtitle": "Welcome to BE AWARE",
     "description": "Welcome to the BE AWARE project - an EU-funded initiative dedicated to promoting supported employment and creating inclusive work environments.",
     "euFunded": "EU Funded Project",
     "discoverMission": "Discover Our Mission",
     "getInTouch": "Get In Touch",
-    "paragraph1": "BE AWARE is an Erasmus+ project aimed at enhancing employment opportunities for people with disabilities or incapacities in Portugal and Bulgaria. The project strengthens the employer engagement skills of Supported Employment professionals and provides employers with practical tools to promote more inclusive recruitment and labor integration processes.",
-    "paragraph2": "Through a blended training program, a Good Practices Manual, a collaborative World Café Session, and national dissemination events in both countries, BE AWARE contributes to the development of inclusive workplace practices and supports sustainable job placement processes for people with disabilities or incapacities, aligning with European priorities in the field of inclusion and labor market access.",
+    "paragraph1": "BE AWARE is an Erasmus+ project improving employment opportunities for individuals with disabilities in Portugal and Bulgaria. The project strengthens the employer engagement skills of Supported Employment (SE) professionals and provides employers with practical tools to promote disability-inclusive recruitment.",
+    "paragraph2": "Through a blended training programme, a Best Practice Handbook, a collaborative World Café Session, and national events in both countries, BE AWARE helps create more inclusive workplaces and supports sustainable job placements for disabled jobseekers.",
     "exploreWork": "Explore Our Work",
     "learnMore": "Learn more",
     "objectives": "Objectives",
@@ -27,97 +27,96 @@
   },
   "objectives": {
     "title1": "General Objective",
-    "intro": "The BE AWARE project aims to enhance employment opportunities for people with disabilities or incapacities by strengthening the employer engagement skills of Supported Employment professionals in Bulgaria and Portugal. This approach directly addresses a critical skills gap in vocational training and contributes to building a more inclusive European labor market.",
-    "title2": "Specific Objectives",
+    "intro": "The BE AWARE project aims to increase employment opportunities for individuals with disabilities by strengthening the employer engagement skills of Supported Employment (SE) professionals in Bulgaria and Portugal. In doing so, the project directly addresses a critical skills gap within vocational training and contributes to building a more inclusive labour market across Europe.",
     "cards": {
       "supportedEmploymentProfessionals": {
         "title": "30 Supported Employment Professionals",
-        "body": "Develop and implement a blended training program for 30 Supported Employment professionals, equipping them with practical, employer-oriented strategies to improve job placements for people with disabilities or incapacities."
+        "body": "Develop and implement a blended training programme for 30 SE professionals, equipping them with practical, employer-focused engagement strategies to improve job placements for individuals with disabilities."
       },
       "employers": {
         "title": "Good Practices Manual for Employers",
-        "body": "Create a Good Practices Manual for employers, gathering real success stories, actionable recruitment strategies, and guidelines for inclusive hiring practices."
+        "body": "Create a Best Practice Handbook (BPH) for employers, providing real-world success stories, actionable recruitment strategies, and guidance on disability-inclusive hiring practices."
       },
       "capacitation": {
         "title": "Training",
-        "body": "Pilot the training in Bulgaria and Portugal, evaluating its effectiveness based on feedback from Supported Employment professionals and employers, ensuring its relevance, applicability, and refinement."
+        "body": "Pilot the training in Bulgaria and Portugal, evaluating its effectiveness through feedback from SE professionals and employers to ensure long-term relevance, applicability, and refinement."
       },
       "event": {
         "title": "World Café Session (WCS)",
-        "body": "Organize a World Café Session (WCS) with 20 to 25 participants — including SE professionals, employers, and people with disabilities or incapacities — to develop and refine effective employer engagement approaches."
+        "body": "Organise a World Café Session (WCS) with 20–25 stakeholders, including SE professionals, employers, and individuals with disabilities, to collaboratively refine approaches to effective employer engagement."
       },
       "dissemination": {
         "title": "Dissemination",
-        "body": "Disseminate and amplify project results through multiplier events and a dedicated online campaign, ensuring broad adoption of the training program and the Good Practices Manual."
+        "body": "Disseminate and scale up project results through multiplier events and a dedicated online campaign, ensuring broad uptake of the training programme and the BPH."
       }
     }
   },
   "targetGroups": {
     "title": "Target Groups",
-    "intro": "The BE AWARE project aims to improve employability outcomes for people with disabilities or incapacities by strengthening the capacity of Supported Employment services in Bulgaria and Portugal. To achieve this goal, several key target groups are involved, directly and indirectly:",
+    "intro": "The BE AWARE project aims to enhance employment outcomes for individuals with disabilities by strengthening the capacity of Supported Employment (SE) services across Bulgaria and Portugal. To achieve this, several key target groups are directly and indirectly involved.",
     "groups": {
       "employmentSupportProfessionals": {
-        "title": "Supported Employment Professionals",
+        "title": "Supported Employment (SE) Professionals",
         "body": {
-          "paragraph1": "Direct target group composed of job coaches, employment consultants, social workers, and vocational counselors who support people with disabilities or incapacities in obtaining and maintaining employment. Many of these professionals lack structured training in employer engagement strategies and face difficulties in promoting candidates and building sustained partnerships with employers.",
-          "paragraph2": "BE AWARE responds to this need by developing and implementing a blended training program for 30 Supported Employment professionals, equipping them with practical employer engagement strategies and greater confidence in performing their duties."
+          "paragraph1": "A direct target group comprising job coaches, employment consultants, social workers, and vocational counsellors who support individuals with disabilities in securing and maintaining employment. Many lack structured training in employer engagement and face difficulties in promoting jobseekers and establishing employer partnerships.",
+          "paragraph2": "BE AWARE addresses this by developing and implementing a blended training programme for 30 SE professionals, equipping them with practical employer engagement strategies and increased confidence."
         }
       },
       "employers": {
         "title": "Employers",
         "body": {
-          "paragraph1": "Second direct target group including public entities, private companies, and associations that employ, or have the potential to employ, people with disabilities or incapacities. Many employers demonstrate uncertainty regarding inclusive recruitment, often related to concerns about productivity, reasonable accommodations, legal obligations, or stigma.",
-          "paragraph2": "To overcome these barriers, the project develops a Good Practices Manual, which gathers success stories, practical guidelines, and strategies for inclusive recruitment. Employers also participate in the World Café Session, ensuring that project results respond to the effective needs of the labor market."
+          "paragraph1": "A second direct target group including public bodies, private companies, and associations employing or potentially employing individuals with disabilities. Employers often express uncertainty regarding inclusive recruitment, including concerns about productivity, reasonable adjustments, legal matters, or stigma.",
+          "paragraph2": "To address these barriers, the project develops a Best Practice Handbook (BPH) containing success stories, actionable guidance, and strategies for disability-inclusive recruitment. Employers participate in the World Café Session to ensure outputs reflect real labour market needs."
         }
       },
       "disabledPersons": {
-        "title": "People with Disabilities or Incapacities",
+        "title": "Individuals with Disabilities",
         "body": {
-          "paragraph1": "Indirect beneficiaries and central focus of the project. With only 50.8% of people with disabilities employed in the European Union, it is essential to strengthen existing support services. BE AWARE improves the quality of Supported Employment intervention, increasing the likelihood of successful job placements.",
-          "paragraph2": "People with disabilities or incapacities participate through specific questionnaires and in the World Café Session, ensuring that project results reflect their needs and priorities."
+          "paragraph1": "Indirect beneficiaries and the ultimate focus of the project. With only 50.8% of disabled individuals in employment across the EU, strengthened support services are vital. BE AWARE improves the quality of SE provision, increasing the likelihood of successful job placements.",
+          "paragraph2": "Disabled individuals contribute through targeted questionnaires and participation in the WCS, ensuring project outcomes align with their needs."
         }
       }
     },
-    "conclusion": "Through this integrated approach, BE AWARE strengthens the capacity of Supported Employment professionals, addresses employer concerns, and contributes to removing barriers to employment for people with disabilities or incapacities."
+    "conclusion": "Through this integrated approach, BE AWARE strengthens SE professionals’ capacity, addresses employer concerns, and actively removes employment barriers for individuals with disabilities."
   },
   "activities": {
     "title": "Activities",
-    "intro": "The BE AWARE project develops, validates, and disseminates high-quality resources to address the skills gap in employer engagement strategies among Supported Employment professionals in Bulgaria and Portugal. The activities are structured into four main components.",
+    "intro": "The BE AWARE project develops, validates, and disseminates high-quality resources to address the employer engagement skills gap among Supported Employment (SE) professionals in Bulgaria and Portugal. Activities are structured around four core components.",
     "activities": {
       "trainingEmployers": {
-        "title": "Training for Employer Engagement",
+        "title": "Training for Engaging Employers",
         "body": {
           "paragraph1": {
-            "intro": "Development of a blended training program and complementary materials designed to strengthen the skills of Supported Employment professionals in employer engagement strategies. Co-authored by partners and Supported Employment professionals, the training covers:",
-            "bullet1": "networking and cold calling strategies",
-            "bullet2": "building and maintaining partnerships with employers",
-            "bullet3": "understanding employer needs and their recruitment processes",
+            "intro": "Development of a blended training programme and accompanying resources to strengthen SE professionals’ employer engagement competencies. Co-designed by partners and SE professionals, the training covers:",
+            "bullet1": "networking and cold-calling strategies",
+            "bullet2": "building and sustaining employer partnerships",
+            "bullet3": "understanding employer needs and recruitment processes",
             "bullet4": "effective communication",
-            "bullet5": "fundamental principles of national labor law related to the employment of people with disabilities or incapacities."
+            "bullet5": "fundamentals of national labour law related to disability employment"
           }
         }
       },
       "pivotTraining": {
         "title": "Pilot Training",
         "body": {
-          "paragraph1": "Implementation of the training program with 30 Supported Employment professionals (15 per country), evaluating its relevance, applicability, and effectiveness.",
-          "paragraph2": "Evaluation is conducted through pre- and post-training questionnaires, practical exercises, and application in real-world contexts, ensuring that the final methodology is robust and transferable to different Supported Employment contexts."
+          "paragraph1": "Implementation of the training package with 30 SE professionals (15 per country) to assess its practicality, relevance, and effectiveness.",
+          "paragraph2": "Evaluation through pre- and post-training questionnaires, practical assignments, and real-life application ensures the final methodology is robust and transferable across Supported Employment settings."
         }
       },
       "manualGoodPractices": {
-        "title": "Good Practices Manual",
+        "title": "Best Practice Handbook (BPH)",
         "body": {
-          "paragraph1": "Development of a comprehensive manual addressed to employers and Supported Employment professionals, gathering successful inclusion stories, proven strategies, and practical guidelines. The contents result from needs analysis and are refined in a World Café Session with 20 to 25 stakeholders."
+          "paragraph1": "Development of a comprehensive handbook for employers and SE professionals showcasing inclusion success stories, proven strategies, and actionable advice. Content is informed by needs analysis and refined through a World Café Session involving 20–25 stakeholders, ensuring diverse and realistic perspectives."
         }
       },
       "dissemination": {
-        "title": "Dissemination and Valorization",
+        "title": "Dissemination and Scale-Up",
         "body": {
           "paragraph1": {
-            "intro": "Promotion of project results — including the training program and the Good Practices Manual — through:",
+            "intro": "Promotion of project results, including the training package and BPH, through:",
             "bullet1": "two multiplier events: BE AWARE Day Portugal and BE AWARE Day Bulgaria",
-            "bullet2": "a dedicated online campaign, focused on promoting inclusive recruitment and raising employer awareness",
-            "outro": "Through these activities, BE AWARE strengthens the capacity of Supported Employment professionals, supports employers in adopting inclusive practices, and contributes to structural and lasting improvements in employment opportunities for people with disabilities or incapacities."
+            "bullet2": "a dedicated online campaign promoting disability-inclusive hiring and employer awareness",
+            "outro": "Through these activities, the project builds SE professionals’ capacity, supports employers in adopting inclusive practices, and contributes to long-term systemic improvements in employment opportunities for individuals with disabilities."
           }
         }
       }
@@ -125,86 +124,72 @@
   },
   "results": {
     "title": "Results",
-    "intro": "The BE AWARE project develops, validates, and disseminates high-quality resources to address the skills gap in employer engagement strategies among Supported Employment professionals in Bulgaria and Portugal. The activities are structured into four main components.",
+    "intro": "The BE AWARE project generates concrete outcomes that strengthen the professional inclusion of individuals with disabilities by enhancing the capacity of SE professionals and employers.",
     "subtitle1": "Tangible Results",
     "bullets": {
       "bullet1": {
         "title": "Project Website",
-        "body": "Digital platform providing information about the project, news, and centralized access to all resources."
+        "body": "A digital platform providing project information, news, and centralised access to resources."
       },
       "bullet2": {
         "title": "Informational Materials",
-        "body": "Brochures, flyers, posters, and communication templates supporting project visibility and dissemination."
+        "body": "Brochures, leaflets, posters, and templates supporting visibility and outreach."
       },
       "bullet3": {
-        "title": "Blended Training Program",
-        "body": "Structured training package integrating theoretical content, practical tools, and face-to-face and online components, focused on employer engagement strategies."
+        "title": "Blended Training Programme",
+        "body": "A structured training package including theoretical content, practical tools, and blended learning components focused on employer engagement."
       },
       "bullet4": {
         "title": "Pilot Training Activity Report",
-        "body": "Document presenting and analyzing the results of the pilot implementation with 30 Supported Employment professionals, evaluating the relevance, effectiveness, and transferability of the methodology."
+        "body": "Documentation and evaluation of the pilot implementation with 30 SE professionals, assessing relevance, effectiveness, and transferability."
       },
       "bullet5": {
-        "title": "Good Practices Manual",
-        "body": "Comprehensive resource gathering success stories, proven strategies, and inclusive recruitment and retention practices, refined with contributions from the World Café Session."
+        "title": "Best Practice Handbook (BPH)",
+        "body": "A comprehensive resource compiling success stories, proven strategies, and disability-inclusive recruitment and retention practices, refined through the WCS."
       },
       "bullet6": {
         "title": "World Café Session (WCS)",
-        "body": "Collaborative session with 20 to 25 stakeholders — employers, Supported Employment professionals, and people with disabilities — contributing directly to defining the contents of the Good Practices Manual."
+        "body": "A collaborative session with 20–25 stakeholders—employers, SE professionals, and individuals with disabilities—informing the BPH."
       },
       "bullet7": {
-        "title": "Promotional Video",
-        "body": "Animated video for online dissemination and raising awareness about inclusive employment of people with disabilities."
+        "title": "Promotional Video Spot",
+        "body": "An animated video for online dissemination and awareness-raising on disability-inclusive employment."
       },
       "bullet8": {
         "title": "Online Awareness Campaign",
-        "body": "Digital campaign dedicated to expanding the project's reach and promoting inclusive hiring practices among employers."
+        "body": "A dedicated campaign to expand project reach and encourage inclusive hiring."
       },
       "bullet9": {
         "title": "Multiplier Events",
-        "body": "Two large-scale events — BE AWARE Day Portugal and BE AWARE Day Bulgaria — designed to present project results and support their national dissemination."
+        "body": "Two large-scale events—BE AWARE Day Portugal and BE AWARE Day Bulgaria—to present outcomes and support national-level scale-up."
       },
       "bullet10": {
         "title": "Stakeholder Network",
-        "body": "Reinforced network of organizations and professionals dedicated to promoting labor accessibility and inclusion of people with disabilities in Bulgaria and Portugal."
+        "body": "A strengthened multi-country network focused on promoting work accessibility and inclusion for individuals with disabilities."
       }
     },
     "subtitle2": "Expected Impact",
     "bullets2": {
       "bullet1": {
-        "title": "Strengthened Capacity of Supported Employment Professionals",
-        "body": "Supported Employment professionals acquire better employer engagement skills and greater confidence, contributing to more effective employability support practices."
+        "title": "Enhanced SE Professional Capacity",
+        "body": "SE professionals gain improved employer engagement skills and increased confidence, contributing to more effective Supported Employment practices."
       },
       "bullet2": {
         "title": "Increased Employment Opportunities",
-        "body": "More effective interaction with employers and reduced hiring barriers promote better labor market access for people with disabilities."
+        "body": "Better employer engagement and reduced hiring barriers lead to improved labour market access for individuals with disabilities."
       },
       "bullet3": {
-        "title": "Structural and Long-Term Improvement",
-        "body": "Employers gain access to practical tools — such as the Good Practices Manual — supporting inclusive and sustainable recruitment practices."
+        "title": "Long-Term Systemic Improvement",
+        "body": "Employers receive practical tools (e.g., the BPH) supporting sustainable, inclusive recruitment practices."
       },
       "bullet4": {
         "title": "Policy Alignment and Transferability",
-        "body": "The project supports national implementation of the European Strategy for the Rights of Persons with Disabilities 2021–2030 and the European Package for the Employment of Persons with Disabilities. Results are designed to be transferable to other European contexts."
+        "body": "The project supports national implementation of the EU Strategy for the Rights of Persons with Disabilities 2021–2030 and the EU Disability Employment Package. Outputs are designed for transferability across Europe."
       },
       "bullet5": {
-        "title": "Sustained Availability of Resources",
-        "body": "The training program and Good Practices Manual remain accessible through partner platforms and international sector networks, ensuring continuous use and adaptation beyond the project duration."
+        "title": "Sustained Resource Availability",
+        "body": "The training package and BPH remain accessible through partner and international platforms, promoting long-term adaptation and use beyond the project’s duration."
       }
-    },
-    "stats": {
-      "professionals": "500+",
-      "professionalsLabel": "Trained professionals",
-      "partners": "50+",
-      "partnersLabel": "Partner organizations",
-      "countries": "15",
-      "countriesLabel": "European countries"
-    },
-    "deliverables": {
-      "title": "Project Deliverables",
-      "item1": "Comprehensive training curriculum",
-      "item2": "Good practice guides",
-      "item3": "Digital toolkit with resources"
     }
   },
   "news": {
@@ -286,42 +271,42 @@
       "consultis": {
         "name": "Consultis",
         "aboutTitle": "About",
-        "paragraph1": "CONSULTIS is an organization founded in 2005, based in Vila Nova de Gaia, Portugal, specializing in business consulting, innovation, and Supported Employment. An active member of the Portuguese Association for Supported Employment, it manages a Supported Employment resource center in Porto, providing support to companies, professionals, and job seekers, particularly disadvantaged groups in the labor market, such as people with disabilities, youth at risk of social exclusion, migrants, and long-term unemployed.",
-        "paragraph2": "In partnership with companies, training entities, educational institutions, social sector organizations, and public entities, CONSULTIS develops solutions tailored to labor market needs, promoting effective strategies for professional and social inclusion. Through consulting, training, and supported employment services, it supports the implementation of more inclusive and sustainable practices, ensuring continuous monitoring of employers and professionals in the labor market integration process.",
+        "paragraph1": "CONSULTIS is a Portuguese company established in 2005 and headquartered in Vila Nova de Gaia, specialising in business consultancy, innovation, and Supported Employment. As an active member of the Portuguese Association of Supported Employment, it operates a Resource Centre in Porto, where it supports employers, professionals, and jobseekers — with a particular focus on groups facing disadvantage in the labour market, including disabled individuals, young people at risk of exclusion, migrants, and the long-term unemployed.",
+        "paragraph2": "Working in partnership with businesses, training entities, educational institutions, social organisations, and public bodies, CONSULTIS develops tailored solutions that respond to labour market demands, promoting effective strategies for professional and social inclusion. Through its consultancy services, training programmes, and Supported Employment initiatives, the organisation supports the implementation of inclusive and sustainable employment practices, ensuring continuous support for both employers and professionals throughout the integration process.",
         "paragraph3": "Learn more at www.consultis.pt",
         "contactTitle": "Contact Information",
         "email": "info@een-network.eu",
-        "website": "https://www.een-network.eu",
+        "website": "https://www.consultis.pt",
         "address": "Rue de la Loi 123, 1040 Brussels, Belgium"
       },
       "rumo": {
         "aboutTitle": "About",
-        "paragraph1": "RUMO, Cooperativa de Solidariedade Social, Crl, is a non-profit organization founded in 1981 and based in Barreiro, Portugal. Its mission is to promote the educational, professional, and community inclusion of disadvantaged people, from the perspective of the Supported Employment Movement. A founding member of the Portuguese Association for Supported Employment, RUMO operates in areas such as vocational training, labor market integration, and support for vulnerable groups, such as people with disabilities. Networking is essential for RUMO's action, as partnerships allow for more effective management of responses. Through these partnerships, different people, teams, and organizations collaborate to respond to common needs and challenges.",
-        "paragraph2": "RUMO collaborates in a network with employers, public institutions, civil society organizations, vocational training centers, and self-help groups, promoting awareness of the rights of disadvantaged people or those at risk of social exclusion, and offering support for labor market integration, professional training, and other services.",
+        "paragraph1": "RUMO, Cooperativa de Solidariedade Social, Crl, is a non-profit organisation  founded in 1981 and based in Barreiro, Portugal. Its mission is to promote educational, professional, and community inclusion for disadvantaged individuals, within the framework of the Supported Employment Movement. A founding member of the Portuguese Association for Supported Employment, RUMO works in areas such as vocational training, labour market integration, and support for vulnerable groups, including people with disabilities or impairments. Networking is essential for the development of Rumo, as partnerships are key to effective management. Through partnerships, different individuals, teams, and organisations can work together to address common interests and concerns.",
+        "paragraph2": "RUMO collaborates within a network of employers, public institutions, civil society organisations, vocational training centres, and self-advocacy groups, raising awareness of the rights of disadvantaged individuals and those at risk of social exclusion, offering support for labour market integration, professional training, and other services. ",
         "paragraph3": "Learn more at https://www.rumo.org.pt/",
         "contactTitle": "Contact Information",
         "email": "contact@iwf-portugal.org",
-        "website": "https://www.iwf-portugal.org",
+        "website": "https://www.rumo.org.pt/",
         "address": "Avenida da Liberdade 245, 1250-143 Lisbon, Portugal"
       },
       "nfedp": {
         "aboutTitle": "About",
-        "paragraph1": "National Federation of Employers of Disabled People (NFEDP) is a leading organization in Bulgaria representing the interests of employers committed to the inclusion of people with disabilities in the labor market. With over 15 years of experience, NFEDP promotes inclusive employment practices, advocates for equal opportunities, and contributes to the development of national policies in the field of employability and vocational rehabilitation.",
-        "paragraph2": "NFEDP works closely with companies, public entities, and civil society organizations to eliminate barriers to professional inclusion, improve workplace accessibility, and strengthen employer confidence in recruitment processes for people with disabilities. Its activities include business consulting, awareness campaigns, labor market studies, and participation in national and European strategic initiatives dedicated to inclusive employment.",
-        "paragraph3": "Learn more at https://www.nfri.bg",
+        "paragraph1": "The National Federation of Employers of Disabled People (NFEDP) is a leading Bulgarian organisation representing the interests of employers who actively support the labour-market inclusion of persons with disabilities. With more than 15 years of experience, NFEDP promotes disability-inclusive employment practices, advocates for equal opportunities, and contributes to national policy development in the field of employment and vocational rehabilitation.",
+        "paragraph2": "NFEDP works closely with companies, public authorities, and civil society stakeholders to remove structural barriers, improve workplace accessibility, and foster employer confidence in hiring disabled workers. Its activities include employer counselling, awareness-raising, labour-market research, and participation in national and European strategic initiatives promoting inclusive employment.",
+        "paragraph3": "Learn more at https://www.nfri.bg ",
         "contactTitle": "Contact Information",
         "email": "research@csi-france.fr",
-        "website": "https://www.csi-france.fr",
+        "website": "Learn more at https://www.nfri.bg ",
         "address": "15 Rue des Archives, 75004 Paris, France"
       },
       "bist": {
         "aboutTitle": "About",
-        "paragraph1": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST) is a Bulgarian non-profit organization dedicated to promoting inclusive support services and improving employment opportunities for people with disabilities. BIST operates at the intersection of education, social support, and labor market inclusion, developing initiatives that empower disadvantaged groups and strengthen the intervention of professionals and entities working in the field of Supported Employment.",
-        "paragraph2": "The organization facilitates awareness actions, professional training, community initiatives, and collaboration with employers, contributing to reducing stigma, increasing confidence in inclusive hiring, and promoting inclusive and accessible recruitment practices. BIST also integrates national and European networks dedicated to defending the rights of people with disabilities and promoting inclusive labor market reforms.",
+        "paragraph1": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST) is a Bulgarian non-profit organisation dedicated to promoting inclusive support services and improving employment outcomes for individuals with disabilities. BIST works at the intersection of education, social support, and labour market inclusion, developing initiatives that empower disadvantaged groups and strengthen the capacity of professionals and organisations working in Supported Employment. ",
+        "paragraph2": "The organisation engages in awareness-raising, professional development activities, community-based interventions, and collaboration with employers to address stigma, increase disability confidence, and promote accessible recruitment practices. BIST also contributes to national and European networks advocating for disability rights and inclusive labour market reforms.",
         "paragraph3": "Learn more at https://inclusionteam.org/",
         "contactTitle": "Contact Information",
         "email": "info@asl-solutions.de",
-        "website": "https://www.asl-solutions.de",
+        "website": "Learn more at https://inclusionteam.org/",
         "address": "Friedrichstraße 95, 10117 Berlin, Germany"
       }
     }
