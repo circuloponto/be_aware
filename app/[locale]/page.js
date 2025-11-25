@@ -1,14 +1,14 @@
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { FiTarget } from 'react-icons/fi';
 import { TiGroup } from 'react-icons/ti';
 import { MdVolunteerActivism } from 'react-icons/md';
 import { CgCompressRight } from 'react-icons/cg';
 
-export default async function Home({params}) {
-  const {locale} = await params;
-  const t = await getTranslations('home');
-  
+export default async function Home({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations('about');
+
   return (
     <div className="relative overflow-hidden animate-slide-up">
       {/* Hero Section with animated background */}
@@ -29,17 +29,17 @@ export default async function Home({params}) {
                 <div className="h-1 w-12 bg-gradient-to-r from-[#F1C424] to-[#4681BC] rounded-full"></div>
               </div>
             </div>
-            
+
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black">
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] via-[#4681BC] to-[#2C5282] leading-tight">
                 {t('title')}
               </span>
             </h1>
-            
+
             <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#2C5282] max-w-4xl mx-auto leading-tight">
               {t('subtitle')}
             </p>
-            
+
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               {t('description')}
             </p>
@@ -69,6 +69,18 @@ export default async function Home({params}) {
           <svg className="w-6 h-6 text-[#4681BC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
+        </div>
+      </section>
+
+      {/* About Text Section */}
+      <section className="py-16 bg-white relative">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed animate-fade-in">
+            {t('paragraph1')}
+          </p>
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed animate-fade-in delay-100">
+            {t('paragraph2')}
+          </p>
         </div>
       </section>
 

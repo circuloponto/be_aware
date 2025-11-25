@@ -1,11 +1,11 @@
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 
-export default async function PartnersPage({params}) {
-  const {locale} = await params;
+export default async function PartnersPage({ params }) {
+  const { locale } = await params;
   const t = await getTranslations('partners');
 
-  const partnerKeys = ['een', 'iwf', 'csi', 'asl'];
+  const partnerKeys = ['Consultis', 'Rumo', 'nfedp', 'bist'];
 
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 animate-slide-up" style={{ paddingTop: '140px' }}>
@@ -25,8 +25,8 @@ export default async function PartnersPage({params}) {
             const role = t(`${base}.role`);
 
             return (
-              <Link 
-                key={key} 
+              <Link
+                key={key}
                 href={`/${locale}/partners/${key}`}
                 className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#2C5282] p-8 group cursor-pointer hover:-translate-y-1"
               >

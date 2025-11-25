@@ -1,29 +1,31 @@
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
-import {notFound} from 'next/navigation';
+import { notFound } from 'next/navigation';
 
-export default async function PartnerDetailPage({params}) {
-  const {locale, slug} = await params;
+export default async function PartnerDetailPage({ params }) {
+  const { locale, slug } = await params;
   const t = await getTranslations('partners');
-  
+
   // Valid partner slugs
-  const validPartners = ['een', 'iwf', 'csi', 'asl'];
-  
+  const validPartners = ['Consultis', 'Rumo', 'nfedp', 'bist'];
+
   // Check if partner exists
   if (!validPartners.includes(slug)) {
     notFound();
   }
 
-  const base = `details.${slug}`;
+  // Lowercase slug for details lookup as keys are lowercase in JSON
+  const detailsSlug = slug.toLowerCase();
+  const base = `details.${detailsSlug}`;
   const name = t(`list.${slug}.name`);
   const country = t(`list.${slug}.country`);
   const role = t(`list.${slug}.role`);
-  
+
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8" style={{ paddingTop: '140px' }}>
       <div className="max-w-4xl mx-auto">
         {/* Back button */}
-        <Link 
+        <Link
           href={`/${locale}/partners`}
           className="inline-flex items-center text-[#4681BC] hover:text-[#2C5282] font-semibold mb-8 transition-colors group"
         >
@@ -53,42 +55,11 @@ export default async function PartnerDetailPage({params}) {
           <h2 className="text-3xl font-bold text-[#2C5282] mb-6 border-l-4 border-[#4681BC] pl-4">
             {t(`${base}.aboutTitle`)}
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            {t(`${base}.about`)}
-          </p>
-        </div>
-
-        {/* Mission section */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-[#2C5282] mb-6 border-l-4 border-[#4681BC] pl-4">
-            {t(`${base}.missionTitle`)}
-          </h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            {t(`${base}.mission`)}
-          </p>
-        </div>
-
-        {/* Contribution section */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-[#2C5282] mb-6 border-l-4 border-[#4681BC] pl-4">
-            {t(`${base}.contributionTitle`)}
-          </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            {t(`${base}.contribution`)}
-          </p>
-          
-          {/* Key activities */}
-          <h3 className="text-xl font-bold text-[#2C5282] mb-4 mt-8">
-            {t(`${base}.activitiesTitle`)}
-          </h3>
-          <ul className="space-y-3">
-            {[1, 2, 3].map((num) => (
-              <li key={num} className="flex items-start">
-                <span className="text-[#F1C424] mr-3 text-xl">✓</span>
-                <span className="text-gray-700 text-lg">{t(`${base}.activity${num}`)}</span>
-              </li>
-            ))}
-          </ul>
+          <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+            <p>{t(`${base}.paragraph1`)}</p>
+            <p>{t(`${base}.paragraph2`)}</p>
+            <p className="font-medium text-[#4681BC]">{t(`${base}.paragraph3`)}</p>
+          </div>
         </div>
 
         {/* Contact section */}
@@ -105,9 +76,9 @@ export default async function PartnerDetailPage({params}) {
             </p>
             <p>
               <span className="font-semibold">🌐 Website:</span>{' '}
-              <a 
-                href={t(`${base}.website`)} 
-                target="_blank" 
+              <a
+                href={t(`${base}.website`)}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#F1C424] transition-colors underline"
               >
@@ -127,9 +98,9 @@ export default async function PartnerDetailPage({params}) {
 
 // Generate static params for all partners
 export async function generateStaticParams() {
-  const partners = ['een', 'iwf', 'csi', 'asl'];
+  const partners = ['Consultis', 'Rumo', 'nfedp', 'bist'];
   const locales = ['en', 'pt', 'nl'];
-  
+
   return locales.flatMap(locale =>
     partners.map(slug => ({
       locale,

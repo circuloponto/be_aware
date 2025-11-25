@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "Início",
+    "about": "Sobre",
     "objectives": "Objetivos",
     "targetGroups": "Grupos-alvo",
     "activities": "Atividades",
@@ -9,13 +9,15 @@
     "news": "Notícias",
     "contacts": "Contactos"
   },
-  "home": {
+  "about": {
     "title": "BE AWARE",
-    "subtitle": "Projeto de Emprego Apoiado",
-    "description": "Bem-vindo ao projeto BE AWARE - uma iniciativa financiada pela UE dedicada à promoção do emprego apoiado e à criação de ambientes de trabalho inclusivos.",
+    "subtitle": "Bem-vindo ao BE AWARE",
     "euFunded": "Projeto Financiado pela UE",
+    "description": "Capacitar Profissionais. Envolver Empregadores. Promover a Inclusão.",
     "discoverMission": "Descubra a Nossa Missão",
     "getInTouch": "Entre em Contacto",
+    "paragraph1": "O BE AWARE é um projeto Erasmus+ que visa reforçar as oportunidades de emprego para pessoas com deficiência ou incapacidade em Portugal e na Bulgária. O projeto reforça as competências de envolvimento de empregadores dos profissionais de Emprego Apoiado e disponibiliza aos empregadores ferramentas práticas para promover processos de recrutamento e integração laboral mais inclusivos.",
+    "paragraph2": "Através de um programa de formação em regime misto, de um Manual de Boas Práticas, de uma World Café Session colaborativa e de eventos nacionais de disseminação em ambos os países, o BE AWARE contribui para o desenvolvimento de práticas inclusivas no local de trabalho e apoia processos de colocação profissional sustentáveis para pessoas com deficiência ou incapacidade, alinhando-se com as prioridades europeias no domínio da inclusão e do acesso ao mercado de trabalho.",
     "exploreWork": "Explore o Nosso Trabalho",
     "learnMore": "Saiba mais",
     "objectives": "Objetivos",
@@ -24,73 +26,171 @@
     "results": "Resultados"
   },
   "objectives": {
-    "title": "Os Nossos Objetivos",
-    "intro": "O projeto BE AWARE pretende criar oportunidades de emprego sustentáveis e promover locais de trabalho inclusivos em toda a Europa.",
+    "title1": "Objetivo Geral",
+    "intro": "O projeto BE AWARE visa reforçar as oportunidades de emprego para pessoas com deficiência ou incapacidade, fortalecendo as competências de envolvimento de empregadores dos profissionais de Emprego Apoiado na Bulgária e em Portugal. Esta abordagem responde diretamente a uma lacuna crítica de competências no domínio da formação profissional e contribui para a construção de um mercado de trabalho europeu mais inclusivo.",
+    "title2": "Objetivos Específicos",
     "cards": {
-      "inclusiveEmployment": {
-        "title": "Promover o Emprego Inclusivo",
-        "body": "Criar percursos sustentáveis de emprego para pessoas que enfrentam barreiras no mercado de trabalho."
+      "supportedEmploymentProfessionals": {
+        "title": "30 profissionais de Emprego Apoiado",
+        "body": "Desenvolver e implementar um programa de formação em regime misto dirigido a 30 profissionais de Emprego Apoiado, dotando-os de estratégias práticas e orientadas para envolvimento de empregadores, com vista a melhorar as colocações profissionais de pessoas com deficiência ou incapacidade."
       },
-      "buildCapacity": {
-        "title": "Reforçar Capacidades",
-        "body": "Reforçar as competências dos profissionais de apoio ao emprego e dos empregadores."
+      "employers": {
+        "title": "Manual de Boas Práticas para empregadores",
+        "body": "Criar um Manual de Boas Práticas dirigido a empregadores, reunindo histórias de sucesso reais, estratégias de recrutamento acionáveis e orientações para práticas de contratação inclusivas."
       },
-      "collaboration": {
-        "title": "Fomentar a Colaboração",
-        "body": "Desenvolver parcerias sólidas entre organizações, empregadores e comunidades."
+      "capacitation": {
+        "title": "Formação",
+        "body": "Pilotar a formação na Bulgária e em Portugal, avaliando a sua eficácia com base no feedback dos profissionais de Emprego Apoiado e dos empregadores, garantindo a sua relevância, aplicabilidade e aperfeiçoamento."
+      },
+      "event": {
+        "title": "World Café Session (WCS)",
+        "body": "Organizar uma World Café Session (WCS) com 20 a 25 participantes — incluindo profissionais de EA, empregadores e pessoas com deficiência ou incapacidade — para desenvolver e aperfeiçoar abordagens eficazes de envolvimento de empregadores."
+      },
+      "dissemination": {
+        "title": "Disseminação",
+        "body": "Disseminar e ampliar os resultados do projeto através de eventos multiplicadores e de uma campanha online dedicada, assegurando uma ampla adoção do programa de formação e do Manual de Boas Práticas."
       }
     }
   },
   "targetGroups": {
     "title": "Grupos-alvo",
-    "intro": "O nosso projeto centra-se em apoiar diversos grupos no acesso a oportunidades de emprego significativas.",
+    "intro": "O projeto BE AWARE visa melhorar os resultados de empregabilidade de pessoas com deficiência ou incapacidade, reforçando a capacidade dos serviços de Emprego Apoiado na Bulgária e em Portugal. Para concretizar este objetivo, vários grupos-alvo principais estão envolvidos, direta e indiretamente:",
     "groups": {
-      "employmentSupportProfessionals": "Profissionais de apoio ao emprego",
-      "peopleWithDisabilities": "Pessoas com deficiência",
-      "employers": "Empregadores",
-      "trainingOrganizations": "Organizações de formação",
-      "policyMakers": "Decisores políticos",
-      "socialServiceAgencies": "Serviços de ação social"
-    }
+      "employmentSupportProfessionals": {
+        "title": "Profissionais de Emprego Apoiado",
+        "body": {
+          "paragraph1": "Grupo-alvo direto composto por job coaches, consultores de emprego, assistentes sociais e orientadores vocacionais que apoiam pessoas com deficiência ou incapacidade na obtenção e manutenção de emprego. Muitos destes profissionais não dispõem de formação estruturada em estratégias de envolvimento de empregadores e enfrentam dificuldades na promoção de candidatos e na construção de parcerias sustentadas com entidades empregadoras.",
+          "paragraph2": "O BE AWARE responde a esta necessidade através do desenvolvimento e implementação de um programa de formação em regime misto para 30 profissionais de Emprego Apoiado, dotando-os de estratégias práticas de envolvimento de empregadores e de maior confiança no exercício das suas funções."
+        }
+      },
+      "employers": {
+        "title": "Empregadores",
+        "body": {
+          "paragraph1": "Segundo grupo-alvo direto que inclui entidades públicas, empresas privadas e associações que empregam, ou têm potencial para empregar, pessoas com deficiência ou incapacidade. Muitos empregadores demonstram incerteza face ao recrutamento inclusivo, frequentemente relacionada com preocupações sobre produtividade, adaptações razoáveis, obrigações legais ou estigma.",
+          "paragraph2": "Para ultrapassar estas barreiras, o projeto desenvolve um Manual de Boas Práticas, que reúne histórias de sucesso, orientações práticas e estratégias para um recrutamento inclusivo. Os empregadores participam também na World Café Session, garantindo que os resultados do projeto respondem às necessidades efetivas do mercado de trabalho."
+        }
+      },
+      "disabledPersons": {
+        "title": "Pessoas com Deficiência ou Incapacidade",
+        "body": {
+          "paragraph1": "Beneficiários indiretos e foco central do projeto. Com apenas 50,8% das pessoas com deficiência empregadas na União Europeia, é essencial reforçar os serviços de apoio existentes. O BE AWARE melhora a qualidade da intervenção em Emprego Apoiado, aumentando a probabilidade de colocações profissionais bem-sucedidas.",
+          "paragraph2": "As pessoas com deficiência ou incapacidade participam através de questionários específicos e na World Café Session, garantindo que os resultados do projeto refletem as suas necessidades e prioridades."
+        }
+      }
+    },
+    "conclusion": "Através desta abordagem integrada, o BE AWARE reforça a capacidade dos profissionais de Emprego Apoiado, responde às preocupações dos empregadores e contribui para remover barreiras ao emprego das pessoas com deficiência ou incapacidade."
   },
   "activities": {
     "title": "Atividades",
-    "intro": "Conheça o conjunto de atividades e iniciativas que implementamos para alcançar os nossos objetivos.",
-    "training": {
-      "title": "Formação e Reforço de Capacidades",
-      "workshops": "Oficinas de desenvolvimento profissional",
-      "employerAwareness": "Sessões de sensibilização para empregadores",
-      "skillsPrograms": "Programas de desenvolvimento de competências"
-    },
-    "research": {
-      "title": "Investigação e Inovação",
-      "effectiveModels": "Investigação sobre modelos eficazes de emprego",
-      "toolsResources": "Desenvolvimento de ferramentas e recursos inovadores",
-      "labourTrends": "Análise das tendências do mercado de trabalho"
-    },
-    "networking": {
-      "title": "Networking e Colaboração",
-      "conferences": "Conferências e seminários internacionais",
-      "knowledgeExchange": "Troca de conhecimentos entre parceiros",
-      "communities": "Comunidades de prática online"
+    "intro": "O projeto BE AWARE desenvolve, valida e dissemina recursos de elevada qualidade para responder à lacuna de competências nas estratégias de envolvimento de empregadores entre profissionais de Emprego Apoiado na Bulgária e em Portugal. As atividades estruturam-se em quatro componentes principais.",
+    "activities": {
+      "trainingEmployers": {
+        "title": "Formação para o Envolvimento de Empregadores",
+        "body": {
+          "paragraph1": {
+            "intro": "Desenvolvimento de um programa de formação em regime misto e de materiais complementares destinados a reforçar as competências dos profissionais de Emprego Apoiado no domínio das estratégias de envolvimento de empregadores. Desenvolvida em coautoria pelos parceiros e por profissionais de Emprego Apoiado, a formação abrange:",
+            "bullet1": "estratégias de networking e cold calling",
+            "bullet2": "construção e manutenção de parcerias com empregadores",
+            "bullet3": "compreensão das necessidades dos empregadores e dos seus processos de recrutamento",
+            "bullet4": "comunicação eficaz",
+            "bullet5": "princípios fundamentais do direito laboral nacional relacionados com o emprego de pessoas com deficiência ou incapacidade."
+          }
+        }
+      },
+      "pivotTraining": {
+        "title": "Formação Piloto",
+        "body": {
+          "paragraph1": "Implementação do programa de formação com 30 profissionais de Emprego Apoiado (15 por país),avaliando a sua pertinência, aplicabilidade e eficácia.",
+          "paragraph2": "A avaliação é realizada através de questionários pré e pós-formação, exercícios práticos e aplicação em contextos reais, garantindo que a metodologia final é robusta e transferível para diferentes contextos de Emprego Apoiado."
+        }
+      },
+      "manualGoodPractices": {
+        "title": "Manual de Boas Práticas",
+        "body": {
+          "paragraph1": "Elaboração de um manual abrangente dirigido a empregadores e profissionais de Emprego Apoiado, reunindo histórias de inclusão bem-sucedidas, estratégias comprovadas e orientações práticas. Os conteúdos resultam da análise de necessidades e são refinados numa World Café Session com 20 a 25 stakeholders"
+        }
+      },
+      "dissemination": {
+        "title": "Disseminação e Valorização",
+        "body": {
+          "paragraph1": {
+            "intro": "Promoção dos resultados do projeto — incluindo o programa de formação e o Manual de Boas Práticas — através de:",
+            "bullet1": "dois eventos multiplicadores: BE AWARE Day Portugal e BE AWARE Day Bulgaria",
+            "bullet2": "uma campanha online dedicada, focada na promoção do recrutamento inclusivo e na sensibilização de empregadores",
+            "outro": "Através destas atividades, o BE AWARE reforça a capacidade dos profissionais de Emprego Apoiado, apoia os empregadores na adoção de práticas inclusivas e contribui para melhorias estruturais e duradouras nas oportunidades de emprego para pessoas com deficiência ou incapacidade."
+          }
+        }
+      }
     }
   },
   "results": {
     "title": "Resultados",
-    "intro": "Explore os resultados e o impacto do projeto BE AWARE.",
-    "stats": {
-      "professionals": "500+",
-      "professionalsLabel": "Profissionais formados",
-      "partners": "50+",
-      "partnersLabel": "Organizações parceiras",
-      "countries": "15",
-      "countriesLabel": "Países europeus"
+    "intro": "O projeto BE AWARE desenvolve, valida e dissemina recursos de elevada qualidade para responder à lacuna de competências nas estratégias de envolvimento de empregadores entre profissionais de Emprego Apoiado na Bulgária e em Portugal. As atividades estruturam-se em quatro componentes principais.",
+    "subtitle1": "Resultados Tangíveis",
+    "bullets": {
+      "bullet1": {
+        "title": "Website do projecto",
+        "body": "Plataforma digital que disponibiliza informação sobre o projeto, notícias e acesso centralizado a todos os recursos."
+      },
+      "bullet2": {
+        "title": "Materiais Informativos",
+        "body": "Brochuras, folhetos, cartazes e modelos de comunicação que apoiam a visibilidade e a divulgação do projeto."
+      },
+      "bullet3": {
+        "title": "Programa de Formação em Regime Misto",
+        "body": "Pacote formativo estruturado que integra conteúdos teóricos, ferramentas práticas e componentes presenciais e online, centrado nas estratégias de envolvimento de empregadores."
+      },
+      "bullet4": {
+        "title": "Relatório da Atividade de Formação-Piloto",
+        "body": "Documento que apresenta e analisa os resultados da implementação piloto com 30 profissionais de Emprego Apoiado, avaliando a relevância, eficácia e transferibilidade da metodologia."
+      },
+      "bullet5": {
+        "title": "Manual de Boas Práticas",
+        "body": "Recurso abrangente que reúne histórias de sucesso, estratégias comprovadas e práticas inclusivas de recrutamento e retenção, refinado com contributos da World Café Session."
+      },
+      "bullet6": {
+        "title": "World Café Session (WCS)",
+        "body": "Sessão colaborativa com 20 a 25 stakeholders — empregadores, profissionais de Emprego Apoiado e pessoas com deficiência ou incapacidade — que contribui diretamente para a definição dos conteúdos do Manual de Boas Práticas."
+      },
+      "bullet7": {
+        "title": "Vídeo Promocional",
+        "body": "Vídeo animado para disseminação online e sensibilização sobre o emprego inclusivo de pessoas com deficiência ou incapacidade. "
+      },
+      "bullet8": {
+        "title": "Campanha de Sensibilização Online",
+        "body": "Campanha digital dedicada a ampliar o alcance do projeto e a promover práticas de contratação inclusiva junto de empregadores."
+      },
+      "bullet9": {
+        "title": "Eventos Multiplicadores",
+        "body": "Dois eventos de grande escala — BE AWARE Day Portugal e BE AWARE Day Bulgaria — destinados a apresentar os resultados do projeto e apoiar a sua disseminação a nível nacional."
+      },
+      "bullet10": {
+        "title": "Rede de Stakeholders",
+        "body": "Rede reforçada de organizações e profissionais dedicados à promoção da acessibilidade laboral e da inclusão de pessoas com deficiência ou incapacidade na Bulgária e em Portugal."
+      }
     },
-    "deliverables": {
-      "title": "Produtos do Projeto",
-      "item1": "Plano curricular de formação abrangente",
-      "item2": "Guias de boas práticas",
-      "item3": "Kit de ferramentas digitais com recursos"
+    "subtitle2": "Impacto Esperado",
+    "bullets2": {
+      "bullet1": {
+        "title": "Reforço da Capacidade dos Profissionais de Emprego Apoiado",
+        "body": "Os profissionais de Emprego Apoiado adquirem melhores competências de envolvimento de empregadores e maior confiança, contribuindo para práticas mais eficazes de apoio à empregabilidade."
+      },
+      "bullet2": {
+        "title": "Aumento das Oportunidades de Emprego",
+        "body": "Uma interação mais eficaz com empregadores e a redução das barreiras de contratação promovem um melhor acesso ao mercado de trabalho para pessoas com deficiência ou incapacidade."
+      },
+      "bullet3": {
+        "title": "Melhoria Estrutural e de Longo Prazo",
+        "body": "Os empregadores passam a dispor de ferramentas práticas — como o Manual de Boas Práticas — que apoiam práticas de recrutamento inclusivas e sustentáveis."
+      },
+      "bullet4": {
+        "title": "Alinhamento Político e Transferibilidade",
+        "body": "O projeto apoia a implementação nacional da Estratégia Europeia para os Direitos das Pessoas com Deficiência 2021–2030 e do Pacote Europeu para o Emprego das Pessoas com Deficiência. Os resultados são concebidos para serem transferíveis para outros contextos europeus."
+      },
+      "bullet5": {
+        "title": "Disponibilidade Sustentada dos Recursos",
+        "body": "O programa de formação e o Manual de Boas Práticas permanecem acessíveis através das plataformas dos parceiros e redes internacionais do setor, garantindo utilização e adaptação contínuas para além da duração do projeto."
+      }
     }
   },
   "news": {
@@ -147,92 +247,77 @@
     "intro": "Conheça a nossa rede de parceiros dedicados que trabalham em conjunto para fazer a diferença.",
     "backToPartners": "Voltar aos Parceiros",
     "list": {
-      "een": {
-        "name": "European Employment Network",
-        "country": "Bélgica",
+      "Consultis": {
+        "name": "Consultis",
+        "country": "BélPortugalgica",
         "role": "Coordenador do projeto"
       },
-      "iwf": {
-        "name": "Inclusive Work Foundation",
+      "Rumo": {
+        "name": "RUMO",
         "country": "Portugal",
         "role": "Parceiro de formação"
       },
-      "csi": {
-        "name": "Centre for Social Innovation",
-        "country": "França",
+      "nfedp": {
+        "name": "National Federation of Employers of Disabled People (NFEDP)",
+        "country": "Bulgária",
         "role": "Parceiro de investigação"
       },
-      "asl": {
-        "name": "Accessibility Solutions Ltd",
-        "country": "Alemanha",
+      "bist": {
+        "name": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST)",
+        "country": "Bulgária",
         "role": "Parceiro tecnológico"
       }
     },
     "details": {
-      "een": {
-        "aboutTitle": "Sobre",
-        "about": "A European Employment Network (EEN) é uma organização líder dedicada à promoção de práticas de emprego inclusivas em toda a Europa. Com mais de 20 anos de experiência, a EEN tem estado na vanguarda do desenvolvimento de abordagens inovadoras para o emprego apoiado e a inclusão no local de trabalho.",
-        "missionTitle": "Missão",
-        "mission": "A nossa missão é criar um mercado de trabalho europeu mais inclusivo, facilitando a troca de conhecimentos, desenvolvendo as melhores práticas e coordenando projetos transnacionais que promovam oportunidades de emprego para pessoas com deficiência e outros grupos desfavorecidos.",
-        "contributionTitle": "Contribuição para o BE AWARE",
-        "contribution": "Como Coordenador do Projeto, a EEN lidera a gestão e coordenação global do projeto BE AWARE, garantindo uma colaboração eficaz entre todos os parceiros e a entrega bem-sucedida dos objetivos do projeto.",
-        "activitiesTitle": "Atividades Principais",
-        "activity1": "Gestão e coordenação geral do projeto",
-        "activity2": "Envolvimento das partes interessadas e desenvolvimento de parcerias",
-        "activity3": "Garantia de qualidade e monitorização dos resultados do projeto",
+      "consultis": {
+        "name": "Consultis",
+        "paragraph1": "A CONSULTIS é uma organização fundada em 2005, com sede em Vila Nova de Gaia, Portugal, especializada em consultoria empresarial, inovação e Emprego Apoiado. Membro ativo da Associação Portuguesa de Emprego Apoiado, gere um centro de recursos em Emprego Apoiado no Porto, onde presta apoio a empresas, profissionais e candidatos ao emprego, particularmente a grupos em situação de desvantagem no mercado de trabalho, como pessoas com deficiência ou incapacidade, jovens em risco de exclusão social, migrantes e desempregados de longa duração.",
+        "paragraph2": "Em parceria com empresas, entidades de formação, instituições educativas, organizações do setor social e entidades públicas, a CONSULTIS desenvolve soluções ajustadas às necessidades do mercado de trabalho, promovendo estratégias eficazes para a inclusão profissional e social. Através de serviços de consultoria, formação e emprego apoiado, apoia a implementação de práticas mais inclusivas e sustentáveis, garantindo o acompanhamento contínuo de empregadores e profissionais no processo de integração no mercado de trabalho.",
+        "paragraph3": "Saiba mais em www.consultis.pt",
         "contactTitle": "Informações de Contacto",
         "email": "info@een-network.eu",
         "website": "https://www.een-network.eu",
         "address": "Rue de la Loi 123, 1040 Bruxelas, Bélgica"
       },
-      "iwf": {
+      "rumo": {
         "aboutTitle": "Sobre",
-        "about": "A Inclusive Work Foundation (IWF) é uma organização portuguesa sem fins lucrativos especializada em formação profissional e apoio ao emprego para pessoas com deficiência. Fundada em 2010, a IWF apoiou com sucesso mais de 2.000 indivíduos na procura e manutenção de emprego significativo.",
-        "missionTitle": "Missão",
-        "mission": "A missão da IWF é capacitar indivíduos com deficiência através de programas de formação abrangentes, coaching profissional e iniciativas de envolvimento de empregadores que promovam locais de trabalho inclusivos e resultados de emprego sustentáveis.",
-        "contributionTitle": "Contribuição para o BE AWARE",
-        "contribution": "Como Parceiro de Formação, a IWF desenvolve e oferece programas de formação inovadores para profissionais de apoio ao emprego, focando-se em práticas baseadas em evidências e abordagens centradas na pessoa para o emprego apoiado.",
-        "activitiesTitle": "Atividades Principais",
-        "activity1": "Desenvolvimento de currículos e materiais de formação",
-        "activity2": "Realização de workshops e sessões de capacitação",
-        "activity3": "Criação de recursos de aprendizagem online e kits de ferramentas",
+        "paragraph1": "A RUMO, Cooperativa de Solidariedade Social, Crl, é uma organização sem fins lucrativos fundada em 1981 e sediada no Barreiro, Portugal. A sua missão é promover a inclusão educativa, profissional e comunitária de pessoas em situação de desvantagem, na perspetiva do Movimento de Emprego Apoiado. Membro fundador da Associação Portuguesa de Emprego Apoiado, a RUMO atua em áreas como a formação profissional, a integração  no mercado de trabalho e o apoio a grupos vulneráveis, como as pessoas com deficiência ou incapacidade.  O trabalho em rede é essencial para a atuação da RUMO, uma vez que as parcerias permitem uma gestão mais eficaz das respostas. Através destas parcerias, diferentes pessoas, equipas e organizações colaboram para responder a necessidades e desafios comuns. ",
+        "paragraph2": "A RUMO colabora em rede com empregadores, instituições públicas, organizações da sociedade civil, centros de formação profissional e grupos de autoajuda, promovendo a consciencialização sobre os direitos de pessoas em situação de desvantagem ou em risco de exclusão social, e oferecendo apoio à integração no mercado de trabalho, formação de profissionais e outros serviços.",
+        "paragraph3": "Saiba mais em https://www.rumo.org.pt/ ",
         "contactTitle": "Informações de Contacto",
         "email": "contact@iwf-portugal.org",
         "website": "https://www.iwf-portugal.org",
         "address": "Avenida da Liberdade 245, 1250-143 Lisboa, Portugal"
       },
-      "csi": {
+      "nfedp": {
         "aboutTitle": "Sobre",
-        "about": "O Centre for Social Innovation (CSI) é um instituto de investigação francês dedicado ao estudo e promoção da inovação social no emprego, educação e desenvolvimento comunitário. O CSI combina rigor académico com aplicação prática para impulsionar mudanças sociais significativas.",
-        "missionTitle": "Missão",
-        "mission": "A missão do CSI é avançar o conhecimento e a prática em inovação social através de investigação rigorosa, recomendações de políticas baseadas em evidências e parcerias colaborativas que abordam desafios sociais complexos no mercado de trabalho.",
-        "contributionTitle": "Contribuição para o BE AWARE",
-        "contribution": "Como Parceiro de Investigação, o CSI realiza investigação abrangente sobre práticas de emprego apoiado, tendências do mercado de trabalho e quadros políticos, fornecendo a base de evidências que informa as atividades e resultados do projeto.",
-        "activitiesTitle": "Atividades Principais",
-        "activity1": "Realização de estudos de investigação e análise de dados",
-        "activity2": "Desenvolvimento de resumos de políticas e recomendações",
-        "activity3": "Avaliação do impacto e resultados do projeto",
+        "paragraph1": "National Federation of Employers of Disabled People (NFEDP) é uma organização de referência na Bulgária que representa os interesses de empregadores comprometidos com a inclusão de pessoas com deficiência ou incapacidade no mercado de trabalho. Com mais de 15 anos de experiência, a NFEDP promove práticas de emprego inclusivo, defende a igualdade de oportunidades e contribui para o desenvolvimento de políticas nacionais no domínio da empregabilidade e da reabilitação profissional.",
+        "paragraph2": "A NFEDP trabalha em estreita colaboração com empresas, entidades públicas e organizações da sociedade civil para eliminar barreiras à inclusão profissional, melhorar a acessibilidade dos locais de trabalho e reforçar a confiança dos empregadores nos processos de recrutamento de pessoas com deficiência ou incapacidade. As suas atividades incluem aconselhamento a empresas, ações de sensibilização, estudos sobre o mercado de trabalho e participação em iniciativas estratégicas nacionais e europeias dedicadas ao emprego inclusivo.",
+        "paragraph3": "Saiba mais em https://www.nfri.bg",
         "contactTitle": "Informações de Contacto",
         "email": "research@csi-france.fr",
         "website": "https://www.csi-france.fr",
         "address": "15 Rue des Archives, 75004 Paris, França"
       },
-      "asl": {
+      "bist": {
         "aboutTitle": "Sobre",
-        "about": "A Accessibility Solutions Ltd (ASL) é uma empresa de tecnologia alemã especializada em tecnologias assistivas e soluções de acessibilidade digital para o local de trabalho. A ASL tem sido pioneira no desenvolvimento de ferramentas inovadoras que permitem às pessoas com deficiência participar plenamente na economia digital.",
-        "missionTitle": "Missão",
-        "mission": "A missão da ASL é eliminar barreiras digitais no local de trabalho através de tecnologias assistivas de ponta, consultoria em acessibilidade e abordagens de design centradas no utilizador que criam ambientes digitais verdadeiramente inclusivos.",
-        "contributionTitle": "Contribuição para o BE AWARE",
-        "contribution": "Como Parceiro Tecnológico, a ASL fornece conhecimentos técnicos em acessibilidade digital, desenvolve plataformas e ferramentas online para o projeto e garante que todos os recursos digitais cumprem os mais altos padrões de acessibilidade.",
-        "activitiesTitle": "Atividades Principais",
-        "activity1": "Desenvolvimento de plataformas e ferramentas digitais acessíveis",
-        "activity2": "Auditorias de acessibilidade e testes de conformidade",
-        "activity3": "Formação técnica e apoio aos parceiros",
+        "paragraph1": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST) é uma organização sem fins lucrativos búlgara dedicada à promoção de serviços de apoio inclusivos e à melhoria das oportunidades de emprego para pessoas com deficiência ou incapacidade. A BIST atua na interseção entre educação, apoio social e inclusão no mercado de trabalho, desenvolvendo iniciativas que capacitam grupos  em situação de desvantagem e reforçam a intervenção de profissionais e entidades que atuam no domínio do Emprego Apoiado.",
+        "paragraph2": "A organização dinamiza ações de sensibilização, formação de profissionais, iniciativas comunitárias e colaboração com empregadores, contribuindo para reduzir o estigma, aumentar a confiança na contratação inclusiva e promover práticas de recrutamento inclusivas e acessíveis. A BIST integra ainda redes nacionais e europeias dedicadas à defesa dos direitos das pessoas com deficiência e à promoção de reformas inclusivas no mercado de trabalho.",
+        "paragraph3": "Saiba mais em https://inclusionteam.org/ ",
         "contactTitle": "Informações de Contacto",
         "email": "info@asl-solutions.de",
         "website": "https://www.asl-solutions.de",
         "address": "Friedrichstraße 95, 10117 Berlim, Alemanha"
       }
     }
+  },
+  "footer": {
+    "fundedBy": "Este projeto é financiado pela União Europeia",
+    "quickLinks": "Links Rápidos",
+    "more": "Mais",
+    "legal": "Legal",
+    "accessibility": "Declaração de Acessibilidade",
+    "privacy": "Política de Privacidade",
+    "rights": "Todos os direitos reservados."
   }
 }

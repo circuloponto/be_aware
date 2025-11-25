@@ -1,50 +1,64 @@
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
-export default async function ResultsPage({params}) {
-  await params;
+export default async function ResultsPage({ params }) {
+  const { locale } = await params;
   const t = await getTranslations('results');
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white animate-slide-up" style={{ paddingTop: '140px' }}>
-      <div className="max-w-5xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
-          {t('title')}
-        </h1>
-        <p className="text-xl text-gray-700 mb-12 pl-6">
-          {t('intro')}
-        </p>
+    <div className="min-h-screen bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6] py-16 px-4 sm:px-6 lg:px-8 animate-slide-up" style={{ paddingTop: '140px' }}>
+      <div className="max-w-6xl mx-auto space-y-16">
+        {/* Header Section */}
+        <div className="space-y-6">
+          <div className="flex items-center space-x-3">
+            <div className="w-2 h-16 bg-gradient-to-b from-[#4681BC] to-[#F1C424] rounded-full"></div>
+            <h1 className="text-4xl md:text-5xl font-black text-[#2C5282]">
+              {t('title')}
+            </h1>
+          </div>
+          <p className="text-xl text-gray-700 leading-relaxed max-w-4xl">
+            {t('intro')}
+          </p>
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-gradient-to-br from-[#2C5282] to-[#1e3a5f] text-white p-8 rounded-xl shadow-lg text-center">
-            <div className="text-5xl font-bold mb-2">{t('stats.professionals')}</div>
-            <div className="text-blue-100">{t('stats.professionalsLabel')}</div>
-          </div>
-          <div className="bg-gradient-to-br from-amber-500 to-amber-600 text-white p-8 rounded-xl shadow-lg text-center">
-            <div className="text-5xl font-bold mb-2">{t('stats.partners')}</div>
-            <div className="text-amber-100">{t('stats.partnersLabel')}</div>
-          </div>
-          <div className="bg-gradient-to-br from-[#2C5282] to-[#1e3a5f] text-white p-8 rounded-xl shadow-lg text-center">
-            <div className="text-5xl font-bold mb-2">{t('stats.countries')}</div>
-            <div className="text-blue-100">{t('stats.countriesLabel')}</div>
+        {/* Tangible Results Section */}
+        <div className="space-y-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#2C5282] border-b-4 border-[#F1C424] pb-4 inline-block">
+            {t('subtitle1')}
+          </h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
+              <div key={num} className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+                <div className="w-10 h-10 bg-[#E8F2F9] rounded-full flex items-center justify-center text-[#2C5282] font-bold mb-4">
+                  {num}
+                </div>
+                <h3 className="text-xl font-bold text-[#2C5282] mb-3">
+                  {t(`bullets.bullet${num}.title`)}
+                </h3>
+                <p className="text-gray-600 leading-relaxed flex-grow">
+                  {t(`bullets.bullet${num}.body`)}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-[#2C5282]">
-          <h2 className="text-3xl font-bold text-[#2C5282] mb-6">{t('deliverables.title')}</h2>
-          <ul className="space-y-4">
-            <li className="flex items-start p-4 bg-blue-50 rounded-lg">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#2C5282] text-white rounded-full flex items-center justify-center font-bold mr-4">1</span>
-              <p className="text-gray-700 pt-1">{t('deliverables.item1')}</p>
-            </li>
-            <li className="flex items-start p-4 bg-blue-50 rounded-lg">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#2C5282] text-white rounded-full flex items-center justify-center font-bold mr-4">2</span>
-              <p className="text-gray-700 pt-1">{t('deliverables.item2')}</p>
-            </li>
-            <li className="flex items-start p-4 bg-blue-50 rounded-lg">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#2C5282] text-white rounded-full flex items-center justify-center font-bold mr-4">3</span>
-              <p className="text-gray-700 pt-1">{t('deliverables.item3')}</p>
-            </li>
-          </ul>
+        {/* Expected Impact Section */}
+        <div className="space-y-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#2C5282] border-b-4 border-[#F1C424] pb-4 inline-block">
+            {t('subtitle2')}
+          </h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            {[1, 2, 3, 4, 5].map((num) => (
+              <div key={num} className="bg-gradient-to-br from-[#2C5282] to-[#1e3a5f] p-8 rounded-2xl shadow-xl text-white">
+                <h3 className="text-xl font-bold text-[#F1C424] mb-4">
+                  {t(`bullets2.bullet${num}.title`)}
+                </h3>
+                <p className="text-blue-50 leading-relaxed">
+                  {t(`bullets2.bullet${num}.body`)}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

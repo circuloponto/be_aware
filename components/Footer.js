@@ -2,15 +2,16 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import {useTranslations, useLocale} from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('nav');
+  const tFooter = useTranslations('footer');
   const locale = useLocale();
   const [currentYear, setCurrentYear] = useState('2024');
 
   const navItems = [
-    { key: 'home', href: '/' },
+    { key: 'about', href: '/' },
     { key: 'objectives', href: '/objectives' },
     { key: 'targetGroups', href: '/target-groups' },
     { key: 'activities', href: '/activities' },
@@ -37,9 +38,9 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-5 text-center">
           <p className="text-base md:text-lg font-bold text-[#2C5282] flex items-center justify-center space-x-2">
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+              <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
             </svg>
-            <span>This project is funded by the European Union</span>
+            <span>{tFooter('fundedBy')}</span>
           </p>
         </div>
       </div>
@@ -51,12 +52,12 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-[#F1C424] mb-6 flex items-center">
               <div className="w-1 h-6 bg-[#F1C424] mr-3 rounded-full"></div>
-              Quick Links
+              {tFooter('quickLinks')}
             </h3>
             <ul className="space-y-3">
               {navItems.slice(0, 4).map((item) => (
                 <li key={item.href}>
-                  <Link 
+                  <Link
                     href={`/${locale}${item.href}`}
                     className="text-sm text-white/80 hover:text-[#F1C424] transition-all duration-300 flex items-center group"
                   >
@@ -74,12 +75,12 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-[#F1C424] mb-6 flex items-center">
               <div className="w-1 h-6 bg-[#F1C424] mr-3 rounded-full"></div>
-              More
+              {tFooter('more')}
             </h3>
             <ul className="space-y-3">
               {navItems.slice(4).map((item) => (
                 <li key={item.href}>
-                  <Link 
+                  <Link
                     href={`/${locale}${item.href}`}
                     className="text-sm text-white/80 hover:text-[#F1C424] transition-all duration-300 flex items-center group"
                   >
@@ -97,29 +98,29 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-[#F1C424] mb-6 flex items-center">
               <div className="w-1 h-6 bg-[#F1C424] mr-3 rounded-full"></div>
-              Legal
+              {tFooter('legal')}
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link 
+                <Link
                   href={`/${locale}/accessibility`}
                   className="text-sm text-white/80 hover:text-[#F1C424] transition-all duration-300 flex items-center group"
                 >
                   <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 -ml-6 group-hover:ml-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                  Accessibility Statement
+                  {tFooter('accessibility')}
                 </Link>
               </li>
               <li>
-                <Link 
+                <Link
                   href={`/${locale}/privacy`}
                   className="text-sm text-white/80 hover:text-[#F1C424] transition-all duration-300 flex items-center group"
                 >
                   <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 -ml-6 group-hover:ml-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                  Privacy Policy
+                  {tFooter('privacy')}
                 </Link>
               </li>
             </ul>
@@ -131,7 +132,7 @@ export default function Footer() {
       <div className="relative bg-[#2C5282]/50 backdrop-blur-sm border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <p className="text-center text-sm text-white/70">
-            © {currentYear} <span className="font-bold text-[#F1C424]">BE AWARE</span>. All rights reserved.
+            © {currentYear} <span className="font-bold text-[#F1C424]">BE AWARE</span>. {tFooter('rights')}
           </p>
         </div>
       </div>
