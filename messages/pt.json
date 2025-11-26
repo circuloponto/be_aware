@@ -31,7 +31,7 @@
     "title2": "Objetivos Específicos",
     "cards": {
       "supportedEmploymentProfessionals": {
-        "title": "30 profissionais de Emprego Apoiado",
+        "title": "Programa de Formação para profissionais de Emprego Apoiado",
         "body": "Desenvolver e implementar um programa de formação em regime misto dirigido a 30 profissionais de Emprego Apoiado, dotando-os de estratégias práticas e orientadas para envolvimento de empregadores, com vista a melhorar as colocações profissionais de pessoas com deficiência ou incapacidade."
       },
       "employers": {
@@ -39,7 +39,7 @@
         "body": "Criar um Manual de Boas Práticas dirigido a empregadores, reunindo histórias de sucesso reais, estratégias de recrutamento acionáveis e orientações para práticas de contratação inclusivas."
       },
       "capacitation": {
-        "title": "Formação",
+        "title": "Formação-Piloto",
         "body": "Pilotar a formação na Bulgária e em Portugal, avaliando a sua eficácia com base no feedback dos profissionais de Emprego Apoiado e dos empregadores, garantindo a sua relevância, aplicabilidade e aperfeiçoamento."
       },
       "event": {
@@ -125,7 +125,7 @@
   },
   "results": {
     "title": "Resultados",
-    "intro": "O projeto BE AWARE desenvolve, valida e dissemina recursos de elevada qualidade para responder à lacuna de competências nas estratégias de envolvimento de empregadores entre profissionais de Emprego Apoiado na Bulgária e em Portugal. As atividades estruturam-se em quatro componentes principais.",
+    "intro": "O projeto BE AWARE gera resultados concretos que reforçam a inclusão profissional de pessoas com deficiência ou incapacidade, através do aumento da capacidade de intervenção dos profissionais de Emprego Apoiado e do envolvimento das entidades empregadoras.",
     "subtitle1": "Resultados Tangíveis",
     "bullets": {
       "bullet1": {
@@ -250,22 +250,22 @@
       "Consultis": {
         "name": "Consultis",
         "country": "Portugal",
-        "role": "Coordenador do projeto"
+        "role": "Coordenador"
       },
       "Rumo": {
         "name": "RUMO",
         "country": "Portugal",
-        "role": "Parceiro de formação"
+        "role": "Parceiro"
       },
       "nfedp": {
         "name": "National Federation of Employers of Disabled People (NFEDP)",
         "country": "Bulgária",
-        "role": "Parceiro de investigação"
+        "role": "Parceiro"
       },
       "bist": {
         "name": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST)",
         "country": "Bulgária",
-        "role": "Parceiro tecnológico"
+        "role": "Parceiro"
       }
     },
     "details": {

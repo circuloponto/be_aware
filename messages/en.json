@@ -31,7 +31,7 @@
     "title2": "Specific Objectives",
     "cards": {
       "supportedEmploymentProfessionals": {
-        "title": "30 Supported Employment Professionals",
+        "title": "Training Program for Supported Employment Professionals",
         "body": "Develop and implement a blended training programme for 30 SE professionals, equipping them with practical, employer-focused engagement strategies to improve job placements for individuals with disabilities."
       },
       "employers": {
@@ -39,7 +39,7 @@
         "body": "Create a Best Practice Handbook (BPH) for employers, providing real-world success stories, actionable recruitment strategies, and guidance on disability-inclusive hiring practices."
       },
       "capacitation": {
-        "title": "Training",
+        "title": "Pilot Training",
         "body": "Pilot the training in Bulgaria and Portugal, evaluating its effectiveness through feedback from SE professionals and employers to ensure long-term relevance, applicability, and refinement."
       },
       "event": {
@@ -250,22 +250,22 @@
       "Consultis": {
         "name": "Consultis",
         "country": "Portugal",
-        "role": "Project Coordinator"
+        "role": "Coordinator"
       },
       "Rumo": {
         "name": "RUMO",
         "country": "Portugal",
-        "role": "Training Partner"
+        "role": "Partner"
       },
       "nfedp": {
         "name": "National Federation of Employers of Disabled People (NFEDP)",
         "country": "Bulgaria",
-        "role": "Research Partner"
+        "role": "Partner"
       },
       "bist": {
         "name": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST)",
         "country": "Bulgaria",
-        "role": "Technology Partner"
+        "role": "Partner"
       }
     },
     "details": {
