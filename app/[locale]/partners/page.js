@@ -12,7 +12,7 @@ export default async function PartnersPage({ params }) {
   // Map partner keys to their logo filenames
   const logoMap = {
     'Consultis': '/logo_Consultis_transparent.png',
-    'Rumo': '/logo_rumo_transparent.png?v=2',
+    'Rumo': '/logo_rumo_v2.png',
     'nfedp': '/logo_nfedp_transparent.png',
     'bist': '/logo_bist_transparent.png'
   };
