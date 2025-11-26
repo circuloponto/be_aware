@@ -7,7 +7,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import GB from 'country-flag-icons/react/3x2/GB';
 import PT from 'country-flag-icons/react/3x2/PT';
-import NL from 'country-flag-icons/react/3x2/NL';
+import BG from 'country-flag-icons/react/3x2/BG';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -183,7 +183,7 @@ export default function Header() {
                 aria-expanded={isLangDropdownOpen}
               >
                 <span className="w-5 h-4 transition-transform duration-300 hover:scale-110">
-                  {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                  {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <BG className="w-full h-full" />}
                 </span>
                 <span className="uppercase">{locale}</span>
                 <svg
@@ -202,7 +202,7 @@ export default function Header() {
                   {[
                     { code: 'en', label: 'English', country: 'gb' },
                     { code: 'pt', label: 'Português', country: 'pt' },
-                    { code: 'nl', label: 'Nederlands', country: 'nl' }
+                    { code: 'bg', label: 'Bulgarian', country: 'bg' }
                   ].map((lang) => (
                     <button
                       key={lang.code}
@@ -216,7 +216,7 @@ export default function Header() {
                         }`}
                     >
                       <span className="w-6 h-4 transition-transform duration-300 group-hover:scale-110">
-                        {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                        {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <BG className="w-full h-full" />}
                       </span>
                       <div className="flex flex-col">
                         <span className="text-sm font-semibold">{lang.label}</span>
@@ -291,10 +291,10 @@ export default function Header() {
                 >
                   <div className="flex items-center gap-3">
                     <span className="w-6 h-4 transition-transform duration-300">
-                      {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                      {locale === 'en' ? <GB className="w-full h-full" /> : locale === 'pt' ? <PT className="w-full h-full" /> : <BG className="w-full h-full" />}
                     </span>
                     <span>
-                      {locale === 'en' ? 'English' : locale === 'pt' ? 'Português' : 'Nederlands'}
+                      {locale === 'en' ? 'English' : locale === 'pt' ? 'Português' : 'Bulgarian'}
                     </span>
                   </div>
                   <svg
@@ -313,7 +313,7 @@ export default function Header() {
                     {[
                       { code: 'en', label: 'English', country: 'gb' },
                       { code: 'pt', label: 'Português', country: 'pt' },
-                      { code: 'nl', label: 'Nederlands', country: 'nl' }
+                      { code: 'bg', label: 'Bulgarian', country: 'bg' }
                     ].map((lang) => (
                       <button
                         key={lang.code}
@@ -327,7 +327,7 @@ export default function Header() {
                           }`}
                       >
                         <span className="w-8 h-6 transition-transform duration-300 group-hover:scale-110">
-                          {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <NL className="w-full h-full" />}
+                          {lang.country === 'gb' ? <GB className="w-full h-full" /> : lang.country === 'pt' ? <PT className="w-full h-full" /> : <BG className="w-full h-full" />}
                         </span>
                         <div className="flex flex-col flex-1">
                           <span className="text-base font-semibold">{lang.label}</span>

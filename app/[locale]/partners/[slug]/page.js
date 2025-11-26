@@ -190,7 +190,7 @@ export default async function PartnerDetailPage({ params }) {
 // Generate static params for all partners
 export async function generateStaticParams() {
   const partners = ['Consultis', 'Rumo', 'nfedp', 'bist'];
-  const locales = ['en', 'pt', 'nl'];
+  const locales = ['en', 'pt', 'bg'];
 
   return locales.flatMap(locale =>
     partners.map(slug => ({
