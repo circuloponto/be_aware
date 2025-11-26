@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 
 export default async function PartnerDetailPage({ params }) {
   const { locale, slug } = await params;
@@ -25,13 +26,40 @@ export default async function PartnerDetailPage({ params }) {
   // Map partner keys to their logo filenames
   const logoMap = {
     'Consultis': '/logo_Consultis_transparent.png',
-    'Rumo': '/logo_rumo_transparent.png',
+    'Rumo': '/logo_rumo_transparent.png?v=2',
     'nfedp': '/logo_nfedp_transparent.png',
     'bist': '/logo_bist_transparent.png'
   };
 
+  // Map partner keys to country codes for gradient selection
+  const countryCodes = {
+    'Consultis': 'PT',
+    'Rumo': 'PT',
+    'nfedp': 'BG',
+    'bist': 'BG'
+  };
+  const countryCode = countryCodes[slug];
+
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8" style={{ paddingTop: '140px' }}>
+      {/* SVG Gradients Definition */}
+      <svg width="0" height="0" className="absolute">
+        <defs>
+          {/* Portugal: Vertical split (Green/Red) */}
+          <linearGradient id="gradient-PT" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="40%" stopColor="#006600" />
+            <stop offset="40%" stopColor="#FF0000" />
+          </linearGradient>
+
+          {/* Bulgaria: Horizontal stripes (White/Green/Red) */}
+          <linearGradient id="gradient-BG" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="33%" stopColor="#e0e0e0" /> {/* Slightly darkened white for visibility */}
+            <stop offset="33%" stopColor="#00966E" />
+            <stop offset="66%" stopColor="#00966E" />
+            <stop offset="66%" stopColor="#D62612" />
+          </linearGradient>
+        </defs>
+      </svg>
       <div className="max-w-4xl mx-auto">
         {/* Back button */}
         <Link
@@ -62,7 +90,14 @@ export default async function PartnerDetailPage({ params }) {
                 {name}
               </h1>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 text-lg">
-                <span className="text-gray-700">📍 {country}</span>
+                <div className="flex items-center gap-2 text-gray-700">
+                  <FaMapMarkerAlt
+                    size={20}
+                    style={{ fill: `url(#gradient-${countryCode})` }}
+                    className="drop-shadow-sm"
+                  />
+                  <span>{country}</span>
+                </div>
                 <span className="px-4 py-2 bg-[#F1C424] text-[#2C5282] rounded-full font-bold">
                   {role}
                 </span>
@@ -134,10 +169,17 @@ export default async function PartnerDetailPage({ params }) {
                 {t(`${base}.website`)}
               </a>
             </p>
-            <p>
-              <span className="font-semibold">📍 Address:</span>{' '}
-              {t(`${base}.address`)}
-            </p>
+            <div className="flex items-start gap-2">
+              <FaMapMarkerAlt
+                size={18}
+                style={{ fill: `url(#gradient-${countryCode})` }}
+                className="mt-1 flex-shrink-0"
+              />
+              <div>
+                <span className="font-semibold">Address:</span>{' '}
+                {t(`${base}.address`)}
+              </div>
+            </div>
           </div>
         </div>
       </div>
