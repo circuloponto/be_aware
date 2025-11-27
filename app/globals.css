@@ -39,6 +39,11 @@ body {
   min-height: 100vh;
 }
 
+/* Justify all paragraph text */
+p {
+  text-align: justify !important;
+}
+
 /* Hide cursor only on desktop (not on touch devices or small screens) */
 @media (hover: hover) and (pointer: fine) and (min-width: 768px) {
   body {

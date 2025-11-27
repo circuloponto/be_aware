@@ -13,7 +13,7 @@ export default async function Home({ params }) {
   return (
     <div className="relative overflow-hidden animate-slide-up">
       {/* Hero Section with animated background */}
-      <section className="relative min-h-screen lg:h-screen flex items-center py-24 lg:py-0" style={{ paddingTop: '100px' }}>
+      <section className="relative min-h-screen lg:h-screen flex items-center py-20 lg:py-0" style={{ paddingTop: '80px' }}>
         {/* Animated background elements */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6]">
           <div className="absolute top-20 left-10 w-72 h-72 bg-[#4681BC]/10 rounded-full blur-3xl animate-pulse"></div>
@@ -22,9 +22,9 @@ export default async function Home({ params }) {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center animate-fade-in">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 items-center animate-fade-in">
             {/* Left Column - Text Content */}
-            <div className="space-y-3 lg:space-y-4 text-center lg:text-left order-2 lg:order-1">
+            <div className="space-y-2 lg:space-y-4 text-center lg:text-left order-2 lg:order-1">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black">
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] via-[#4681BC] to-[#2C5282] leading-tight">
                   {t('title')}
@@ -33,10 +33,6 @@ export default async function Home({ params }) {
 
               <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
                 {t('description')}
-              </p>
-
-              <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
-                {t('description2')}
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2">
@@ -65,7 +61,7 @@ export default async function Home({ params }) {
                 alt="EU Co-financing"
                 width={450}
                 height={300}
-                className="h-auto w-[280px] sm:w-[350px] lg:w-[450px]"
+                className="h-auto w-[180px] sm:w-[280px] lg:w-[450px]"
                 priority
               />
             </div>
