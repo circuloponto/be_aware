@@ -61,7 +61,7 @@ export default async function Home({ params }) {
                 alt="EU Co-financing"
                 width={450}
                 height={300}
-                className="h-auto w-[180px] sm:w-[280px] lg:w-[450px]"
+                className="h-auto w-[180px] sm:w-[280px] lg:w-[380px]"
                 priority
               />
             </div>
