@@ -13,7 +13,7 @@ export default async function Home({ params }) {
   return (
     <div className="relative overflow-hidden animate-slide-up">
       {/* Hero Section with animated background */}
-      <section className="relative h-screen flex items-center" style={{ paddingTop: '100px' }}>
+      <section className="relative min-h-screen lg:h-screen flex items-center py-24 lg:py-0" style={{ paddingTop: '100px' }}>
         {/* Animated background elements */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6]">
           <div className="absolute top-20 left-10 w-72 h-72 bg-[#4681BC]/10 rounded-full blur-3xl animate-pulse"></div>
@@ -22,27 +22,27 @@ export default async function Home({ params }) {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center animate-fade-in">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center animate-fade-in">
             {/* Left Column - Text Content */}
-            <div className="space-y-4 text-center lg:text-left order-2 lg:order-1">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">
+            <div className="space-y-3 lg:space-y-4 text-center lg:text-left order-2 lg:order-1">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black">
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] via-[#4681BC] to-[#2C5282] leading-tight">
                   {t('title')}
                 </span>
               </h1>
 
-              <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
                 {t('description')}
               </p>
 
-              <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
                 {t('description2')}
               </p>
 
-              <div className="flex flex-wrap gap-3 justify-center lg:justify-start pt-2">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2">
                 <Link
                   href={`/${locale}/objectives`}
-                  className="group px-6 py-3 bg-gradient-to-r from-[#4681BC] to-[#2C5282] text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center space-x-2"
+                  className="group px-5 py-2.5 sm:px-6 sm:py-3 bg-gradient-to-r from-[#4681BC] to-[#2C5282] text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2 text-sm sm:text-base"
                 >
                   <span>{t('discoverMission')}</span>
                   <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ export default async function Home({ params }) {
                 </Link>
                 <Link
                   href={`/${locale}/contacts`}
-                  className="px-6 py-3 bg-white border-2 border-[#4681BC] text-[#4681BC] font-bold rounded-full shadow-lg hover:bg-[#4681BC] hover:text-white transition-all duration-300 hover:scale-105"
+                  className="px-5 py-2.5 sm:px-6 sm:py-3 bg-white border-2 border-[#4681BC] text-[#4681BC] font-bold rounded-full shadow-lg hover:bg-[#4681BC] hover:text-white transition-all duration-300 hover:scale-105 text-sm sm:text-base text-center"
                 >
                   {t('getInTouch')}
                 </Link>
@@ -65,7 +65,7 @@ export default async function Home({ params }) {
                 alt="EU Co-financing"
                 width={450}
                 height={300}
-                className="h-auto max-w-full"
+                className="h-auto w-[280px] sm:w-[350px] lg:w-[450px]"
                 priority
               />
             </div>
