@@ -11,9 +11,9 @@
   },
   "about": {
     "title": "BE AWARE",
-    "subtitle": "Bem-vindo ao BE AWARE",
-    "euFunded": "Projeto Financiado pela UE",
-    "description": "Capacitar Profissionais. Envolver Empregadores. Promover a Inclusão.",
+    "subtitle": "Capacitar Profissionais. Envolver Empregadores. Promover a Inclusão.",
+    "description": "Bem-vindo ao projeto BE AWARE – Business Engagement for Advancing Work Accessibility and Retention for Employees with disabilities (2025-1-PT01-KA210-VET-000351315), uma iniciativa que visa reforçar o envolvimento dos empregadores e promover oportunidades de emprego inclusivas para pessoas com deficiência ou incapacidade.",
+    "description2": "O BE AWARE é um projeto Erasmus+ que pretende melhorar as oportunidades de emprego para pessoas com deficiência em Portugal e na Bulgária. O projeto tem a duração de 18 meses, decorrendo de 01/10/2025 a 31/03/2027. Visa reforçar as competências para promover o envolvimento dos empregadores por parte dos profissionais de Emprego Apoiado (EA) e disponibilizar ferramentas práticas às entidades empregadoras para promover processos de recrutamento inclusivos para pessoas com deficiência ou incapacidade.",
     "discoverMission": "Descubra a Nossa Missão",
     "getInTouch": "Entre em Contacto",
     "paragraph1": "O BE AWARE é um projeto Erasmus+ que visa reforçar as oportunidades de emprego para pessoas com deficiência ou incapacidade em Portugal e na Bulgária. O projeto reforça as competências de envolvimento de empregadores dos profissionais de Emprego Apoiado e disponibiliza aos empregadores ferramentas práticas para promover processos de recrutamento e integração laboral mais inclusivos.",
@@ -312,7 +312,7 @@
     }
   },
   "footer": {
-    "disclaimer": "Financiado pela União Europeia. Os pontos de vista e as opiniões expressas são as do(s) autor(es) e não refletem necessariamente a posição da União Europeia ou da Agência Nacional para a Gestão do Programa Erasmus+ Educação e Formação. Nem a União Europeia nem a Agência Nacional podem ser tidos como responsáveis por essas opiniões",
+    "disclaimer": "Financiado pela União Europeia. Os pontos de vista e as opiniões expressas são as do(s) autor(es) e não refletem necessariamente a posição da União Europeia ou da Agência Nacional para a Gestão do Programa Erasmus+ Educação e Formação. Nem a União Europeia nem a Agência Nacional podem ser tidos como responsáveis por essas opiniões.",
     "fundedBy": "Este projeto é financiado pela União Europeia",
     "quickLinks": "Links Rápidos",
     "more": "Mais",

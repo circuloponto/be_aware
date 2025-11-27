@@ -21,45 +21,53 @@ export default async function Home({ params }) {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#4681BC]/5 to-[#F1C424]/5 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center space-y-4 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black">
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] via-[#4681BC] to-[#2C5282] leading-tight">
-                {t('title')}
-              </span>
-            </h1>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center animate-fade-in">
+            {/* Left Column - Text Content */}
+            <div className="space-y-4 text-center lg:text-left order-2 lg:order-1">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] via-[#4681BC] to-[#2C5282] leading-tight">
+                  {t('title')}
+                </span>
+              </h1>
 
-            <div className="flex justify-center">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+                {t('description')}
+              </p>
+
+              <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+                {t('description2')}
+              </p>
+
+              <div className="flex flex-wrap gap-3 justify-center lg:justify-start pt-2">
+                <Link
+                  href={`/${locale}/objectives`}
+                  className="group px-6 py-3 bg-gradient-to-r from-[#4681BC] to-[#2C5282] text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center space-x-2"
+                >
+                  <span>{t('discoverMission')}</span>
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </Link>
+                <Link
+                  href={`/${locale}/contacts`}
+                  className="px-6 py-3 bg-white border-2 border-[#4681BC] text-[#4681BC] font-bold rounded-full shadow-lg hover:bg-[#4681BC] hover:text-white transition-all duration-300 hover:scale-105"
+                >
+                  {t('getInTouch')}
+                </Link>
+              </div>
+            </div>
+
+            {/* Right Column - Image */}
+            <div className="flex justify-center lg:justify-end order-1 lg:order-2">
               <Image
                 src={locale === 'pt' ? '/PT_Disclaimer.png' : '/EN_Disclaimer.png'}
                 alt="EU Co-financing"
-                width={250}
-                height={40}
-                className="h-auto"
+                width={450}
+                height={300}
+                className="h-auto max-w-full"
                 priority
               />
-            </div>
-
-            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              {t('description')}
-            </p>
-
-            <div className="flex flex-wrap gap-4 justify-center pt-4">
-              <Link
-                href={`/${locale}/objectives`}
-                className="group px-8 py-4 bg-gradient-to-r from-[#4681BC] to-[#2C5282] text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center space-x-2"
-              >
-                <span>{t('discoverMission')}</span>
-                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-              <Link
-                href={`/${locale}/contacts`}
-                className="px-8 py-4 bg-white border-2 border-[#4681BC] text-[#4681BC] font-bold rounded-full shadow-lg hover:bg-[#4681BC] hover:text-white transition-all duration-300 hover:scale-105"
-              >
-                {t('getInTouch')}
-              </Link>
             </div>
           </div>
         </div>
