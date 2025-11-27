@@ -36,11 +36,8 @@ export default function Footer() {
       {/* EU Funding Banner */}
       <div className="relative bg-gradient-to-r from-[#F1C424] to-[#D4A91E] border-t-4 border-white/20">
         <div className="max-w-7xl mx-auto px-4 py-5 text-center">
-          <p className="text-base md:text-lg font-bold text-[#2C5282] flex items-center justify-center space-x-2">
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
-            </svg>
-            <span>{tFooter('fundedBy')}</span>
+          <p className="text-sm md:text-base text-[#2C5282]">
+            {tFooter('disclaimer')}
           </p>
         </div>
       </div>

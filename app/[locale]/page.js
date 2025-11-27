@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FiTarget } from 'react-icons/fi';
 import { TiGroup } from 'react-icons/ti';
 import { MdVolunteerActivism } from 'react-icons/md';
@@ -12,7 +13,7 @@ export default async function Home({ params }) {
   return (
     <div className="relative overflow-hidden animate-slide-up">
       {/* Hero Section with animated background */}
-      <section className="relative min-h-[85vh] flex items-center" style={{ paddingTop: '140px' }}>
+      <section className="relative h-screen flex items-center" style={{ paddingTop: '100px' }}>
         {/* Animated background elements */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#E8F2F9] via-white to-[#FFF9E6]">
           <div className="absolute top-20 left-10 w-72 h-72 bg-[#4681BC]/10 rounded-full blur-3xl animate-pulse"></div>
@@ -20,31 +21,30 @@ export default async function Home({ params }) {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#4681BC]/5 to-[#F1C424]/5 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="text-center space-y-8 animate-fade-in">
-            <div className="inline-block">
-              <div className="flex items-center justify-center space-x-2 mb-6">
-                <div className="h-1 w-12 bg-gradient-to-r from-[#4681BC] to-[#F1C424] rounded-full"></div>
-                <span className="text-sm font-bold text-[#4681BC] tracking-wider uppercase">{t('euFunded')}</span>
-                <div className="h-1 w-12 bg-gradient-to-r from-[#F1C424] to-[#4681BC] rounded-full"></div>
-              </div>
-            </div>
-
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-black">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="text-center space-y-4 animate-fade-in">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black">
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] via-[#4681BC] to-[#2C5282] leading-tight">
                 {t('title')}
               </span>
             </h1>
 
-            <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#2C5282] max-w-4xl mx-auto leading-tight">
-              {t('subtitle')}
-            </p>
+            <div className="flex justify-center">
+              <Image
+                src={locale === 'pt' ? '/PT_Disclaimer.png' : '/EN_Disclaimer.png'}
+                alt="EU Co-financing"
+                width={250}
+                height={40}
+                className="h-auto"
+                priority
+              />
+            </div>
 
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               {t('description')}
             </p>
 
-            <div className="flex flex-wrap gap-4 justify-center pt-8">
+            <div className="flex flex-wrap gap-4 justify-center pt-4">
               <Link
                 href={`/${locale}/objectives`}
                 className="group px-8 py-4 bg-gradient-to-r from-[#4681BC] to-[#2C5282] text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center space-x-2"
