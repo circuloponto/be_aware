@@ -24,14 +24,14 @@ export default function ContactsPage() {
     } else {
       setStatus({ type: 'error', message: result.error });
     }
-    
+
     setIsSubmitting(false);
   }
 
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 animate-slide-up" style={{ paddingTop: '140px' }}>
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] to-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
+        <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#4681BC] to-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
           {t('title')}
         </h1>
         <p className="text-xl text-gray-700 mb-12 pl-6">
@@ -42,16 +42,15 @@ export default function ContactsPage() {
           {/* Contact Form */}
           <section aria-labelledby="contact-form-heading" className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-[#4681BC]">
             <h2 id="contact-form-heading" className="text-2xl font-bold text-[#2C5282] mb-6">{t('form.heading')}</h2>
-            
+
             {status.message && (
-              <div 
+              <div
                 role="alert"
                 aria-live="assertive"
-                className={`mb-6 p-4 rounded-lg ${
-                  status.type === 'success' 
-                    ? 'bg-green-50 text-green-800 border border-green-200' 
+                className={`mb-6 p-4 rounded-lg ${status.type === 'success'
+                    ? 'bg-green-50 text-green-800 border border-green-200'
                     : 'bg-red-50 text-red-800 border border-red-200'
-                }`}
+                  }`}
               >
                 <div className="flex items-start">
                   <span className="mr-2 text-xl" aria-hidden="true">
@@ -151,22 +150,22 @@ export default function ContactsPage() {
                 <p>{t('office.street')}</p>
                 <p>{t('office.city')}</p>
               </div>
-              
+
               <div>
                 <p className="font-semibold text-white mb-2">{t('office.emailLabel')}</p>
-                <a 
-                  href="mailto:asdias@consultis.com" 
+                <a
+                  href="mailto:asdias@consultis.com"
                   className="hover:text-[#F1C424] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F1C424] rounded"
                   aria-label="Send email to asdias@consultis.com"
                 >
                   asdias@consultis.com
                 </a>
               </div>
-              
+
               <div>
                 <p className="font-semibold text-white mb-2">{t('office.phoneLabel')}</p>
-                <a 
-                  href="tel:+3221234567" 
+                <a
+                  href="tel:+3221234567"
                   className="hover:text-[#F1C424] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F1C424] rounded"
                   aria-label="Call +32 2 123 45 67"
                 >

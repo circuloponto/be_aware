@@ -1,6 +1,6 @@
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
-export default async function NewsPage({params}) {
+export default async function NewsPage({ params }) {
   await params;
   const t = await getTranslations('news');
 
@@ -9,7 +9,7 @@ export default async function NewsPage({params}) {
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50 animate-slide-up" style={{ paddingTop: '140px' }}>
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
+        <h1 className="text-4xl md:text-5xl font-black text-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
           {t('title')}
         </h1>
         <p className="text-xl text-gray-700 mb-12 pl-6">

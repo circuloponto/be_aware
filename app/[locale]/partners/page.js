@@ -47,7 +47,7 @@ export default async function PartnersPage({ params }) {
       </svg>
 
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
+        <h1 className="text-4xl md:text-5xl font-black text-[#2C5282] mb-6 border-l-8 border-[#F1C424] pl-6">
           {t('title')}
         </h1>
         <p className="text-xl text-gray-700 mb-12 pl-6">
