@@ -333,5 +333,71 @@
     "accessibility": "Accessibility Statement",
     "privacy": "Privacy Policy",
     "rights": "All rights reserved."
+  },
+  "accessibility": {
+    "title": "Déclaration d'Accessibilité",
+    "commitment": {
+      "title": "Notre Engagement envers l'Accessibilité",
+      "body": "Le projet BE AWARE s'engage à garantir l'accessibilité numérique pour les personnes handicapées. Nous améliorons continuellement l'expérience utilisateur pour tous et appliquons les normes d'accessibilité pertinentes."
+    },
+    "conformance": {
+      "title": "État de Conformité",
+      "body": "Les Règles pour l'accessibilité des contenus Web (WCAG) définissent des exigences pour les concepteurs et développeurs afin d'améliorer l'accessibilité pour les personnes handicapées. Elles définissent trois niveaux de conformité : Niveau A, Niveau AA et Niveau AAA.",
+      "status": "Ce site web est entièrement conforme aux WCAG 2.1 Niveau AA.",
+      "meaning": "Entièrement conforme signifie que le contenu est entièrement conforme à la norme d'accessibilité sans aucune exception."
+    },
+    "measures": {
+      "title": "Mesures d'Accessibilité",
+      "intro": "Le projet BE AWARE prend les mesures suivantes pour garantir l'accessibilité :",
+      "items": {
+        "mission": "Inclure l'accessibilité dans notre énoncé de mission",
+        "procurement": "Intégrer l'accessibilité dans nos pratiques d'achat",
+        "training": "Fournir une formation continue sur l'accessibilité à notre personnel",
+        "goals": "Attribuer des objectifs et des responsabilités clairs en matière d'accessibilité",
+        "qa": "Employer des méthodes formelles d'assurance qualité de l'accessibilité"
+      }
+    },
+    "specs": {
+      "title": "Spécifications Techniques",
+      "intro": "L'accessibilité de ce site web repose sur les technologies suivantes pour fonctionner avec la combinaison particulière de navigateur web et de toute technologie d'assistance ou plugin installé sur votre ordinateur :",
+      "outro": "Ces technologies sont utilisées pour la conformité aux normes d'accessibilité utilisées."
+    },
+    "features": {
+      "title": "Fonctionnalités d'Accessibilité",
+      "keyboard": {
+        "title": "Navigation au Clavier",
+        "body": "Accessibilité complète au clavier pour tous les éléments interactifs"
+      },
+      "screenReader": {
+        "title": "Support de Lecteur d'Écran",
+        "body": "HTML sémantique et étiquettes ARIA pour les technologies d'assistance"
+      },
+      "contrast": {
+        "title": "Contraste des Couleurs",
+        "body": "Rapport de contraste minimum de 4.5:1 pour tout le texte"
+      },
+      "responsive": {
+        "title": "Design Responsif",
+        "body": "Fonctionne sur tous les appareils et tailles d'écran"
+      },
+      "textAlt": {
+        "title": "Alternatives Textuelles",
+        "body": "Texte alternatif pour toutes les images significatives"
+      },
+      "structure": {
+        "title": "Structure Claire",
+        "body": "Hiérarchie des titres et structure de page logiques"
+      }
+    },
+    "feedback": {
+      "title": "Retour d'Information",
+      "intro": "Nous apprécions vos commentaires sur l'accessibilité du site web BE AWARE. Veuillez nous faire savoir si vous rencontrez des obstacles à l'accessibilité :",
+      "response": "Nous essayons de répondre aux commentaires dans un délai de 5 jours ouvrables."
+    },
+    "compliance": {
+      "title": "Conformité aux Normes de l'UE",
+      "intro": "Ce site web est conforme à :"
+    },
+    "lastUpdated": "Cette déclaration a été mise à jour le :"
   }
 }

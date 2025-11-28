@@ -320,5 +320,71 @@
     "accessibility": "Accessibility Statement",
     "privacy": "Privacy Policy",
     "rights": "All rights reserved."
+  },
+  "accessibility": {
+    "title": "Accessibility Statement",
+    "commitment": {
+      "title": "Our Commitment to Accessibility",
+      "body": "The BE AWARE project is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards."
+    },
+    "conformance": {
+      "title": "Conformance Status",
+      "body": "The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.",
+      "status": "This website is fully conformant with WCAG 2.1 Level AA.",
+      "meaning": "Fully conformant means that the content fully conforms to the accessibility standard without any exceptions."
+    },
+    "measures": {
+      "title": "Accessibility Measures",
+      "intro": "The BE AWARE project ensures accessibility through the following measures:",
+      "items": {
+        "mission": "Including accessibility as part of our mission statement",
+        "procurement": "Integrating accessibility into our procurement practices",
+        "training": "Providing ongoing accessibility training for our staff",
+        "goals": "Assigning clear accessibility goals and responsibilities",
+        "qa": "Employing formal accessibility quality assurance methods"
+      }
+    },
+    "specs": {
+      "title": "Technical Specifications",
+      "intro": "Accessibility of this website relies on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:",
+      "outro": "These technologies are relied upon for conformance with the accessibility standards used."
+    },
+    "features": {
+      "title": "Accessibility Features",
+      "keyboard": {
+        "title": "Keyboard Navigation",
+        "body": "Full keyboard accessibility for all interactive elements"
+      },
+      "screenReader": {
+        "title": "Screen Reader Support",
+        "body": "Semantic HTML and ARIA labels for assistive technologies"
+      },
+      "contrast": {
+        "title": "Color Contrast",
+        "body": "Minimum 4.5:1 contrast ratio for all text"
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "body": "Works on all devices and screen sizes"
+      },
+      "textAlt": {
+        "title": "Text Alternatives",
+        "body": "Alt text for all meaningful images"
+      },
+      "structure": {
+        "title": "Clear Structure",
+        "body": "Logical heading hierarchy and page structure"
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "intro": "We welcome your feedback on the accessibility of the BE AWARE website. Please let us know if you encounter accessibility barriers:",
+      "response": "We try to respond to feedback within 5 business days."
+    },
+    "compliance": {
+      "title": "Compliance with EU Standards",
+      "intro": "This website complies with:"
+    },
+    "lastUpdated": "This statement was last updated on:"
   }
 }

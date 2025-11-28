@@ -2,7 +2,7 @@
   "nav": {
     "about": "Sobre",
     "objectives": "Objetivos",
-    "targetGroups": "Grupos-alvo",
+    "targetGroups": "Grupos-Alvo",
     "activities": "Atividades",
     "results": "Resultados",
     "partners": "Parceiros",
@@ -20,18 +20,18 @@
     "exploreWork": "Explore o Nosso Trabalho",
     "learnMore": "Saiba mais",
     "objectives": "Objetivos",
-    "targetGroups": "Grupos-alvo",
+    "targetGroups": "Grupos-Alvo",
     "activities": "Atividades",
     "results": "Resultados"
   },
   "objectives": {
     "title1": "Objetivo Geral",
-    "intro": "O projeto BE AWARE visa reforçar as oportunidades de emprego para pessoas com deficiência ou incapacidade, fortalecendo as competências de envolvimento de empregadores dos profissionais de Emprego Apoiado na Bulgária e em Portugal. Esta abordagem responde diretamente a uma lacuna crítica de competências no domínio da formação profissional e contribui para a construção de um mercado de trabalho europeu mais inclusivo.",
+    "intro": "O projeto BE AWARE visa reforçar as oportunidades de emprego para pessoas com deficiência ou incapacidade, fortalecendo a capacidade dos profissionais de Emprego Apoiado para envolver eficazmente empregadores na Bulgária e em Portugal. Esta abordagem responde diretamente a uma lacuna crítica de competências no domínio da formação profissional e contribui para a construção de um mercado de trabalho europeu mais inclusivo.",
     "title2": "Objetivos Específicos",
     "cards": {
       "supportedEmploymentProfessionals": {
         "title": "Programa de Formação para profissionais de Emprego Apoiado",
-        "body": "Desenvolver e implementar um programa de formação em regime misto dirigido a 30 profissionais de Emprego Apoiado, dotando-os de estratégias práticas e orientadas para envolvimento de empregadores, com vista a melhorar as colocações profissionais de pessoas com deficiência ou incapacidade."
+        "body": "Desenvolver e implementar um Programa de Formação em regime misto dirigido a 30 profissionais de Emprego Apoiado, dotando-os de estratégias práticas e orientadas para o envolvimento eficaz de empregadores, com vista a melhorar as colocações profissionais de pessoas com deficiência ou incapacidade."
       },
       "employers": {
         "title": "Manual de Boas Práticas para empregadores",
@@ -39,20 +39,20 @@
       },
       "capacitation": {
         "title": "Formação-Piloto",
-        "body": "Pilotar a formação na Bulgária e em Portugal, avaliando a sua eficácia com base no feedback dos profissionais de Emprego Apoiado e dos empregadores, garantindo a sua relevância, aplicabilidade e aperfeiçoamento."
+        "body": "Testar a formação na Bulgária e em Portugal, avaliando a sua eficácia com base no feedback de profissionais de Emprego Apoiado e empregadores, garantindo a sua relevância, aplicabilidade e melhoria contínua."
       },
       "event": {
         "title": "World Café Session (WCS)",
-        "body": "Organizar uma World Café Session (WCS) com 20 a 25 participantes — incluindo profissionais de EA, empregadores e pessoas com deficiência ou incapacidade — para desenvolver e aperfeiçoar abordagens eficazes de envolvimento de empregadores."
+        "body": "Organizar uma World Café Session (WCS) com 20 a 25 participantes — incluindo profissionais de Emprego Apoiado, empregadores e pessoas com deficiência ou incapacidade — para desenvolver e aperfeiçoar abordagens eficazes de envolvimento de empregadores."
       },
       "dissemination": {
         "title": "Disseminação e Valorização",
-        "body": "Disseminar e ampliar os resultados do projeto através de eventos multiplicadores e de uma campanha online dedicada, assegurando uma ampla adoção do programa de formação e do Manual de Boas Práticas."
+        "body": "Disseminar e ampliar os resultados do projeto através de eventos multiplicadores e de uma campanha online dedicada, assegurando a ampla adoção do Programa de Formação e do Manual de Boas Práticas."
       }
     }
   },
   "targetGroups": {
-    "title": "Grupos-alvo",
+    "title": "Grupos-Alvo",
     "intro": "O projeto BE AWARE visa melhorar os resultados de empregabilidade de pessoas com deficiência ou incapacidade, reforçando a capacidade dos serviços de Emprego Apoiado na Bulgária e em Portugal. Para concretizar este objetivo, vários grupos-alvo principais estão envolvidos, direta e indiretamente:",
     "groups": {
       "employmentSupportProfessionals": {
@@ -319,5 +319,71 @@
     "accessibility": "Declaração de Acessibilidade",
     "privacy": "Política de Privacidade",
     "rights": "Todos os direitos reservados."
+  },
+  "accessibility": {
+    "title": "Declaração de Acessibilidade",
+    "commitment": {
+      "title": "O Nosso Compromisso com a Acessibilidade",
+      "body": "O projeto BE AWARE está empenhado em garantir a acessibilidade digital para pessoas com deficiência ou incapacidade. Estamos continuamente a melhorar a experiência do utilizador para todos e a aplicar as normas de acessibilidade relevantes."
+    },
+    "conformance": {
+      "title": "Estado de Conformidade",
+      "body": "As Diretrizes de Acessibilidade para Conteúdo Web (WCAG) definem requisitos para designers e programadores melhorarem a acessibilidade para pessoas com deficiência ou incapacidade. Definem três níveis de conformidade: Nível A, Nível AA e Nível AAA.",
+      "status": "Este website está totalmente em conformidade com as WCAG 2.1 Nível AA.",
+      "meaning": "Totalmente em conformidade significa que o conteúdo está totalmente em conformidade com a norma de acessibilidade sem quaisquer exceções."
+    },
+    "measures": {
+      "title": "Medidas de Acessibilidade",
+      "intro": "O projeto BE AWARE toma as seguintes medidas para garantir a acessibilidade:",
+      "items": {
+        "mission": "Incluir a acessibilidade como parte da nossa declaração de missão",
+        "procurement": "Integrar a acessibilidade nas nossas práticas de contratação",
+        "training": "Fornecer formação contínua em acessibilidade para a nossa equipa",
+        "goals": "Atribuir objetivos e responsabilidades claros em matéria de acessibilidade",
+        "qa": "Empregar métodos formais de garantia de qualidade de acessibilidade"
+      }
+    },
+    "specs": {
+      "title": "Especificações Técnicas",
+      "intro": "A acessibilidade deste website depende das seguintes tecnologias para funcionar com a combinação particular de navegador web e quaisquer tecnologias de assistência ou plugins instalados no seu computador:",
+      "outro": "Estas tecnologias são utilizadas para conformidade com as normas de acessibilidade utilizadas."
+    },
+    "features": {
+      "title": "Funcionalidades de Acessibilidade",
+      "keyboard": {
+        "title": "Navegação por Teclado",
+        "body": "Acessibilidade total por teclado para todos os elementos interativos"
+      },
+      "screenReader": {
+        "title": "Suporte a Leitor de Ecrã",
+        "body": "HTML semântico e etiquetas ARIA para tecnologias de assistência"
+      },
+      "contrast": {
+        "title": "Contraste de Cor",
+        "body": "Rácio de contraste mínimo de 4.5:1 para todo o texto"
+      },
+      "responsive": {
+        "title": "Design Responsivo",
+        "body": "Funciona em todos os dispositivos e tamanhos de ecrã"
+      },
+      "textAlt": {
+        "title": "Alternativas de Texto",
+        "body": "Texto alternativo para todas as imagens significativas"
+      },
+      "structure": {
+        "title": "Estrutura Clara",
+        "body": "Hierarquia de cabeçalhos e estrutura de página lógicas"
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "intro": "Agradecemos o seu feedback sobre a acessibilidade do website BE AWARE. Por favor, informe-nos se encontrar barreiras de acessibilidade:",
+      "response": "Tentamos responder ao feedback no prazo de 5 dias úteis."
+    },
+    "compliance": {
+      "title": "Conformidade com as Normas da UE",
+      "intro": "Este website está em conformidade com:"
+    },
+    "lastUpdated": "Esta declaração foi atualizada pela última vez em:"
   }
 }

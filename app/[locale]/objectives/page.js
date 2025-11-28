@@ -25,25 +25,25 @@ export default async function ObjectivesPage({ params }) {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-3 mb-6">
             <div className="w-2 h-16 bg-gradient-to-b from-[#4681BC] to-[#F1C424] rounded-full"></div>
-            <h1 className="text-5xl md:text-6xl font-black text-[#2C5282]">
+            <h1 className="text-4xl md:text-5xl font-black text-[#2C5282]">
               {t('title1')}
             </h1>
           </div>
-          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-700 max-w-4xl leading-relaxed">
             {t('intro')}
           </p>
         </div>
       </div>
 
       {/* Content Section */}
-      <div className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto space-y-12">
+      <div className="py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
 
           {/* Specific Objectives Title */}
-          <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2C5282] inline-block relative">
+          <div className="flex items-center space-x-3">
+            <div className="w-2 h-12 bg-gradient-to-b from-[#4681BC] to-[#F1C424] rounded-full"></div>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2C5282]">
               {t('title2')}
-              <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#4681BC] to-[#F1C424] rounded-full"></div>
             </h2>
           </div>
 
