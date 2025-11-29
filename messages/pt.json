@@ -124,7 +124,7 @@
   },
   "results": {
     "title": "Resultados",
-    "intro": "O projeto BE AWARE gera resultados concretos que reforçam a inclusão profissional de pessoas com deficiência ou incapacidade, através do aumento da capacidade de intervenção dos profissionais de Emprego Apoiado e do envolvimento das entidades empregadoras.",
+    "intro": "O projeto BE AWARE gera resultados concretos que reforçam a inclusão profissional de pessoas com deficiência ou incapacidade, através do aumento da capacidade de intervenção dos profissionais de Emprego Apoiado e do maior envolvimento das entidades empregadoras.",
     "subtitle1": "Resultados Tangíveis",
     "bullets": {
       "bullet1": {
@@ -137,7 +137,7 @@
       },
       "bullet3": {
         "title": "Programa de Formação em Regime Misto",
-        "body": "Pacote formativo estruturado que integra conteúdos teóricos, ferramentas práticas e componentes presenciais e online, centrado nas estratégias de envolvimento de empregadores."
+        "body": "Pacote formativo estruturado que combina conteúdos teóricos, ferramentas práticas e componentes de formação presencial e digital, centrado nas estratégias de envolvimento de empregadores."
       },
       "bullet4": {
         "title": "Relatório da Atividade de Formação-Piloto",
@@ -145,7 +145,7 @@
       },
       "bullet5": {
         "title": "Manual de Boas Práticas",
-        "body": "Recurso abrangente que reúne histórias de sucesso, estratégias comprovadas e práticas inclusivas de recrutamento e retenção, refinado com contributos da World Café Session."
+        "body": "Recurso abrangente que reúne histórias de sucesso, estratégias comprovadas e práticas inclusivas de recrutamento e retenção, aperfeiçoado com os contributos da World Café Session."
       },
       "bullet6": {
         "title": "World Café Session (WCS)",
@@ -165,18 +165,18 @@
       },
       "bullet10": {
         "title": "Rede de Stakeholders",
-        "body": "Rede reforçada de organizações e profissionais dedicados à promoção da acessibilidade laboral e da inclusão de pessoas com deficiência ou incapacidade na Bulgária e em Portugal."
+        "body": "Rede reforçada de organizações e profissionais dedicados à promoção da acessibilidade no emprego e da inclusão de pessoas com deficiência ou incapacidade na Bulgária e em Portugal."
       }
     },
     "subtitle2": "Impacto Esperado",
     "bullets2": {
       "bullet1": {
         "title": "Reforço da Capacidade dos Profissionais de Emprego Apoiado",
-        "body": "Os profissionais de Emprego Apoiado adquirem melhores competências de envolvimento de empregadores e maior confiança, contribuindo para práticas mais eficazes de apoio à empregabilidade."
+        "body": "Os profissionais de Emprego Apoiado adquirem competências reforçadas de envolvimento de empregadores e uma maior confiança na sua intervenção, resultando em práticas mais eficazes de apoio à empregabilidade."
       },
       "bullet2": {
         "title": "Aumento das Oportunidades de Emprego",
-        "body": "Uma interação mais eficaz com empregadores e a redução das barreiras de contratação promovem um melhor acesso ao mercado de trabalho para pessoas com deficiência ou incapacidade."
+        "body": "Uma interação mais eficaz com empregadores e a redução das barreiras à contratação contribuem para melhorar o acesso ao mercado de trabalho para pessoas com deficiência ou incapacidade."
       },
       "bullet3": {
         "title": "Melhoria Estrutural e de Longo Prazo",
@@ -188,7 +188,7 @@
       },
       "bullet5": {
         "title": "Disponibilidade Sustentada dos Recursos",
-        "body": "O programa de formação e o Manual de Boas Práticas permanecem acessíveis através das plataformas dos parceiros e redes internacionais do setor, garantindo utilização e adaptação contínuas para além da duração do projeto."
+        "body": "O Programa de Formação e o Manual de Boas Práticas permanecem acessíveis através das plataformas dos parceiros e de redes internacionais do setor, garantindo a sua utilização, disseminação e adaptação contínuas para além do ciclo de vida do projeto."
       }
     }
   },
@@ -243,7 +243,7 @@
   },
   "partners": {
     "title": "Parceiros",
-    "intro": "Conheça a nossa rede de parceiros dedicados que trabalham em conjunto para fazer a diferença.",
+    "intro": "Conheça os parceiros do projeto, que trabalham em conjunto para fazer a diferença.",
     "backToPartners": "Voltar aos Parceiros",
     "list": {
       "Consultis": {
@@ -270,36 +270,33 @@
     "details": {
       "consultis": {
         "name": "Consultis",
-        "paragraph1": "A CONSULTIS é uma organização fundada em 2005, com sede em Vila Nova de Gaia, Portugal, especializada em consultoria empresarial, inovação e Emprego Apoiado. Membro ativo da Associação Portuguesa de Emprego Apoiado, gere um centro de recursos em Emprego Apoiado no Porto, onde presta apoio a empresas, profissionais e candidatos ao emprego, particularmente a grupos em situação de desvantagem no mercado de trabalho, como pessoas com deficiência ou incapacidade, jovens em risco de exclusão social, migrantes e desempregados de longa duração.",
-        "paragraph2": "Em parceria com empresas, entidades de formação, instituições educativas, organizações do setor social e entidades públicas, a CONSULTIS desenvolve soluções ajustadas às necessidades do mercado de trabalho, promovendo estratégias eficazes para a inclusão profissional e social. Através de serviços de consultoria, formação e emprego apoiado, apoia a implementação de práticas mais inclusivas e sustentáveis, garantindo o acompanhamento contínuo de empregadores e profissionais no processo de integração no mercado de trabalho.",
+        "paragraph1": "A CONSULTIS é uma organização fundada em 2005, sediada em Vila Nova de Gaia, Portugal, especializada em consultoria empresarial, educação e formação, inovação e Emprego Apoiado. Enquanto membro ativo da Associação Portuguesa de Emprego Apoiado, gere um Centro de Recursos no Porto, onde presta apoio a empresas, profissionais e pessoas à procura de emprego, particularmente a grupos em desvantagem no mercado de trabalho, como pessoas com deficiência ou incapacidade, jovens em risco de exclusão social, migrantes e desempregados de longa duração.",
+        "paragraph2": "Em parceria com empresas, entidades de formação, instituições educativas, organizações do setor social e entidades públicas, a CONSULTIS desenvolve soluções ajustadas às necessidades do mercado de trabalho, promovendo estratégias eficazes para a inclusão profissional e social. Através de serviços de consultoria, formação e emprego apoiado, apoia a implementação de práticas mais inclusivas e sustentáveis, garantindo o acompanhamento contínuo de empregadores e profissionais no processo de Em colaboração com empresas, entidades de formação, instituições educativas, organizações do setor social e entidades públicas, a CONSULTIS desenvolve soluções alinhadas com as necessidades do mercado de trabalho, promovendo estratégias eficazes de inclusão profissional e social. Através dos serviços disponibilizados, a CONSULTIS, apoia a implementação de práticas mais inclusivas e sustentáveis, assegurando o acompanhamento contínuo dos empregadores e das pessoas em processo de integração no mercado de trabalho.",
         "paragraph3": "Saiba mais em https://www.consultis.pt",
         "contactTitle": "Informações de Contacto",
-        "email": "info@een-network.eu",
-        "website": "https://www.een-network.eu",
-        "address": "Rue de la Loi 123, 1040 Bruxelas, Bélgica"
+        "email": " crea@consultis.pt ",
+        "website": "https://www.consultis.pt",
+        "address": "Centro de Recursos em Emprego Apoiado, Rua Calouste Gulbenkian, nº52, 5º andar, E7, 4050-144 Porto, Portuga"
       },
       "rumo": {
-        "aboutTitle": "Sobre",
         "paragraph1": "A RUMO, Cooperativa de Solidariedade Social, Crl, é uma organização sem fins lucrativos fundada em 1981 e sediada no Barreiro, Portugal. A sua missão é promover a inclusão educativa, profissional e comunitária de pessoas em situação de desvantagem, na perspetiva do Movimento de Emprego Apoiado. Membro fundador da Associação Portuguesa de Emprego Apoiado, a RUMO atua em áreas como a formação profissional, a integração  no mercado de trabalho e o apoio a grupos vulneráveis, como as pessoas com deficiência ou incapacidade.  O trabalho em rede é essencial para a atuação da RUMO, uma vez que as parcerias permitem uma gestão mais eficaz das respostas. Através destas parcerias, diferentes pessoas, equipas e organizações colaboram para responder a necessidades e desafios comuns. ",
         "paragraph2": "A RUMO colabora em rede com empregadores, instituições públicas, organizações da sociedade civil, centros de formação profissional e grupos de autoajuda, promovendo a consciencialização sobre os direitos de pessoas em situação de desvantagem ou em risco de exclusão social, e oferecendo apoio à integração no mercado de trabalho, formação de profissionais e outros serviços.",
         "paragraph3": "Saiba mais em https://www.rumo.org.pt/ ",
         "contactTitle": "Informações de Contacto",
-        "email": "contact@iwf-portugal.org",
-        "website": "https://www.iwf-portugal.org",
-        "address": "Avenida da Liberdade 245, 1250-143 Lisboa, Portugal"
+        "email": "direccao@rumo.org.pt",
+        "website": "https://www.rumo.org.pt/",
+        "address": "Parque Empresarial do Barreiro – Rua 19, nº13, 2830-904, Barreiro, Portugal"
       },
       "nfedp": {
-        "aboutTitle": "Sobre",
         "paragraph1": "National Federation of Employers of Disabled People (NFEDP) é uma organização de referência na Bulgária que representa os interesses de empregadores comprometidos com a inclusão de pessoas com deficiência ou incapacidade no mercado de trabalho. Com mais de 15 anos de experiência, a NFEDP promove práticas de emprego inclusivo, defende a igualdade de oportunidades e contribui para o desenvolvimento de políticas nacionais no domínio da empregabilidade e da reabilitação profissional.",
         "paragraph2": "A NFEDP trabalha em estreita colaboração com empresas, entidades públicas e organizações da sociedade civil para eliminar barreiras à inclusão profissional, melhorar a acessibilidade dos locais de trabalho e reforçar a confiança dos empregadores nos processos de recrutamento de pessoas com deficiência ou incapacidade. As suas atividades incluem aconselhamento a empresas, ações de sensibilização, estudos sobre o mercado de trabalho e participação em iniciativas estratégicas nacionais e europeias dedicadas ao emprego inclusivo.",
         "paragraph3": "Saiba mais em https://www.nfri.bg",
         "contactTitle": "Informações de Contacto",
-        "email": "research@csi-france.fr",
-        "website": "https://www.csi-france.fr",
-        "address": "15 Rue des Archives, 75004 Paris, França"
+        "email": "nfri@abv.bg",
+        "website": "https://www.nfri.bg",
+        "address": " 99 G.S. Rakovski Blvd, 1000 Sofia, Bulgária"
       },
       "bist": {
-        "aboutTitle": "Sobre",
         "paragraph1": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST) é uma organização sem fins lucrativos búlgara dedicada à promoção de serviços de apoio inclusivos e à melhoria das oportunidades de emprego para pessoas com deficiência ou incapacidade. A BIST atua na interseção entre educação, apoio social e inclusão no mercado de trabalho, desenvolvendo iniciativas que capacitam grupos  em situação de desvantagem e reforçam a intervenção de profissionais e entidades que atuam no domínio do Emprego Apoiado.",
         "paragraph2": "A organização dinamiza ações de sensibilização, formação de profissionais, iniciativas comunitárias e colaboração com empregadores, contribuindo para reduzir o estigma, aumentar a confiança na contratação inclusiva e promover práticas de recrutamento inclusivas e acessíveis. A BIST integra ainda redes nacionais e europeias dedicadas à defesa dos direitos das pessoas com deficiência e à promoção de reformas inclusivas no mercado de trabalho.",
         "paragraph3": "Saiba mais em https://inclusionteam.org/ ",

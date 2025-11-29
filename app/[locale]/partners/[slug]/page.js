@@ -108,9 +108,7 @@ export default async function PartnerDetailPage({ params }) {
 
         {/* About section */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-[#2C5282] mb-6 border-l-4 border-[#4681BC] pl-4">
-            {t(`${base}.aboutTitle`)}
-          </h2>
+
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>{t(`${base}.paragraph1`)}</p>
             <p>{t(`${base}.paragraph2`)}</p>
@@ -152,12 +150,7 @@ export default async function PartnerDetailPage({ params }) {
             {t(`${base}.contactTitle`)}
           </h2>
           <div className="space-y-3 text-lg">
-            <p>
-              <span className="font-semibold">📧 Email:</span>{' '}
-              <a href={`mailto:${t(`${base}.email`)}`} className="hover:text-[#F1C424] transition-colors underline">
-                {t(`${base}.email`)}
-              </a>
-            </p>
+
             <p>
               <span className="font-semibold">🌐 Website:</span>{' '}
               <a

@@ -243,7 +243,7 @@
   },
   "partners": {
     "title": "Partners",
-    "intro": "Meet our network of dedicated partners working together to make a difference.",
+    "intro": "Meet the project partners, who work together to make a difference.",
     "backToPartners": "Back to Partners",
     "list": {
       "Consultis": {
@@ -270,37 +270,33 @@
     "details": {
       "consultis": {
         "name": "Consultis",
-        "aboutTitle": "About",
-        "paragraph1": "CONSULTIS is a Portuguese company established in 2005 and headquartered in Vila Nova de Gaia, specialising in business consultancy, innovation, and Supported Employment. As an active member of the Portuguese Association of Supported Employment, it operates a Resource Centre in Porto, where it supports employers, professionals, and jobseekers — with a particular focus on groups facing disadvantage in the labour market, including disabled individuals, young people at risk of exclusion, migrants, and the long-term unemployed.",
-        "paragraph2": "Working in partnership with businesses, training entities, educational institutions, social organisations, and public bodies, CONSULTIS develops tailored solutions that respond to labour market demands, promoting effective strategies for professional and social inclusion. Through its consultancy services, training programmes, and Supported Employment initiatives, the organisation supports the implementation of inclusive and sustainable employment practices, ensuring continuous support for both employers and professionals throughout the integration process.",
+        "paragraph1": "CONSULTIS is an organisation founded in 2005 and based in Vila Nova de Gaia, Portugal, specialising in business consultancy, education and training, innovation, and Supported Employment. As an active member of the Portuguese Association of Supported Employment, it operates a Resource Centre in Porto, where it provides support to businesses, professionals, and jobseekers, particularly to groups facing disadvantage in the labour market, such as disabled individuals, young people at risk of social exclusion, migrants, and the long-term unemployed.",
+        "paragraph2": "In collaboration with businesses, training entities, educational institutions, social sector organisations, and public bodies, CONSULTIS develops solutions aligned with labour market needs, promoting effective strategies for professional and social inclusion. Through the services it provides, CONSULTIS supports the implementation of more inclusive and sustainable employment practices, ensuring continuous support for employers and for individuals in the process of labour market integration.",
         "paragraph3": "Learn more at https://www.consultis.pt",
         "contactTitle": "Contact Information",
-        "email": "info@een-network.eu",
+        "email": " crea@consultis.pt ",
         "website": "https://www.consultis.pt",
-        "address": "Rue de la Loi 123, 1040 Brussels, Belgium"
+        "address": "Centro de Recursos em Emprego Apoiado, Rua Calouste Gulbenkian, nº52, 5º andar, E7, 4050-144 Porto, Portuga"
       },
       "rumo": {
-        "aboutTitle": "About",
         "paragraph1": "RUMO, Cooperativa de Solidariedade Social, Crl, is a non-profit organisation  founded in 1981 and based in Barreiro, Portugal. Its mission is to promote educational, professional, and community inclusion for disadvantaged individuals, within the framework of the Supported Employment Movement. A founding member of the Portuguese Association for Supported Employment, RUMO works in areas such as vocational training, labour market integration, and support for vulnerable groups, including people with disabilities or impairments. Networking is essential for the development of Rumo, as partnerships are key to effective management. Through partnerships, different individuals, teams, and organisations can work together to address common interests and concerns.",
         "paragraph2": "RUMO collaborates within a network of employers, public institutions, civil society organisations, vocational training centres, and self-advocacy groups, raising awareness of the rights of disadvantaged individuals and those at risk of social exclusion, offering support for labour market integration, professional training, and other services. ",
         "paragraph3": "Learn more at https://www.rumo.org.pt/",
         "contactTitle": "Contact Information",
-        "email": "contact@iwf-portugal.org",
+        "email": "direccao@rumo.org.pt",
         "website": "https://www.rumo.org.pt/",
-        "address": "Avenida da Liberdade 245, 1250-143 Lisbon, Portugal"
+        "address": "Parque Empresarial do Barreiro – Rua 19, nº13, 2830-904, Barreiro, Portugal"
       },
       "nfedp": {
-        "aboutTitle": "About",
         "paragraph1": "The National Federation of Employers of Disabled People (NFEDP) is a leading Bulgarian organisation representing the interests of employers who actively support the labour-market inclusion of persons with disabilities. With more than 15 years of experience, NFEDP promotes disability-inclusive employment practices, advocates for equal opportunities, and contributes to national policy development in the field of employment and vocational rehabilitation.",
         "paragraph2": "NFEDP works closely with companies, public authorities, and civil society stakeholders to remove structural barriers, improve workplace accessibility, and foster employer confidence in hiring disabled workers. Its activities include employer counselling, awareness-raising, labour-market research, and participation in national and European strategic initiatives promoting inclusive employment.",
-        "paragraph3": "Learn more at https://www.nfri.bg ",
+        "paragraph3": "Learn more at https://www.nfri.bg",
         "contactTitle": "Contact Information",
-        "email": "research@csi-france.fr",
-        "website": "Learn more at https://www.nfri.bg ",
-        "address": "15 Rue des Archives, 75004 Paris, France"
+        "email": "nfri@abv.bg",
+        "website": "Learn more at https://www.nfri.bg",
+        "address": "99 G.S. Rakovski Blvd, 1000 Sofia, Bulgária"
       },
       "bist": {
-        "aboutTitle": "About",
         "paragraph1": "SDRUJENIE “BYLGARSKI EKIP ZA PRIOBSHTAVASHTA PODKREPA” (BIST) is a Bulgarian non-profit organisation dedicated to promoting inclusive support services and improving employment outcomes for individuals with disabilities. BIST works at the intersection of education, social support, and labour market inclusion, developing initiatives that empower disadvantaged groups and strengthen the capacity of professionals and organisations working in Supported Employment. ",
         "paragraph2": "The organisation engages in awareness-raising, professional development activities, community-based interventions, and collaboration with employers to address stigma, increase disability confidence, and promote accessible recruitment practices. BIST also contributes to national and European networks advocating for disability rights and inclusive labour market reforms.",
         "paragraph3": "Learn more at https://inclusionteam.org/",
