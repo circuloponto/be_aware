@@ -79,7 +79,7 @@ export default async function PartnersPage({ params }) {
                   />
                 </div>
 
-                <h2 className="text-2xl font-bold text-[#2C5282] mb-2 group-hover:text-[#4681BC] transition-colors">{name}</h2>
+                <h2 className="text-2xl font-bold text-[#2C5282] mb-2 group-hover:text-[#4681BC] transition-colors uppercase">{name}</h2>
                 <div className="flex items-center space-x-4 text-sm text-gray-600 mb-4">
                   <div className="flex items-center gap-2">
                     <FaMapMarkerAlt
@@ -87,7 +87,7 @@ export default async function PartnersPage({ params }) {
                       style={{ fill: `url(#gradient-${countryCode})` }}
                       className="drop-shadow-sm"
                     />
-                    <span>{country}</span>
+                    <span className="uppercase">{country}</span>
                   </div>
                   <span className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">
                     {role}

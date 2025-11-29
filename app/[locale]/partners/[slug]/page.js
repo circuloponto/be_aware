@@ -86,7 +86,7 @@ export default async function PartnerDetailPage({ params }) {
 
             {/* Text content */}
             <div className="flex-1 text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-4">
+              <h1 className="text-4xl md:text-5xl font-bold text-[#2C5282] mb-4 uppercase">
                 {name}
               </h1>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 text-lg">
@@ -96,7 +96,7 @@ export default async function PartnerDetailPage({ params }) {
                     style={{ fill: `url(#gradient-${countryCode})` }}
                     className="drop-shadow-sm"
                   />
-                  <span>{country}</span>
+                  <span className="uppercase">{country}</span>
                 </div>
                 <span className="px-4 py-2 bg-[#F1C424] text-[#2C5282] rounded-full font-bold">
                   {role}
