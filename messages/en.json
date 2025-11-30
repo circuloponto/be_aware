@@ -216,7 +216,7 @@
   },
   "contacts": {
     "title": "Contact Us",
-    "intro": "Get in touch with the BE AWARE team.",
+    "intro": "Get in touch with the BE AWARE team.Get in touch with the BE AWARE team through our form.",
     "form": {
       "heading": "Send us a Message",
       "nameLabel": "Full Name",
@@ -243,8 +243,10 @@
   },
   "partners": {
     "title": "Partners",
-    "intro": "Meet the project partners, who work together to make a difference.",
+    "intro": " Meet the partner organisations that contribute to the implementation of BE AWARE and to its impact.",
     "backToPartners": "Back to Partners",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
     "list": {
       "Consultis": {
         "name": "CONSULTIS",

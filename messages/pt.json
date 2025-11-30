@@ -216,7 +216,7 @@
   },
   "contacts": {
     "title": "Contactos",
-    "intro": "Entre em contacto com a equipa do BE AWARE.",
+    "intro": "Entre em contacto com a equipa do BE AWARE através do nosso formulário.",
     "form": {
       "heading": "Envie-nos uma mensagem",
       "nameLabel": "Nome completo",
@@ -243,8 +243,10 @@
   },
   "partners": {
     "title": "Parceiros",
-    "intro": "Conheça os parceiros do projeto, que trabalham em conjunto para fazer a diferença.",
+    "intro": "Conheça as organizações parceiras que contribuem para a implementação do BE AWARE e para o seu impacto.",
     "backToPartners": "Voltar aos Parceiros",
+    "addressLabel": "Morada",
+    "emailLabel": "Email",
     "list": {
       "Consultis": {
         "name": "Consultis",
@@ -276,7 +278,7 @@
         "contactTitle": "Informações de Contacto",
         "email": " crea@consultis.pt ",
         "website": "https://www.consultis.pt",
-        "address": "Centro de Recursos em Emprego Apoiado, Rua Calouste Gulbenkian, nº52, 5º andar, E7, 4050-144 Porto, Portuga"
+        "address": "Centro de Recursos em Emprego Apoiado, Rua Calouste Gulbenkian, nº52, 5º andar, E7, 4050-144 Porto, Portugal"
       },
       "rumo": {
         "paragraph1": "A RUMO, Cooperativa de Solidariedade Social, Crl, é uma organização sem fins lucrativos fundada em 1981 e sediada no Barreiro, Portugal. A sua missão é promover a inclusão educativa, profissional e comunitária de pessoas em situação de desvantagem, na perspetiva do Movimento de Emprego Apoiado. Membro fundador da Associação Portuguesa de Emprego Apoiado, a RUMO atua em áreas como a formação profissional, a integração  no mercado de trabalho e o apoio a grupos vulneráveis, como as pessoas com deficiência ou incapacidade.  O trabalho em rede é essencial para a atuação da RUMO, uma vez que as parcerias permitem uma gestão mais eficaz das respostas. Através destas parcerias, diferentes pessoas, equipas e organizações colaboram para responder a necessidades e desafios comuns. ",

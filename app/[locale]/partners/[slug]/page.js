@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
 
 export default async function PartnerDetailPage({ params }) {
   const { locale, slug } = await params;
@@ -46,13 +46,13 @@ export default async function PartnerDetailPage({ params }) {
       <svg width="0" height="0" className="absolute">
         <defs>
           {/* Portugal: Vertical split (Green/Red) */}
-          <linearGradient id="gradient-PT" x1="0%" y1="0%" x2="100%" y2="0%">
+          <linearGradient id="gradient-PT-detail" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="40%" stopColor="#006600" />
             <stop offset="40%" stopColor="#FF0000" />
           </linearGradient>
 
           {/* Bulgaria: Horizontal stripes (White/Green/Red) */}
-          <linearGradient id="gradient-BG" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="gradient-BG-detail" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="33%" stopColor="#e0e0e0" /> {/* Slightly darkened white for visibility */}
             <stop offset="33%" stopColor="#00966E" />
             <stop offset="66%" stopColor="#00966E" />
@@ -93,7 +93,7 @@ export default async function PartnerDetailPage({ params }) {
                 <div className="flex items-center gap-2 text-gray-700">
                   <FaMapMarkerAlt
                     size={20}
-                    style={{ fill: `url(#gradient-${countryCode})` }}
+                    style={{ fill: `url(#gradient-${countryCode}-detail)` }}
                     className="drop-shadow-sm"
                   />
                   <span className="uppercase">{country}</span>
@@ -151,25 +151,30 @@ export default async function PartnerDetailPage({ params }) {
           </h2>
           <div className="space-y-3 text-lg">
 
-            <p>
-              <span className="font-semibold">🌐 Website:</span>{' '}
-              <a
-                href={t(`${base}.website`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-[#F1C424] transition-colors underline"
-              >
-                {t(`${base}.website`)}
-              </a>
-            </p>
             <div className="flex items-start gap-2">
-              <FaMapMarkerAlt
+              <FaEnvelope
                 size={18}
-                style={{ fill: `url(#gradient-${countryCode})` }}
                 className="mt-1 flex-shrink-0"
               />
               <div>
-                <span className="font-semibold">Address:</span>{' '}
+                <span className="font-semibold">{t('emailLabel')}:</span>{' '}
+                <a
+                  href={`mailto:${t(`${base}.email`).trim()}`}
+                  className="hover:text-[#F1C424] transition-colors underline"
+                >
+                  {t(`${base}.email`)}
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-2">
+              <FaMapMarkerAlt
+                size={18}
+                style={{ fill: `url(#gradient-${countryCode}-detail)` }}
+                className="mt-1 flex-shrink-0"
+              />
+              <div>
+                <span className="font-semibold">{t('addressLabel')}:</span>{' '}
                 {t(`${base}.address`)}
               </div>
             </div>

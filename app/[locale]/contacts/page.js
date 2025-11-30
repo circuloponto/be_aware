@@ -38,7 +38,7 @@ export default function ContactsPage() {
           {t('intro')}
         </p>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="max-w-3xl mx-auto">
           {/* Contact Form */}
           <section aria-labelledby="contact-form-heading" className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-[#4681BC]">
             <h2 id="contact-form-heading" className="text-2xl font-bold text-[#2C5282] mb-6">{t('form.heading')}</h2>
@@ -48,8 +48,8 @@ export default function ContactsPage() {
                 role="alert"
                 aria-live="assertive"
                 className={`mb-6 p-4 rounded-lg ${status.type === 'success'
-                    ? 'bg-green-50 text-green-800 border border-green-200'
-                    : 'bg-red-50 text-red-800 border border-red-200'
+                  ? 'bg-green-50 text-green-800 border border-green-200'
+                  : 'bg-red-50 text-red-800 border border-red-200'
                   }`}
               >
                 <div className="flex items-start">
@@ -138,41 +138,6 @@ export default function ContactsPage() {
                 )}
               </button>
             </form>
-          </section>
-
-          {/* Contact Info */}
-          <section aria-labelledby="contact-info-heading" className="bg-gradient-to-br from-[#4681BC] to-[#2C5282] text-white rounded-xl shadow-lg p-8">
-            <h2 id="contact-info-heading" className="text-2xl font-bold mb-6">{t('office.title')}</h2>
-            <address className="space-y-6 text-blue-50 not-italic">
-              <div>
-                <p className="font-semibold text-white mb-2">{t('office.addressLabel')}</p>
-                <p>{t('office.organization')}</p>
-                <p>{t('office.street')}</p>
-                <p>{t('office.city')}</p>
-              </div>
-
-              <div>
-                <p className="font-semibold text-white mb-2">{t('office.emailLabel')}</p>
-                <a
-                  href="mailto:asdias@consultis.com"
-                  className="hover:text-[#F1C424] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F1C424] rounded"
-                  aria-label="Send email to asdias@consultis.com"
-                >
-                  asdias@consultis.com
-                </a>
-              </div>
-
-              <div>
-                <p className="font-semibold text-white mb-2">{t('office.phoneLabel')}</p>
-                <a
-                  href="tel:+3221234567"
-                  className="hover:text-[#F1C424] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F1C424] rounded"
-                  aria-label="Call +32 2 123 45 67"
-                >
-                  +32 2 123 45 67
-                </a>
-              </div>
-            </address>
           </section>
         </div>
       </div>
