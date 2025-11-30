@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import NewsPhotoSlider from '@/components/NewsPhotoSlider';
 
 export default async function NewsDetailPage({ params }) {
   const { locale, slug } = await params;
@@ -46,6 +47,9 @@ export default async function NewsDetailPage({ params }) {
             {title}
           </h1>
         </div>
+
+        {/* Photo slider */}
+        <NewsPhotoSlider images={['/news_photo.jpg', '/news_photo2.jpg']} />
 
         {/* News content */}
         <div className="bg-white rounded-xl shadow-lg p-8 md:p-10">
