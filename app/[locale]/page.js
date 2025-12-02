@@ -57,7 +57,11 @@ export default async function Home({ params }) {
             {/* Right Column - Image */}
             <div className="flex justify-center lg:justify-end order-1 lg:order-2">
               <Image
-                src={locale === 'pt' ? '/PT_Disclaimer.png' : '/EN_Disclaimer.png'}
+                src={
+                  locale === 'pt' ? '/PT_Disclaimer.png' :
+                  locale === 'bg' ? '/BG_Disclaimer.png' :
+                  '/EN_Disclaimer.png'
+                }
                 alt="EU Co-financing"
                 width={450}
                 height={300}
