@@ -197,22 +197,19 @@
     "intro": "Mantenha-se a par das últimas notícias e desenvolvimentos do projeto BE AWARE.",
     "items": {
       "projectLaunch": {
-        "date": "2024-11-15",
-        "title": "Projeto BE AWARE arrancou em 15 países europeus",
+        "date": "2025-11-20",
+        "title": "Kick-off Meeting marca o início oficial do projeto BE AWARE",
         "category": "Lançamento do projeto",
-        "body": "O projeto BE AWARE foi oficialmente lançado hoje, marcando um marco significativo no avanço da acessibilidade e retenção no trabalho para funcionários com deficiência em toda a Europa. A iniciativa reúne parceiros de 15 países europeus, unidos na sua missão de fortalecer o envolvimento dos empregadores e promover oportunidades de emprego inclusivas.\n\nO projeto terá a duração de 18 meses, de outubro de 2025 a março de 2027, focando-se no desenvolvimento de ferramentas práticas e programas de formação para profissionais de Emprego Apoiado. Através de esforços colaborativos, o BE AWARE visa criar locais de trabalho mais inclusivos e apoiar colocações profissionais sustentáveis para pessoas com deficiência.\n\nAs principais atividades incluem o desenvolvimento de um programa de formação em regime misto, um Manual de Boas Práticas, Sessões colaborativas World Café e eventos nacionais de disseminação em Portugal e na Bulgária. Esta abordagem abrangente garante que o impacto do projeto será sentido em múltiplos níveis do ecossistema de emprego."
-      },
-      "firstWorkshop": {
-        "date": "2024-10-20",
-        "title": "Primeiro workshop internacional de formação concluído com sucesso",
-        "category": "Formação",
-        "body": "O primeiro workshop internacional de formação do projeto BE AWARE concluiu com sucesso, reunindo 30 profissionais de Emprego Apoiado de Portugal e da Bulgária. A sessão de formação intensiva focou-se em estratégias práticas e orientadas para empregadores para envolver empresas e melhorar as oportunidades de colocação profissional para pessoas com deficiência.\n\nOs participantes envolveram-se em sessões interativas cobrindo tópicos como comunicação eficaz com empregadores, compreensão das necessidades dos empregadores e desenvolvimento de parcerias de emprego sustentáveis. O workshop utilizou uma abordagem de aprendizagem mista, combinando módulos online com exercícios práticos.\n\nO feedback dos participantes foi extremamente positivo, com muitos a destacar a aplicabilidade prática das estratégias aprendidas. O programa de formação está concebido para equipar os profissionais com as competências necessárias para fazer a ponte entre pessoas com deficiência à procura de emprego e potenciais empregadores, criando finalmente mais oportunidades de emprego inclusivas."
-      },
-      "researchReport": {
-        "date": "2024-09-10",
-        "title": "Novo relatório de investigação: Barreiras ao emprego na Europa",
-        "category": "Investigação",
-        "body": "Foi publicado um relatório de investigação abrangente que examina as barreiras ao emprego para pessoas com deficiência na Europa, como parte do projeto BE AWARE. O relatório identifica os principais desafios enfrentados por pessoas com deficiência à procura de emprego e fornece recomendações baseadas em evidências para melhorar os resultados de emprego.\n\nA investigação, realizada em vários países europeus, revela que, embora tenha sido feito um progresso significativo na inclusão de pessoas com deficiência, permanecem barreiras substanciais. Estas incluem barreiras atitudinais dos empregadores, falta de acomodações de acessibilidade e sistemas de apoio insuficientes tanto para pessoas à procura de emprego como para empregadores.\n\nO relatório enfatiza o papel crítico dos profissionais de Emprego Apoiado na abordagem destas barreiras e apela ao reforço da formação e recursos para apoiar o seu trabalho. As principais recomendações incluem o desenvolvimento de estratégias de envolvimento de empregadores, a criação de processos de recrutamento acessíveis e o estabelecimento de redes de apoio sustentáveis.\n\nEsta investigação forma a base para os programas de formação e diretrizes de boas práticas do projeto BE AWARE, garantindo que todas as atividades do projeto estão fundamentadas em evidências e abordam desafios do mundo real."
+        "images": [
+          "/news_01_01.png",
+          "/news_01_02.png",
+          "/news_01_03.png",
+          "/news_01_04.png"
+        ],
+        "paragraph1": "O projeto BE AWARE – Business Engagement for Advancing Work Accessibility and Retention for Employees with disabilities realizou a sua reunião de lançamento no dia 20 de novembro de 2025, em formato online, assinalando o início oficial das atividades do consórcio. O encontro realizou-se após várias reuniões bilaterais entre o coordenador e os parceiros ao longo dos meses de outubro e novembro.",
+        "paragraph2": "Todas as organizações parceiras estiveram representadas, contando com a participação de Andrean Lazarov (BIST), Slaveyko Slavkov e Elka Todorova (NFEDP), Susana Santos e Laura Pinheiro (RUMO), bem como António Silva Dias (CONSULTIS), coordenador do projeto",
+        "paragraph3": "A agenda incluiu a apresentação do projeto, dos seus objetivos, atividades e resultados esperados, seguida da revisão do Plano de Gestão e Qualidade, das condições do Grant Agreement e das regras administrativas e financeiras aplicáveis. Os parceiros discutiram ainda, em detalhe, a Atividade 2 – Training for Engaging Employers, bem como o Plano Estratégico de Disseminação e Exploração.",
+        "paragraph4": "O encontro concluiu com a definição do plano de ação e dos próximos passos, reforçando o compromisso conjunto em melhorar a inserção socioprofissional de pessoas com deficiência ou incapacidade através do reforço das práticas de Emprego Apoiado e do envolvimento eficaz de empregadores."
       }
     },
     "readMore": "Ler mais →",

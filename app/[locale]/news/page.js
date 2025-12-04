@@ -1,11 +1,11 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getMessages } from 'next-intl/server';
 import Link from 'next/link';
 
 export default async function NewsPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations('news');
-
-  const newsItems = ['projectLaunch', 'firstWorkshop', 'researchReport'];
+  const messages = await getMessages({ locale });
+  const newsItems = Object.keys(messages.news.items);
 
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50 animate-slide-up" style={{ paddingTop: '140px' }}>

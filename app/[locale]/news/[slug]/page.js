@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getMessages } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import NewsPhotoSlider from '@/components/NewsPhotoSlider';
@@ -6,12 +6,13 @@ import NewsPhotoSlider from '@/components/NewsPhotoSlider';
 export default async function NewsDetailPage({ params }) {
   const { locale, slug } = await params;
   const t = await getTranslations('news');
+  const messages = await getMessages({ locale });
 
-  // Valid news slugs
-  const validNews = ['projectLaunch', 'firstWorkshop', 'researchReport'];
+  // Get valid news slugs from messages
+  const newsItems = Object.keys(messages.news.items);
 
   // Check if news exists
-  if (!validNews.includes(slug)) {
+  if (!newsItems.includes(slug)) {
     notFound();
   }
 
@@ -19,7 +20,36 @@ export default async function NewsDetailPage({ params }) {
   const date = t(`${base}.date`);
   const title = t(`${base}.title`);
   const category = t(`${base}.category`);
-  const body = t(`${base}.body`);
+
+  // Actually, in JSON it is paragraph1, paragraph2 etc for projectLaunch, but body for others.
+  // I need to handle this.
+
+  // Get images from messages directly to ensure array format
+  const images = messages.news.items[slug].images || [];
+
+  // Helper to render body content
+  const renderBody = () => {
+    const item = messages.news.items[slug];
+    if (item.body) {
+      return (
+        <div className="space-y-6 text-lg text-gray-700 leading-relaxed whitespace-pre-line">
+          {t(`${base}.body`)}
+        </div>
+      );
+    }
+
+    // Handle multiple paragraphs (paragraph1, paragraph2, etc.)
+    return (
+      <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+        {Object.keys(item)
+          .filter(key => key.startsWith('paragraph'))
+          .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+          .map(key => (
+            <p key={key}>{t(`${base}.${key}`)}</p>
+          ))}
+      </div>
+    );
+  };
 
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50 animate-slide-up" style={{ paddingTop: '140px' }}>
@@ -49,14 +79,14 @@ export default async function NewsDetailPage({ params }) {
         </div>
 
         {/* Photo slider */}
-        <NewsPhotoSlider images={['/news_photo.jpg', '/news_photo2.jpg']} />
+        {images.length > 0 && (
+          <NewsPhotoSlider images={images} />
+        )}
 
         {/* News content */}
         <div className="bg-white rounded-xl shadow-lg p-8 md:p-10">
           <div className="prose prose-lg max-w-none">
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed whitespace-pre-line">
-              {body}
-            </div>
+            {renderBody()}
           </div>
         </div>
       </div>
@@ -66,8 +96,11 @@ export default async function NewsDetailPage({ params }) {
 
 // Generate static params for all news items
 export async function generateStaticParams() {
-  const newsItems = ['projectLaunch', 'firstWorkshop', 'researchReport'];
   const locales = ['en', 'pt', 'bg'];
+
+  // Fetch messages for one locale to get the keys (assuming keys are consistent)
+  const messages = await getMessages({ locale: 'en' });
+  const newsItems = Object.keys(messages.news.items);
 
   return locales.flatMap(locale =>
     newsItems.map(slug => ({
