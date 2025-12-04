@@ -17,13 +17,13 @@ export default function NewsPhotoSlider({ images }) {
   };
 
   const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => 
+    setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
   const goToNext = () => {
-    setCurrentIndex((prevIndex) => 
+    setCurrentIndex((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
@@ -39,7 +39,7 @@ export default function NewsPhotoSlider({ images }) {
 
   const onTouchEnd = () => {
     if (!touchStart || !touchEnd) return;
-    
+
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
@@ -55,11 +55,11 @@ export default function NewsPhotoSlider({ images }) {
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'ArrowLeft') {
-        setCurrentIndex((prevIndex) => 
+        setCurrentIndex((prevIndex) =>
           prevIndex === 0 ? images.length - 1 : prevIndex - 1
         );
       } else if (e.key === 'ArrowRight') {
-        setCurrentIndex((prevIndex) => 
+        setCurrentIndex((prevIndex) =>
           prevIndex === images.length - 1 ? 0 : prevIndex + 1
         );
       }
@@ -70,7 +70,7 @@ export default function NewsPhotoSlider({ images }) {
   }, [images.length]);
 
   return (
-    <div 
+    <div
       className="relative rounded-xl shadow-lg overflow-hidden mb-8"
       ref={sliderRef}
       onTouchStart={onTouchStart}
@@ -84,7 +84,7 @@ export default function NewsPhotoSlider({ images }) {
             <div
               key={index}
               className="absolute inset-0 transition-transform duration-300 ease-in-out"
-              style={{ 
+              style={{
                 transform: `translateX(${(index - currentIndex) * 100}%)`,
                 willChange: 'transform'
               }}
@@ -147,16 +147,15 @@ export default function NewsPhotoSlider({ images }) {
 
       {/* Dot indicators */}
       {images.length > 1 && (
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10 bg-black/40 backdrop-blur-sm px-4 py-2 rounded-full">
           {images.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`transition-all duration-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#4681BC] focus:ring-offset-2 ${
-                index === currentIndex
-                  ? 'w-8 h-2 bg-[#4681BC]'
-                  : 'w-2 h-2 bg-gray-300 hover:bg-gray-400'
-              }`}
+              className={`transition-all duration-300 rounded-full focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black/40 ${index === currentIndex
+                  ? 'w-10 h-3 bg-white shadow-lg'
+                  : 'w-3 h-3 bg-white/60 hover:bg-white/80 shadow-md'
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
